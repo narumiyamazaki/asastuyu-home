@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-main--article__top__top-cat{
+    background: url(../images/snack-house-cats.png) no-repeat;
+    background-size:contain;
+    width:17rem;
+    height:11rem;
+    position: absolute;
+    bottom:75%;
+    left:44%;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-section--company-profile__table-data__number__item{
+    color:rgb(138,101,62);
+    font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    font-size:1.1rem;
+    margin-left:.5rem;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-main--article__top__rose__color{
+    background:url(../images/rose-color.png) no-repeat;
+    background-size: contain;
+    width:12rem;
+    height: 12rem;
+    position: absolute;
+    bottom:64%;
+    right:24%;
+    @include mixin.mq(tb){
+        width: 10rem;
+        height: 10rem;
+        right:20%;
+        bottom:69%;
+    }
+}

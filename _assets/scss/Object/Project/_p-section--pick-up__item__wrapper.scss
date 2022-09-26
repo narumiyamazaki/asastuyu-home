@@ -1,0 +1,10 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-section--pick-up__item__wrapper{
+    display:flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+    @include mixin.mq(sp){
+        flex-direction: column;
+    }
+}

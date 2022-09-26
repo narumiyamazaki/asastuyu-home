@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents1__img1__tb{
+    height: 100%;
+    object-fit: cover;
+    width:95%;
+    order:2;
+    display: none;
+    margin:0 auto;
+    @include mixin.mq(tb){
+        display: block;
+        margin-bottom:4rem;
+    }
+}

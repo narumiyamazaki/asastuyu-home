@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Topページ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <!-- slickのCSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+        <link href="./css/style.css" rel="stylesheet">
+    <!--jQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>      
+    </head>
+	<body>
+        <header class="l-header">
+            <!--ロゴ-->
+            <h1 class="p-header--heading1">
+                <a href="http://localhost:3000/">logoが入ります</a>
+            </h1>
+            <div class="p-header--link">
+                <p class="p-nav-btn">
+                    <a href="javascript:void(0)"><span>メニューを開く</span></a>
+                </p>
+                <nav class="p-header--nav-body">
+                    <ul class="p-main-menu">
+                        <li class="p-nav--about">
+                            <a class="" href="http://localhost:3000/">ASATSUYUホームとは</a>
+                            <ul class="p-sub-menu--about">
+                                <li><a href="#">お客様の声</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav--custom-home">
+                            <a href="#">注文住宅</a>
+                            <ul class="p-sub-menu--custom-home">
+                                <li><a href="#">おすすめの注文住宅</a></li>
+                                <li><a href="#">リノベーション</a></li>
+                                <li><a href="#">性能&amp;サポート</a></li>
+                                <li><a href="#">アフターサービス</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav--building-example"><a href="#">建築事例</a>
+                            <ul class="p-sub-menu--building-example">
+                                <li><a href="#">施工事例</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav--flow-from-order"><a href="#"></a></li>
+                        <li class="p-nav--company-profile">
+                            <a href="#">会社概要</a>
+                            <ul class="p-sub-menu--company-profile">
+                                <li><a href="#">GALLERY</a></li>
+                            </ul>
+                        </li>
+                        <div class="p-icon--header__wrapper">
+                            <div class="p-icon--header__facebook"></div>
+                            <div class="p-icon--header__twitter"><a href="#"></a></div>
+                            <div class="p-icon--header__youtube"><a href="#"></a></div>
+                            <div class="p-icon--header__instagram"><a href="#"></a></div>
+                        </div>
+                        <a class="p-contact" href="#"></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--動画部分-->
+        <article class="p-movie--wrapper">
+            <video class="p-movie--top" src="./movie/TOP-movie.mp4" autoplay muted loop playsinline></video>
+            <div class="p-movie--wrapper__contents">
+                <img class="p-image-character" src="images/cat-home.png" alt="猫のイメージキャラクター">
+                <h2 class="p-top-head--logo">
+                    <!--
+                    <img class="p-top-head--logo__img" src="images/heading2-logo.png" alt="&nbsp;">
+                    -->
+                </h2>
+                <h3 class="p-top-head--heading3">楽しい我が家！</h3>
+                <div class="p-top-head--text__wrapper">
+                    <p class="p-top-head--text">わたしたちASATUSYUホームは<br>「必ず満足できる家づくり」のお手伝いをします。<br>世界にひとつだけの<br>お家を一緒に作りましょう！</p>
+                </div>
+                <button class="p-top-head--button" href="#">お家づくりを相談</button>
+                <button class="p-button--scroll__pick-up">SCROLL</button>
+            </div>
+        </article>
+        <section id="pick-up" class="p-section--pick-up fade-down-trigger delayScroll">
+            <div class="p-section--pick-up__wrapper box">
+                <h3 class="p-section--pick-up__heading3">PICK&nbsp;UP</h3>
+                <p class="p-section--pick-up__text">ASATSUYUホームのピックアップ情報</p>
+            </div>
+            <div class="p-section--pick-up__item__wrapper delayScroll">
+               <figure class="p-section--pick-up__about-JamHome box">
+                    <img class="p-section--pick-up__about-JamHome__img" src="images/pick-up__about-ASASTUYU.png">
+                    <h4 class="p-section--pick-up__heading4">ASATSUYUホームってどんな会社？</h4>
+                    <a class="p-section--pick-up__read-more" href="#">read&nbsp;more</a>
+                    <figcaption class="p-section--pick-up__figcaption">注文住宅はもちろん、不動産のご紹介・売却などを行っております！
+                </figure>
+                <figure class="p-section--pick-up__movie box">
+                    <img class="p-section--pick-up__movie__img" src="images/pick-up__movie.png">
+                    <h4 class="p-section--pick-up__heading4">こだわりを形に&#8230;</h4>
+                    <a class="p-section--pick-up__read-more" href="#">read&nbsp;more</a>
+                    <figcaption class="p-section--pick-up__figcaption">夢を叶えるASATSUYUホームの家づくり。マスコットキャラクター「つゆりん」が動画でご紹介します。
+                </figure>
+                <figure class="p-section--pick-up__recommendation box">
+                    <img class="p-section--pick-up__recommendation__img" src="images/pick-up__recommendation.jpg">
+                    <div class="p-section--pick-up__icon"></div>
+                    <h4 class="p-section--pick-up__heading4">おすすめ物件・土地のご紹介！</h4>
+                    <a class="p-section--pick-up__read-more" href="#">read&nbsp;more</a>
+                    <figcaption class="p-section--pick-up__figcaption">大切な家づくり。ASATSUYUホームでは、お客様の立場に立って「必ず満足できる家づくり」をお手伝いします。
+                </figure>
+                <figure class="p-section--pick-up__Marble-Cafe box">
+                    <img class="p-section--pick-up__Marble-Cafe__img" src="images/pick-up-MarbleCafe.png">
+                    <h4 class="p-section--pick-up__heading4">猫カフェオープン！</h4>
+                    <a class="p-section--pick-up__read-more" href="#">read&nbsp;more</a>
+                    <figcaption class="p-section--pick-up__figcaption">10匹の猫たちと触れ合える「猫るーむ」を併設したカフェスペースで身も心も癒されてください。
+                </figure>
+            </div>
+        </section>
+        <article class="p-article--about-us fade-down-trigger delayScroll">
+            <div class="p-article--about-us__img__wrapper box">
+                <div class="p-article--about-us__img__home"></div>
+                <div class="p-article--about-us__img__blue-cloud"></div>
+                <div class="p-article--about-us__img__green-cloud"></div>
+                <div class="p-article--about-us__img__balloon__top"></div>
+                <div class="p-article--about-us__img__right-flag"></div>
+                <div class="p-article--about-us__img__left-flag"></div>
+                <!--
+                <div class="p-article--about-us__img__text"></div>
+                -->
+                <div class="p-article--about-us__img__balloon__middle"></div>
+                <div class="p-article--about-us__img__balloon__buttom"></div>
+                <div class="p-article--about-us__img__red-cloud"></div>
+                <div class="p-article--about-us__img__left-three-tree"></div>
+                <div class="p-article--about-us__img__right-three-tree"></div>
+                <div class="p-article--about-us__img__left-green-tree"></div>
+                <div class="p-article--about-us__img__left-red-tree"></div>
+                <div class="p-article--about-us__img__right-green-tree"></div>
+                <div class="p-article--about-us__img__right-red-tree"></div>
+                <div class="p-article--about-us__gif__left-cat"></div>
+                <div class="p-article--about-us__gif__center-cat"></div>
+                <div class="p-article--about-us__gif__right-cat"></div>           
+            </div>
+            <h2 class="p-article--about-us__heading2">&nbsp;毎日の暮らしが楽しい、<br>&#12302;希望の家造り&#12303;を叶えます。</h2>
+            <div class="p-article__about-us__section">
+                <h3 class="p-article--about-us__section__heading3"></h3>
+                <p class="p-article--about-us__section__text">ASATSUYUホームは、住宅建築業界仕事をしてきたスタッフがその経験と知識を最大限に生かして2022年に創業いたしました。スタッフ一同&#12300;家作りにかかわる全ての人と豊かな人間関係を築けるか、それを追い求め、自然に商売の輪を広げていく&#12301;という考えで仕事に取り組んでおります。</p>
+                <button class="p-article--about-us__section__button" href='#'>VIER&nbsp;ALL</button>
+            </div>
+        </article>
+        <article class="p-article--book__wrapper">
+            <div class="p-article--book__foot-prints__left"></div>
+            <div class="fade-down-trigger delayScroll">
+                <section class="p-article--book-contents">
+                    <div class="p-article--book-contents__wrapper">
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" href="#"><h3 class="p-article--book-contents__heading">どんな会社？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a class="p-article--book-contents__link" href="#"><p class="p-article--book-contents__text">ASATSUYUホームってどんな会社</p></a>
+                        </div>
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" href="#"><h3 class="p-article--book-contents__heading">ASATSUYUホームの家づくりってどんなの？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a class="p-article--book-contents__link" href="#"><p class="p-article--book-contents__text">建築事例</p></a>
+                        </div>
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" href="#"><h3 class="p-article--book-contents__heading">おすすめの施工は？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a href="#"><p class="p-article--book-contents__text">当社施工事例</p></a>
+                        </div>
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" target="_blank" rel="noopener noreferrer" href="#"><h3 class="p-article--book-contents__heading">今どんな物件がおすすめ？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a class="p-article--book-contents__link" target="_blank" rel="noopener noreferrer" href="#"><p class="p-article--book-contents__text">注目物件のご紹介</p></a>
+                        </div>
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" href="#"><h3 class="p-article--book-contents__heading">着工から完成までどれくらい？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a class="p-article--book-contents__link" href="#"><p class="p-article--book-contents__text">ご注文からの流れ</p></a>
+                        </div>
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" href="#"><h3 class="p-article--book-contents__heading">アフターフォローは？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a class="p-article--book-contents__link" href="#"><p class="p-article--book-contents__text">アフターサービス</p></a>
+                        </div>
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" href="#"><h3 class="p-article--book-contents__heading">快適な家にするには？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a class="p-article--book-contents__link" href="#"><p class="p-article--book-contents__text">注文住宅</p></a>
+                        </div>
+                        <div class="p-article--book-contents__box">
+                            <div class="p-article--book-contents__arrow"></div>
+                            <a class="p-article--book-contents__link" href="#"><h3 class="p-article--book-contents__heading">わからないことを知りたい？</h3></a>
+                            <div class="p-article--book-contents__border"></div>
+                            <a class="p-article--book-contents__link" href="#"><p class="p-article--book-contents__text">よくあるご質問</p></a>
+                        </div>
+                    </div>
+                    <div class="p-article--book__heading-page">
+                        <h2 class="p-article--book__heading2">本を開けば、<br>お家づくりが始まります。</h2>
+                        <div class="p-article--book__foot-prints__right"></div>
+                        <div class="p-article--book__heading-page__character"></div>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <article class="p-article--line-up">
+            <div class="p-article--line-up__wrapper delayScroll fade-down-trigger">
+                <h2 class="p-article--line-up__heading2">LINE&nbsp;UP</h2>
+                <h3 class="p-article--line-up__heading3">建築事例</h3>
+            </div>
+            <div class="p-article--line-up__text__wrapper">
+                <p class="p-article--line-up__text">ASASTUYUホームでは、たくさんのお客様と一緒にお家を作ってまいりました。</p>
+                <p class="p-article--line-up__text">お客様のご家庭の環境によって、完成するお家は異なってきます。</p>
+                <p class="p-article--line-up__text">こちらでは、お客様の注文住宅事例を一部ご紹介します。</p>
+            </div>
+            <div class="p-article--line-up__slide__wrapper slider">
+                <div class="p-article--line-up__french-bulldog-house">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <img class="p-article--line-up__figure__img" src="images/french-bulldog-house.jpg" alt="カントリーハウスの家"></a>
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;01&nbsp;カントリーハウス&nbsp;A様邸</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__figure__cute-house">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <img class="p-article--line-up__figure__img" src="images/cute-house.jpg" alt="おとな可愛いおしゃれな家">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;02&nbsp;おしゃれなお家&nbsp;B様邸</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__figure__living-access">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <div class="p-article--line-up__heart"></div>
+                                <img class="p-article--line-up__figure__img" src="images/living-access.jpg" alt="リビングアクセスの家">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;03&nbsp;子育て安心&nbsp;C様邸</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__figure__French-taste">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <div class="p-article--line-up__heart"></div>
+                                <img class="p-article--line-up__figure__img" src="images/French-taste.jpg" alt="フレンチテイストの家">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;04&nbsp;フレンチテイストのお家&nbsp;D様邸</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__figure__Playful-house">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <div class="p-article--line-up__heart"></div>
+                                <img class="p-article--line-up__figure__img" src="images/Playful-house.jpg" alt="可愛くて遊び心いっぱいな家">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;05&nbsp;遊び心いっぱいのお家&nbsp;E様邸</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__meruhen-house">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <div class="p-article--line-up__heart"></div>
+                                <img class="p-article--line-up__figure__img" src="images/meruhen-house.jpg" alt="夢のメルヘンハウス">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;06&nbsp;手作りの温かさが伝わるお家</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__shabbychic-house">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <div class="p-article--line-up__heart"></div>
+                                <img class="p-article--line-up__figure__img" src="images/Type 2-kitchen.jpg" alt="Ⅱ型キッチン">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;20&nbsp;使いやすいⅡ型キッチンの家</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__walnut-tree">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <div class="p-article--line-up__heart"></div>
+                                <img class="p-article--line-up__figure__img" src="images/walnut-tree.jpg" alt="クルミの木のお家">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;18&nbsp;オリジナルキッチン</figcaption>
+                    </figure>
+                </div>
+                <div class="p-article--line-up__shabbychic-house">
+                    <figure class="p-article--line-up__figure">
+                        <a href="#">
+                            <div class="p-article--line-up__background">
+                                <div class="p-article--line-up__heart"></div>
+                                <img class="p-article--line-up__figure__img" src="images/shabbychic&resort.jpg" alt="">
+                                <i class="far fa-heart frame"></i>
+                                <i class="fa fa-heart magenta"></i>
+                            </div>
+                        </a>
+                        <figcaption class="p-article--line-up__figcaption">&#035;21&nbsp;おしゃれなキッチン</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <button class="p-article--line-up__button" href='#'>VIER&nbsp;ALL</button>
+        </article>      
+        <article class="p-article--gallery">
+            <div class="p-article--gallery__background-wave"></div>
+            <div class="p-article--gallery__red-cloud"></div>
+            <div class="p-article--gallery__rainbow"></div>
+            <div class="p-article--gallery__purple-cloud"></div>
+            <div class="p-article--gallery__green-cloud"></div>
+            <div class="p-article--work__heading__wrapper delayScroll fade-down-triggerr">    
+                <h3 class="p-article--gallery__heading3">GALLERY</h3>
+                <h4 class="p-article--gallery__heading4">施工事例</h4>
+            </div>
+            <p class="p-article--gallery__text">住まいづくりの参考として、住居イメージをASATSUYUホームの<br class="u-display--none__block">施工事例から探してください。</p>
+            <div class="p-article--gallery__house__background fade-down-trigger delayScroll">
+                <div class="p-article--gallery__house__wrapper delayScroll">
+                    <figure class="p-article--gallery__country box">
+                        <!-- src="images/gallery__conutry.png" alt="カントリー風住宅"-->
+                        <a class="p-article--gallery__link" href="#"><div class="p-article--gallery__country__img"></div></a>
+                        <figcaption class="p-article--gallery__country__caption">COUNTRY</figcaption>
+                    </figure>
+                    <figure class="p-article--gallery__modern box">
+                        <!--src="images/gallery__modern.png alt="モダン住宅""-->
+                        <a class="p-article--gallery__link" href="#"><div class="p-article--gallery__modern__img"></div></a>
+                        <figcaption class="p-article--gallery__modern__caption">MODERN</figcaption>
+                    </figure>
+                    <figure class="p-article--gallery__natural box">
+                        <!--src="images/gallery__natural.png" alt="モダン住宅"-->
+                        <a class="p-article--gallery__link" href="#"><div class="p-article--gallery__natural__img"></div></a>
+                        <figcaption class="p-article--gallery__natural__caption">NATURAL</figcaption>
+                    </figure>
+                    <figure class="p-article--gallery__orthers box">
+                        <!--src="images/gallery__orthers.png" alt="和風住宅">-->
+                        <a class="p-article--gallery__link" href="#"><div class="p-article--gallery__orther__img"></div></a>
+                        <figcaption class="p-article--gallery__orthers__caption">ORTHERS</figcaption>
+                    </figure>
+                </div>
+                <button class="p-article--gallery__button" href='#'>VIER&nbsp;ALL</button>
+            </div>
+            <div class="p-article--gallery__cat"></div>
+        </article>
+        <article class="p-article--work">
+            <div class="p-article--work__heading__wrapper delayScroll fade-down-trigger">
+                <h3 class="p-article--work__heading3">WORKS</h3>
+                <h4 class="p-article--work__heading4">注文住宅・リノベーション</h4>
+            </div>
+            <p class="p-article--work__text">ASATSUYUホームでは、住宅アドバイザーと一緒に、<br>お客様の理想を形にします。</p>
+            <div class="p-article--work__full-order__wrapper">
+                <img class="p-article--work__full-order__img" src="images/full-order-img.webp">
+                <div class="p-article--work__full-order__cat"></div>
+                <section class="p-article--work__full-order__text__wrapper">
+                    <h3 class="p-article--work__full-order__heading3">FULL&nbsp;ORDER</h3>
+                    <h4 class="p-article--work__full-order__heading4">オリジナル注文住宅</h3>
+                    <p class="p-article--work__full-order__text">まずはお客様の「理想」を集めることです。<br>ご家庭に合わせて、デザインしていきます。</p>
+                    <button class="p-article--work__full-order__button" href='#'>MORE</button>
+                </section>
+            </div>
+            <div class="p-article--work__renovation__wrapper">
+                <img class="p-article--work__renovation__img" src="images/work__renovation__img.webp">
+                <section class="p-article--work__renovation__text__wrapper">
+                    <h3 class="p-article--work__renovation__heading3">RENOVATION</h3>
+                    <h4 class="p-article--work__renovation__heading4">リノベーション</h3>
+                    <p class="p-article--work__renovation__text">を改修によって、<br>お家を生まれ変わらせます。</p>
+                    <button class="p-article--work__renovation__button" href='#'>MORE</button>
+                </section>
+            </div>
+        </article>
+        <article class="p-article--quality-support fade-down-triggerr">
+            <div class="p-article--quality-support__heading__wrapper delayScroll fade-down-triggerr">
+                <h2 class="p-article--quality-support__heading2">QUALITY&amp;SUPPORT</h2>
+                <h3 class="p-article--quality-support__heading3">性能&amp;サポート</h3>
+            </div>
+            <div class="p-article--quality-support__cat box"></div>
+            <p class="p-article--quality-support__text box">快適に暮らせるよう、ASATSUYUホームでは品質管理を徹底し、<br>アフターサポートにも力を入れています。</p>     
+            <div class="p-article--quality-support__figure__wrapper fade-down-trigger delayScroll">
+                <figure class="p-article--quality-support__safety box">
+                    <div class="p-article--quality-support__safety__img__wrapper">
+                        <div class="p-article--quality-support__safety__img"></div>
+                        <div class="p-article--quality-support__safety__img__cat"></div>
+                    </div>
+                    <figcaption class="p-article--quality-support__safety__figcaption">安全性</figcaption>
+                </figure>
+                <figure class="p-article--quality-support__durability box">
+                    <div class="p-article--quality-support__durability__img__wrapper">
+                        <div class="p-article--quality-support__durability__img"></div>
+                        <div class="p-article--quality-support__durability__img__cat"></div>
+                    </div>
+                    <figcaption class="p-article--quality-support__durability__figcaption">耐久性</figcaption>
+                </figure>
+                <figure class="p-article--quality-support__amenity box">
+                    <div class="p-article--quality-support__amenity__img__wrapper">
+                        <div class="p-article--quality-support__amenity__img"></div>
+                        <div class="p-article--quality-support__amenity__img__cat"></div>
+                    </div>
+                    <figcaption class="p-article--quality-support__amenity__figcaption">快適性</figcaption>
+                </figure>
+                <figure class="p-article--quality-support__heat-resistant box">
+                    <div class="p-article--quality-support__heat-resistant__img__wrapper">
+                        <div class="p-article--quality-support__heat-resistant__img"></div>
+                        <div class="p-article--quality-support__heat-resistant__img__cat"></div>
+                    </div>
+                    <figcaption class="p-article--quality-support__heat-resistant__figcaption">耐熱性</figcaption>
+                </figure>
+            </div>
+            <!---->
+            <button class="p-article--quality-support__button" href=''>VIER&nbsp;ALL</button>
+        </article>
+        <article class="p-article--new-release">
+            <div class="p-article--new-release__flag__left"></div>
+            <div class="p-article--new-release__flag__right"></div>
+            <h2 class="p-article--new-release__heading2">News&amp;Release</h2>
+            <h3 class="p-article--new-release__heading3">ニュース&amp;リリース</h3>
+            <p class="p-article--new-release__text">ASASTUYUホームからの最新ニュースです。<br>最新の物件&amp;イベント情報はこちらをチェックしてください。</p>
+            <div class="p-article--new-release__news__wrapper">
+                <p class="p-article--new-release__news"><span class="p-article--new-release__news__space">2022&#047;10&#047;08</span><a class="p-article--new-release__news__link" href="#"><span class="p-article--new-release__news__space">昨晩は…</span><span class="p-article--new-release__news__space">立派な立地</span>ご紹介♪</a></p>
+                <p class="p-article--new-release__news"><span class="p-article--new-release__news__space">2022&#047;10&#047;05</span><a class="p-article--new-release__news__link" href="#">ギュウギュウ～&#033;</a></p>
+                <p class="p-article--new-release__news"><span class="p-article--new-release__news__space">2022&#047;10&#047;04</span><a class="p-article--new-release__news__link" href="#">こんばんは</a></p>
+            </div>
+            <button class="p-article--new-release__button">VIER&nbsp;ALL</button>
+            <div class="p-article--new-release__cat__left"></div>
+            <div class="p-article--new-release__cat__right"></div>
+        </article>
+        <footer class="l-footer">
+            <address class="p-footer--icon__wrapper">
+                <a href="#">
+                    <div class="p-footer--icon__facebook"></div>
+                </a>
+                <a href="#">
+                    <div class="p-footer--icon__twitter"></div>
+                </a>
+                </div>
+                <a href="#">
+                    <div class="p-footer--icon__youtube"></div>
+                </a>
+                <a href="#">
+                    <div class="p-footer--icon__instagram"></div>
+                </a>
+            </address>>
+            <div class="p-footer--link__wrapper">
+                <a class="p-footer--link__text" href="#">COMPANY</a>
+                <a class="p-footer--link__text" href="#">CANTACT</a>
+            </div>
+            <div class="p-footer--company-profile__wrapper">
+                <p class="p-footer--company-profile__text">株式会社ASASTUYUホーム<span class="p-footer--company-profile__space">○○県○○市○○町414-1</span></p>
+                <adress class="p-footer--company-profile__text">TEL.009-123-3235<span class="p-footer--company-profile__space"></span>FAX.009-123-3235</adress>
+                <a class="p-footer--summo"></a>
+            </div>
+            <div class="p-footer--copy">&copy;ASATSUYU&nbsp;ホーム&nbsp;2021&nbsp;Co.,LTD.ALL&nbsp;RIGHTS&nbsp;RESERVED</div>
+        </footer>
+    <!-- slickのJavaScript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--inviewのCDN-->
+    <script src="js/on.click.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/fade-down.js"></script>
+    <script src="js/scroll.js"></script>
+    </body>
+</html>

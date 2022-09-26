@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-header--link{
+    display: block;
+    @include mixin.mq(tb){
+        display: flex;
+        align-items: center;
+        height:5rem;
+        margin-top:1.5rem;
+        
+    }
+    &.is-open{
+        flex-direction: column;
+        height:100vh;
+        margin:0;
+    }
+}

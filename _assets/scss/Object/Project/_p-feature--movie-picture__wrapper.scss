@@ -1,0 +1,9 @@
+@use '../../Foundation/mixin';
+
+.p-feature--movie-picture__wrapper{
+    display: flex;
+    margin-top:5rem;
+    @include mixin.mq(tb){
+        flex-direction: column;
+    }
+}

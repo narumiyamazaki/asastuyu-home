@@ -1,0 +1,19 @@
+@use  '../../Foundation/mixin';
+
+.p-article--charm__img__wood-frame__left{
+    background:url(../images/wood-frame1.png) no-repeat;
+    background-size:contain;
+    width:22rem;
+    height: 20rem;
+    position: absolute;
+    top:13%;
+    left:0%;
+    transform: rotate(-5deg);
+    transition: .5s;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}
+.p-article--charm__img__wood-frame__left.inview-js{
+    margin-left:2rem;
+}

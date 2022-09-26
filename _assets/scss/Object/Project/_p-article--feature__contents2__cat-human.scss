@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents2__cat-human{
+    width:35%;
+    object-fit: cover;
+    border-radius: 50%;
+    @include mixin.mq(tb){
+        order:1;
+        margin:0 auto;
+        display: none;
+    }
+}

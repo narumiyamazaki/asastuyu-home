@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-main--article__top{
+    background: url(../images/pick-up--background.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 10rem;
+    width:102%;
+    background-position: -2rem;
+    @include mixin.mq(tb){
+        padding-bottom:13rem;
+    }
+}

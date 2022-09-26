@@ -1,0 +1,15 @@
+.p-article--quality-support__amenity__img{
+    background: url(../images/amenity.jpg) no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: relative;
+    //bottom:40%;
+    //right:-150%;
+    z-index:10;
+    transition: .4s ease-in-out;
+    &:hover{
+        opacity: 0;
+    }
+}

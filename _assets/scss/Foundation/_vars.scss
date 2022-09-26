@@ -1,0 +1,28 @@
+//変数の定義
+
+//サイトの基本設定
+
+//フォント
+$font-base:'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+$header-font-size:1.15rem;
+$header-item-margin:1rem;
+$header-nav-menu-margin: 2rem;
+$font1:'メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif;
+
+//カラー
+//見出しの茶色
+$color1:rgb(116,52,52);
+$color2:#D9115A;
+$color3:rgb(85,85,85);
+$color4:#F516AB;
+$color5:#F7004E;
+$color6:rgb(138,101,62);
+$color7:rgb(252,220,220);
+$color8:rgb(250, 250, 250);
+
+// メディアクエリのブレイクポイント用変数
+$breakpoints: (
+    'sp': 'screen and (max-width: 414px)',
+    'tb': 'screen and (max-width: 768px)',
+    'pc': 'screen and (max-width: 1024px)',
+  ) !default;

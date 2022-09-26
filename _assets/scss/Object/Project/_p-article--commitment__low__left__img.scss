@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__low__left__img{
+    object-fit: contain;
+    transform: rotate(-5deg);
+    width:45%;
+    @include mixin.mq(tb){
+        width:40%;
+        position: absolute;
+        top:30%;
+        left:5%;
+    }
+}

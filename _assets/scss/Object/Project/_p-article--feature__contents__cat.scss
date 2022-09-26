@@ -1,0 +1,19 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents__cat{
+    background:url(../images/cats-feature-top.png) no-repeat;
+    background-size: contain;
+    width:11rem;
+    height:11rem;
+    position: absolute;
+    top:2%;
+    left:45%;
+    @include mixin.mq(tb){
+        background: url(../images/cat-home.png) no-repeat;
+        background-size: contain;
+        width:15rem;
+        height:15rem;
+        left:40%;
+        top:1%
+    }
+}

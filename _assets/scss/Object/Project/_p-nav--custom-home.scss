@@ -1,0 +1,26 @@
+@use '../../Foundation/mixin';
+
+.p-nav--custom-home{
+    @include mixin.mq(tb){
+        position: relative;
+        display: block;
+        > :first-child:before{
+            content: '';
+            position:absolute;
+            width: .2rem;
+            height:2rem;
+            background-color: #000;
+            left:-9%;
+            margin-bottom:2%;
+        }
+        >:first-child:after{
+            content: '';
+            position:absolute;
+            width: 2rem;
+            height:.2rem;
+            background-color: #000;
+            left:-13%;
+            margin-bottom:3%;
+        }
+    }
+}

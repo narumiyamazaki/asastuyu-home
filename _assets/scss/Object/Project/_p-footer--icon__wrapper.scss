@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-footer--icon__wrapper{
+    width:15%;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-top:3rem;
+    @include mixin.mq(tb){
+        width:25%;
+    }
+}

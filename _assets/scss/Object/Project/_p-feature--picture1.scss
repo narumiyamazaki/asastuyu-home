@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+.p-feature--picture1{
+    width:33%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: 0;
+    transform: rotate(-8deg);
+    @include mixin.mq(tb){
+        transform: rotate(-2deg);
+    }
+}

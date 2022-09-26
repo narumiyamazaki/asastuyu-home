@@ -1,0 +1,11 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--line-up__slide__wrapper{
+    margin-top:3rem;
+    width:80%;
+    position:relative;
+    left:10%;
+    @include mixin.mq(sp){
+    
+    }
+}

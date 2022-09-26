@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-aside--access-map__img__photo__tb{
+    display: none;
+    @include mixin.mq(tb){
+        display: block;
+        object-fit: contain;
+        width:75%;
+        margin:0 auto;
+    }
+}

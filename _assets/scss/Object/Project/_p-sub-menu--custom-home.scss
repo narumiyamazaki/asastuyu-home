@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/extend';
+
+.p-sub-menu--custom-home {
+    @extend %p-sub-menu--about;    
+}
+
+.p-sub-menu--custom-home.is-block{
+    display: block;
+    background-color: #fff;
+    @include mixin.mq(tb){
+        position: relative;
+    }
+}

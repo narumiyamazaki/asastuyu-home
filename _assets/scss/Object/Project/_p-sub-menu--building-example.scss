@@ -1,0 +1,6 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/extend';
+
+.p-sub-menu--building-example {
+    @extend %p-sub-menu--about;    
+}

@@ -1,0 +1,14 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--book-contents__wrapper{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    right:16%;
+    margin-top:10rem;
+    width:33%;
+    @include mixin.mq(sp){
+        margin-top:8rem;
+        margin-left:5rem;
+    }
+}

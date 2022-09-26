@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__low__middle__note{
+    background:url(../images/note.png) no-repeat;
+    background-size:contain;
+    width:5rem;
+    height:5rem;
+    position: absolute;
+    left: 57%;
+    top:14%;
+    @include mixin.mq(tb){
+        width:4rem;
+        height:4rem;
+        top:70%;
+        left:32%;
+    }
+}

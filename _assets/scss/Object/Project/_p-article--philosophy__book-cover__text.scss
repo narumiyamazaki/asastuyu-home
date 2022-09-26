@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article--philosophy__book-cover__text{
+    font-size: 3.7rem;
+    font-family:'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    color:#F7004E;;
+    writing-mode: vertical-rl;
+    padding:6rem 2rem;
+    position:relative;
+    right:6%;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

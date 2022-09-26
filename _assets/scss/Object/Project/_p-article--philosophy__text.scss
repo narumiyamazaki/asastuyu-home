@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-article--philosophy__text{
+    margin:0 auto 2rem;
+    font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    color:rgb(138,101,62);
+    font-size:1.2rem;
+    //font-weight: 600;
+    line-height: 1.8;
+    @include mixin.mq(tb){
+        font-size:1.3rem;
+    }
+}

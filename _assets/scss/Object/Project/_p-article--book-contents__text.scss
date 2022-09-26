@@ -1,0 +1,14 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--book-contents__text{
+font-family:tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
+color: rgb(138,101,62);
+font-size:1rem;
+font-weight: 600;
+white-space: nowrap;
+margin-left:1rem;
+    @include mixin.mq(sp){
+        white-space: normal;
+        width:35%;
+    }
+}

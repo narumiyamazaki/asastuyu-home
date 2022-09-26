@@ -1,0 +1,19 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__left-cat{
+    background:url(../images/left-cat-mono.png) no-repeat;
+    background-size:contain;
+    width:22rem;
+    height:22rem;
+    position:absolute;
+    top:10%;
+    left:1%;
+    visibility: hidden;
+    transition: 2.5s;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}
+.p-article--feature__left-cat.inview-js{
+    visibility: visible;
+}

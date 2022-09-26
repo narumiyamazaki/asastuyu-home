@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature{
+    position:relative;
+    background:url(../images/pick-up--background.png) no-repeat;
+    background-size:cover;
+    @include mixin.mq(tb){
+        background: url(../images/background-pink.png) no-repeat;
+    }
+}

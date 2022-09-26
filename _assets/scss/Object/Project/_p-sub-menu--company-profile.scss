@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/extend';
+
+.p-sub-menu--company-profile{
+    @extend %p-sub-menu--about;
+}
+
+.p-sub-menu--company-profile.is-block{
+    display: block;
+}

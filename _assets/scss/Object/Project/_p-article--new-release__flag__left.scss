@@ -1,0 +1,10 @@
+.p-article--new-release__flag__left{
+    background:url(../images/new-release__flag.png) no-repeat;
+    background-size: contain;
+    width:25rem;
+    height:20rem;
+    position:absolute;
+    left: 4%;
+    top:7%;
+    transform: rotate(-25deg);
+}

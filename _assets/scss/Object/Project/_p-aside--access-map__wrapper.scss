@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-aside--access-map__wrapper{
+    display: flex;
+    justify-content: center;
+    width:83%;
+    margin:0 auto;
+    @include mixin.mq(tb){
+        flex-direction: column;
+    }
+}

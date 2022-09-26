@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-article--philosophy__treatment{
+    background:url(../images/about-us-treatment.png) no-repeat;
+    background-size:contain;
+    width:13rem;
+    height:5rem;
+    padding:2rem 0;
+    display: flex;
+    justify-content: center;
+    margin:4rem auto 0rem;
+    @include mixin.mq(tb){
+        margin-top:0;
+    }
+}

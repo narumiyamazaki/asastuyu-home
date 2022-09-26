@@ -1,0 +1,12 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--gallery__house__background{
+    background:url(../images/gallery__background-grass.png) no-repeat;
+    background-size:152%;
+    background-position-y:100%;
+    position:relative;
+    height:40rem;
+    @include mixin.mq(sp){
+        height: auto;
+    }
+}

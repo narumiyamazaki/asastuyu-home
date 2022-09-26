@@ -1,0 +1,10 @@
+.p-article--about-us__img__left-flag{
+    background: url(../images/left-flag.png) no-repeat;
+    background-size: contain;
+    min-width: 11rem;
+    min-height: 11rem;
+    position:absolute;
+    left:5%;
+    top:30%;
+    transform: rotateZ(-25deg);
+}

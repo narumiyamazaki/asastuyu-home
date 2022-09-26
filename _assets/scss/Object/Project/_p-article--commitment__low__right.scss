@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__low__right{
+    object-fit: contain;
+    position: absolute;
+    width: 68%;
+    right: -26%;
+    top: -12%;
+    //ピンク背景より下に
+    z-index: -10;
+    @include mixin.mq(tb){
+        width:80%;
+        overflow: hidden;
+        top:-4%;
+        right:-20%;
+    }
+}

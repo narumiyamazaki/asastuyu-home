@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-section--interview__left{
+    background: url(../images/left-cat-mono.png) no-repeat;
+    background-size:cover;
+    width:18rem;
+    height:28rem;
+    position: absolute;
+    left:7%;
+    top:28%;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

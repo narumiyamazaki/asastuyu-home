@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-main--article__top__heading2{
+    background: url(../images/custom-home.webp) no-repeat;
+    background-size:cover;
+    width:50rem;
+    height:13rem;
+    @include mixin.mq(tb){
+        width:55rem;
+        height: 13rem;
+    }
+}

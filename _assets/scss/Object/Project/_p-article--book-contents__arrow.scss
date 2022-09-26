@@ -1,0 +1,33 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--book-contents__arrow{
+    background:#D61043;
+    width:1.3rem;
+    max-width:1.3rem;
+    height:1.3rem;
+    max-height:1.3rem;
+    position:absolute;
+    border-radius: 80%;
+    left:-2.5%;
+    position: absolute;
+    transform: rotate(45deg);
+    @include mixin.mq(sp){
+        display: none;
+    }
+    &::after{
+        content:'';
+        width:.5rem;
+        height:.5rem;
+        border: 0px;
+        border-top: solid .1rem #fff;
+        border-right: solid .1rem #fff;
+        transition-duration: 0.3s;
+        position:absolute;
+        top:35%;
+        left:20%;
+    }
+    &:hover::after{
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+    }
+}

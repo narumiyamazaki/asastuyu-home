@@ -1,0 +1,13 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-top-head--text{
+    color: rgb(255,255,254);
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family:tsukushigothic,ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
+    text-shadow:rgb(0 0 0 / 50%) -1px -1px 0px, rgb(0 0 0 / 50%) -1px 1px 0px, rgb(0 0 0 / 50%) 1px 1px 0px, rgb(0 0 0 / 50%) 1px -1px 0px;
+    line-height: 1.7;
+    @include mixin.mq(sp){
+        font-size:1.4rem;
+    }
+}

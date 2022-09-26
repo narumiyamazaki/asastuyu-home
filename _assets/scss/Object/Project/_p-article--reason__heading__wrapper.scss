@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-article--reason__heading__wrapper{
+    width:40%;
+    padding:0 1rem;
+    @include mixin.mq(tb){
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom:3rem;
+    }
+}

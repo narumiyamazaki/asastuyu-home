@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+.p-article--gallery__orthers{
+    @extend %p-article--gallery__country;
+    width:28%;
+}

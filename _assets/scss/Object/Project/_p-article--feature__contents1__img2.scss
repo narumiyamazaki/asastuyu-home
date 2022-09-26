@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents1__img2{
+    height: 68%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    left:0%;
+    top:32%;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

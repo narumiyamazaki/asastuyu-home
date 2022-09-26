@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-aside--access-map__img{
+    width:36%;
+    object-fit: contain;
+    @include mixin.mq(tb){
+        width:75%;
+        margin:0 auto;
+    }
+}

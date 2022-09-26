@@ -1,0 +1,15 @@
+.p-article--quality-support__heat-resistant__img{
+    background: url(../images/heat-resistant.jpg) no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: relative;
+    z-index:10;
+    transition: .4s ease-in-out;
+    //bottom: 40%;
+    //right: -150%;
+    &:hover{
+        opacity: 0;
+    }
+}

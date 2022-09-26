@@ -1,0 +1,12 @@
+.p-article--book__foot-prints__right{
+    background: url(../images/foot-prints.webp) no-repeat;
+    background-size:contain;
+    position:absolute;
+    top:55%;
+    left:90%;
+    max-width:26rem;
+    min-width:26rem;
+    min-height:16rem;
+    max-height:16rem;
+    transform:rotate(-80deg);
+}

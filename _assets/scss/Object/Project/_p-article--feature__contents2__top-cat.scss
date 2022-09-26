@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents2__top-cat{
+    background: url(../images/gallery_cat.png) no-repeat;
+    background-size: cover;
+    width:10rem;
+    height:4rem;
+    position:absolute;
+    top:29%;
+    right:0%;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

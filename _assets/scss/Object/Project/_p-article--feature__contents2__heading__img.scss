@@ -1,0 +1,16 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents2__heading__img{
+    background: url(../images/point2.png) no-repeat;
+    background-size:cover;
+    width:12rem;
+    height: 6rem;
+    position:relative;
+    bottom:6%;
+    @include mixin.mq(tb){
+        margin:3rem auto 0;
+        width:18rem;
+        height: 9rem;
+        order: 0;
+    }
+}

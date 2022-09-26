@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-section--interview__center__text{
+    font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    color:rgb(85,85,85);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.8;
+    @include mixin.mq(tb){
+        font-size:2rem;
+        letter-spacing: .2rem;
+        margin:0 auto;
+        font-weight: normal;
+    }
+}

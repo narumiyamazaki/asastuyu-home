@@ -1,0 +1,11 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--book__wrapper{
+    background: url(../images/book-background.jpg);
+    height:60rem;
+    background-size:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

@@ -1,0 +1,15 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--line-up__background{
+/*ホバー時黒くする挙動*/
+background-color: #000;
+max-width:22.2rem;
+width:22rem;
+max-height:15rem;
+overflow: hidden;
+position: relative;
+z-index:1;
+    @include mixin.mq(sp){
+        width:calc(350/375*100vw);
+    }
+}

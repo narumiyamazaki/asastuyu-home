@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article--about-us__sofa{
+    background:url(../images/sofa.png) no-repeat;
+    background-size:contain;
+    width: 17rem;
+    height: 15rem;
+    position: absolute;
+    left:1%;
+    bottom: 2%;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

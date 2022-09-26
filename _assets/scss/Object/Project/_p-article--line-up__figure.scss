@@ -1,0 +1,12 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--line-up__figure{
+    margin-left:1rem;
+    overflow: hidden;
+    width:20.2rem;
+    height:18rem;
+    @include mixin.mq(sp){
+        width:calc(262/375*100vw);
+        margin-left:4rem;
+    }
+}

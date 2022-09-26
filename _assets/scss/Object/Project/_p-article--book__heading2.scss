@@ -1,0 +1,15 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--book__heading2{
+    font-size:2.8rem;
+    font-weight: 800;
+    writing-mode: vertical-rl;
+    font-family:tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
+    color:#D61043;
+    position:relative;
+    left:100%;
+    top:13%;
+    @include mixin.mq(sp){
+        left:0;
+    }
+}

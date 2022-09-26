@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-article--reason__text__img{
+    background:url(../images/Jam_Dream_House.png) no-repeat;
+    background-size: contain;
+    width: 14rem;
+    height: 5rem;
+    margin:1rem auto 2rem;
+    transform: rotate(4deg);
+    @include mixin.mq(tb){
+        order:-1;
+        margin-bottom:0;
+        margin-top:3rem;
+        width:25rem;
+        height: 8rem;
+    }
+}

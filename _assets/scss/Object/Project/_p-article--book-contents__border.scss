@@ -1,0 +1,10 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--book-contents__border{
+    border-bottom: solid .1rem;
+    width: 100%;
+    margin: 0 .1rem .7rem .5rem;
+    @include mixin.mq(sp){
+        display: none;
+    }
+}

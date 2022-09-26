@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-section--company-profile__table__frame__register{
+    border-bottom: .1px solid ;
+    color:rgb(138,101,62);
+    @include mixin.mq(tb){
+        display: flex;
+        //justify-content: center;
+        width: 280%;
+    }
+}

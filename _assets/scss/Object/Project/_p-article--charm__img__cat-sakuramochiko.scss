@@ -1,0 +1,19 @@
+@use '../../Foundation/mixin';
+
+.p-article--charm__img__cat-sakuramochiko{
+    background:url(../images/cat-sakuramochiko.png) no-repeat;
+    background-size:contain;
+    width:23rem;
+    height: 35rem;
+    position: absolute;
+    bottom:10%;
+    left:0%;
+    transition: .5s;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}
+
+.p-article--charm__img__cat-sakuramochiko.inview-js{
+    margin-left:2rem;
+}

@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__middle__contents{
+    width:60%;
+    padding:5rem 0;
+    position:relative;
+    right:4%;
+    display: flex;
+    text-align: center;
+    @include mixin.mq(tb){
+        width:80%;
+        margin: 0 auto;
+        right:0;
+    }
+}

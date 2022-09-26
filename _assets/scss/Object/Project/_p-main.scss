@@ -1,0 +1,7 @@
+@use '../../Foundation/mixin';
+
+.p-main{
+    @include mixin.mq(tb){
+        overflow: hidden;
+    }
+}

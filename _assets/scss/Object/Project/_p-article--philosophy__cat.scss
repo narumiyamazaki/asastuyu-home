@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article--philosophy__cat{
+    background:url(../images/cat-philosophy.png) no-repeat;
+    background-size:contain;
+    width:11rem;
+    height: 11rem;
+    position:absolute;
+    bottom:0;
+    right: 37%;
+    @include mixin.mq(tb){
+        right:20%;
+    }
+}

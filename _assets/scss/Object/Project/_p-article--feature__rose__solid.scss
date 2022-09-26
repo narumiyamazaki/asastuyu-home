@@ -1,0 +1,19 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__rose__solid{
+    background:url(../images/rose-solid.png) no-repeat;
+    background-size:contain;
+    width:18rem;
+    height:18rem;
+    position:absolute;
+    top:85%;
+    right:-2%;
+    visibility: hidden;
+    transition: 2.5s;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}
+.p-article--feature__rose__solid.inview-js{
+    visibility: visible;
+}

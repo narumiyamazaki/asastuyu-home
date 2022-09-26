@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-background--move__text{
+    font-size:2rem;
+    color:#fff;
+    @include mixin.mq(tb){
+        width: 63%;
+        margin:0 auto;
+        font-size:3rem;
+    }
+}

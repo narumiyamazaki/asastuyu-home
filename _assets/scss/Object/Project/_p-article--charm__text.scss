@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-article--charm__text{
+    color:rgb(51,51,51);
+    font-size:1.2rem;
+    font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    margin-bottom: 2rem;
+    @include mixin.mq(tb){
+        font-size:1.6rem;
+    }
+}

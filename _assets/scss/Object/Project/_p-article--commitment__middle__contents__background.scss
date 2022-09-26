@@ -1,0 +1,18 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__middle__contents__background{
+    background:url(../images/background-pink.png) no-repeat;
+    width: 79%;
+    height: 95%;
+    opacity: .9;
+    position:absolute;
+    z-index:-1;
+    top:10%;
+    right:0%;
+    @include mixin.mq(tb){
+        width:60%;
+        height:320%;
+        right:18%;
+        top:-115%;
+    }
+}

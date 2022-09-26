@@ -1,0 +1,8 @@
+@use'../../Foundation/mixin';
+
+.u-display--none__block{
+    display: none;
+    @include mixin.mq(pc){
+        display: block;
+    }
+}

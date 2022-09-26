@@ -1,0 +1,18 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__low__middle__heart{
+    background:url(../images/heart.png) no-repeat;
+    background-size:contain;
+    width:6rem;
+    height:6rem;
+    position: absolute;
+    left: 49%;
+    top:11%;
+    @include mixin.mq(tb){
+        left:19%;
+        top:67%;
+        background-size:cover;
+        width:3rem;
+        height:3rem;
+    }
+}

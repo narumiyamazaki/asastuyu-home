@@ -1,0 +1,18 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__top__right__img{
+    width:30%;
+    object-fit: contain;
+    transform: scale(1.2,1.2);
+    margin-bottom: 8rem;
+    @include mixin.mq(tb){
+        position: relative;
+        left:10%;
+        z-index: -1;
+        right:0%;
+        padding-top: 3rem;
+        width:35%;
+        object-fit: cover;
+        background-position-x: -10rem;
+    }
+}

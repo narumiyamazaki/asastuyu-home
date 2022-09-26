@@ -1,0 +1,10 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--about-us{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8rem;
+    @include mixin.mq(sp){
+        flex-direction: column;
+    }
+}

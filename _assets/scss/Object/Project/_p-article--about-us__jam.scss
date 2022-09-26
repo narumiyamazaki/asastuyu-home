@@ -1,0 +1,21 @@
+@use '../../Foundation/mixin';
+
+.p-article--about-us__jam{
+    background:url(../images/cat-jam.png) no-repeat;
+    background-size:cover;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    z-index:10;
+    right:1%;
+    bottom: -5%;
+    right:4%;
+    transition: .7s;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}
+
+.p-article--about-us__jam.inview-js{
+    margin-right:2rem;
+}

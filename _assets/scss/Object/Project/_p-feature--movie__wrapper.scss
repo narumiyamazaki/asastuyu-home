@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-feature--movie__wrapper{
+    width:35%;
+    @include mixin.mq(tb){
+        order:1;
+        width:95%;
+        margin:0 auto;
+    }
+}

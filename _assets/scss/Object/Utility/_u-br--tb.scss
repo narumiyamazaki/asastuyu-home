@@ -1,0 +1,8 @@
+@use '../../Foundation/mixin';
+
+.u-br--tb{
+    display: none;
+    @include mixin.mq(tb){
+        display: block;
+    }
+}

@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents2__speach-bubble{
+    background: url(../images/speach-bubble.png) no-repeat;
+    background-size: cover;
+    width:14rem;
+    height:5rem;
+    position:absolute;
+    top:6%;
+    right:15%;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

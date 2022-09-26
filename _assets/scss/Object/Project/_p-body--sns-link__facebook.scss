@@ -1,0 +1,6 @@
+@use '../../Foundation/extend';
+
+.p-body--sns-link__facebook{
+    @extend %p-body--sns-link__facebook;
+    background-image:url(../images/facebook.webp);
+}

@@ -1,0 +1,10 @@
+@use '../../Foundation/mixin';
+
+.p-article--reason{
+    display: flex;
+    background:url(../images/background-reason.png) no-repeat;
+    background-size: cover;
+    @include mixin.mq(tb){
+        flex-direction: column;
+    }
+}

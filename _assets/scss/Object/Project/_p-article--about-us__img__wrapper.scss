@@ -1,0 +1,9 @@
+.p-article--about-us__img__wrapper{
+    //flexboxの幅を均等にさせるためのもの
+    flex:2;
+    position:relative;
+    max-width: 40rem;
+    min-width: 40rem;
+    height: auto;
+    max-height: 40rem;
+}

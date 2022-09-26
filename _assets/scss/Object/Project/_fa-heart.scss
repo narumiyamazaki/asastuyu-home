@@ -1,0 +1,51 @@
+//白抜き
+.far.fa-heart{
+    font-size:1.5rem;
+    position:absolute;
+    z-index:10;
+    top:50%;
+    left:45%;
+    display: none;
+}
+
+//白抜きホバー時にブロック
+.far.fa-heart.is-block{
+    display: block;
+}
+
+//塗ってある　基本隠しておく
+.magenta{
+    font-size:1.5rem;
+    position:absolute;
+    z-index:-1;
+    top:50%;
+    left:45%;
+    display: none;
+    color:#EC008C;
+}
+
+//クリック時ブロック
+.is-block.magenta{
+    display: block;
+    z-index:100;
+}
+
+//Jamhomeとは？のスライダー部分
+.far.fa-heart.what-is-Jam-home{
+    font-size:1.5rem;
+    position:absolute;
+    z-index:10;
+    top:77%;
+    left:23%;
+    display: block;
+}
+
+.fa.fa-heart.what-is-Jam-home{
+    font-size:1.5rem;
+    position:absolute;
+    z-index:-1;
+    top:77%;
+    left:23%;
+    display: none;
+    color:#EC008C;
+}

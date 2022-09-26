@@ -1,0 +1,18 @@
+@use '../../Foundation/mixin';
+
+.p-main--article__top__key{
+    background:url(../images/key.png) no-repeat;
+    background-size: contain;
+    width:10rem;
+    height: 10rem;
+    position: absolute;
+    bottom:5%;
+    right:22%;
+    transform: rotate(80deg);
+    @include mixin.mq(tb){
+        width: 8rem;
+        height: 8rem;
+        right: 45%;
+        transform: rotate(90deg);
+    }   
+}

@@ -1,0 +1,19 @@
+.p-button--scroll__pick-up{
+    position:relative;
+    order: 4;
+    color:#fafafa;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family:tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
+    &:after{
+        display:block;
+        content:"";
+        position:absolute;
+        width:.2rem;
+        min-height:100rem;
+        background-color: #fafafa;
+        top: 3rem;
+        left:47%;
+    }
+}

@@ -1,0 +1,11 @@
+.p-article--about-us__img__left-three-tree{
+    background:url(../images/three-tree.png) no-repeat;
+    background-size: contain;
+    min-width: 6.8rem;
+    min-height: 6.8rem;
+    //家より後ろにするため
+    position:absolute;
+    z-index:9;
+    left: 21%;
+    bottom: 23%;
+}

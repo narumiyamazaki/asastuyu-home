@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article--about-us__mirror{
+    background:url(../images/mirror.png) no-repeat;
+    background-size:contain;
+    width: 17rem;
+    height: 19rem;
+    position: absolute;
+    left:0%;
+    @include mixin.mq(tb){
+        width:10rem;
+        height:12rem;
+    }
+}

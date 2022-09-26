@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.p-article--gallery__modern__caption{
+    @extend %p-article--gallery__country__caption;
+}

@@ -1,0 +1,16 @@
+.p-article--quality-support__durability__img{
+    background: url(../images/durability.jpg) no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+    //bottom:40%;
+    //z-index:10;
+    transition: .4s ease-in-out;
+    //right:-150%;
+    &:hover{
+        opacity: 0;
+    }
+}

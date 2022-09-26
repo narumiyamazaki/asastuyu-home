@@ -1,0 +1,14 @@
+.p-main--slider__img{
+    width:40rem;
+    height: 20rem;
+    object-fit: cover;
+    transition-duration: 0.3s;
+    //ホバー時
+    &.is-hover{
+        opacity: 0.5;
+        transition-duration: 0.3s;
+        //ホバー時のアイテムより画像を上にする
+        //position:relative;
+        //z-index:10;
+    }
+}

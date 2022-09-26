@@ -1,0 +1,10 @@
+.p-main--slider__hover__click-here{
+    border:#fff solid .1rem;
+    padding:.5rem 4rem;
+    color:#fff;
+    font-size:1.3rem;
+    &:hover{
+        border:#dcdcdc solid .1rem;
+        color:#dcdcdc;
+    }   
+}

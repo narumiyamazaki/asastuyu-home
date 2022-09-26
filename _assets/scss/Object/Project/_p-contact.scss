@@ -1,0 +1,11 @@
+.p-contact{
+    background-image: url("../images/contact.png");
+    background-size: contain;
+    /*背景画像を繰り返さない*/
+    background-repeat:no-repeat;
+    width: 14rem;
+    height: 6.5rem;
+    &.is-open{
+        display: none;
+    }
+}

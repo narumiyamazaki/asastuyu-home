@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-feature--movie__link{
+    padding-bottom:1rem;
+    font-family: 'メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif;;
+    font-size:1.5rem;
+    color: #F516AB;
+    display: block;
+    text-decoration:underline;
+    text-decoration-color: #F516AB;
+    @include mixin.mq(tb){
+        font-size:4rem;
+        padding:3rem 0;
+    }
+}

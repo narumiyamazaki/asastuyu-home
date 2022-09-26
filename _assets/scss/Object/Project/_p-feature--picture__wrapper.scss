@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-feature--picture__wrapper{
+    width:65%;
+    display: flex;
+    position:relative;
+    left:5%;
+    @include mixin.mq(tb){
+        width: 100%;
+        order:0;
+        left:2%;
+    }
+}

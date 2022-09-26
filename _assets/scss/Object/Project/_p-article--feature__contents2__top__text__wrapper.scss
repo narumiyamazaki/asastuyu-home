@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-article--feature__contents2__top__text__wrapper{
+    width:62%;
+    position:relative;
+    @include mixin.mq(tb){
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

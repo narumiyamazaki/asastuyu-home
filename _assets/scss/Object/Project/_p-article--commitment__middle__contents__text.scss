@@ -1,0 +1,21 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment__middle__contents__text{
+    font-family:'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    color:rgb(85,85,85);
+    font-size:1.1rem;
+    line-height: 1.8;
+    font-weight: 600;
+    width: 60%;
+    margin:0 auto;
+    @include mixin.mq(tb){
+        width:52%;
+        font-size:2rem;
+        line-height: 1.8;
+        letter-spacing: .2rem;
+        font-weight: normal;
+        position:absolute;
+        bottom:-90%;
+        left:26%;
+    }
+}

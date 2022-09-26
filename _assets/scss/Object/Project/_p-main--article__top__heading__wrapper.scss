@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-main--article__top__heading__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top:18rem;
+    position: relative;
+    @include mixin.mq(tb){
+        padding-top:10rem;
+        
+    }    
+}

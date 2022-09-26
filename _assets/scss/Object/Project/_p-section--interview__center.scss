@@ -1,0 +1,9 @@
+@use '../../Foundation/mixin';
+
+.p-section--interview__center{
+    margin:0 auto;
+    width:40%;
+    @include mixin.mq(tb){
+        width: 60%;
+    }
+}

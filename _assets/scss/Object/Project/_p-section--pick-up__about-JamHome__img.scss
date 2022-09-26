@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.p-section--pick-up__about-JamHome__img{
+    @extend %p-section--pick-up__about-JamHome__img;
+}

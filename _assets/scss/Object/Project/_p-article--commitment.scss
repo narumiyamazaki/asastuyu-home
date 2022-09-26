@@ -1,0 +1,9 @@
+@use '../../Foundation/mixin';
+
+.p-article--commitment{
+    padding-bottom:5rem;
+    @include mixin.mq(tb){
+        position:relative;
+        overflow: hidden;
+    }
+}

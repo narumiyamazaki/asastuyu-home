@@ -1,0 +1,22 @@
+@use '../Foundation/mixin';
+
+.l-header {
+    display: flex;
+    padding-left:2rem;
+    // justify-content: space-between;
+    //headerを固定する場合
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index:100;
+    justify-content: space-between;
+    background: #fff;
+    &.is-open{
+        background: #EEECE4;
+    }
+    @include mixin.mq(tb){
+        height: 8rem;
+        padding-left:0;
+    }
+}

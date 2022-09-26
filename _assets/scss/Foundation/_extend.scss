@@ -1,0 +1,90 @@
+//extend
+@use '../Foundation/mixin';
+
+%p-sub-menu--about {
+    display: none;
+    position: absolute;
+    z-index:1;
+    //動画部分は0
+    //サブメニュー部分
+    >li > a {
+        background: #fff;
+        padding:.8rem 0 .8rem .5rem;
+        font-size: 1rem;
+        display: flex;
+        width: 12rem;
+        font-family: "libre baskerville",serif;
+        @include mixin.mq(tb){
+            font-size:2rem;
+            justify-content: center;
+            width:100%;
+            position: relative;
+            }
+        }
+    }
+
+%p-section--pick-up__about-JamHome{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width:23.5%;
+    position:relative;
+    min-height: 42rem;
+    @include mixin.mq(sp){
+        width:100%;
+    }
+}
+
+%p-section--pick-up__about-JamHome__img {
+    padding: 1.5rem;
+    order: 0;
+    height: 20.5rem;
+    max-height: 21rem;
+    object-fit: cover;
+}
+
+%p-section--pick-up__heading4{
+    color: #555555;
+    padding: 0.5 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    order: 1;
+}
+
+%p-section--pick-up__read-more{
+    color: #D61043;
+    font-size: 2rem;
+    order: 3;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+%p-section--pick-up__figcaption {
+    order: 2;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem;
+}
+
+%p-article--gallery__country__caption{
+    order:-1;
+    font-size: 1.4rem;
+    text-align: center;
+    color:rgb(85,85,85);
+    font-family:メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif';
+}
+
+%p-article--gallery__country{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    @include mixin.mq(sp){
+        width:7.5rem;
+    }
+}
+
+%p-body--sns-link__facebook{
+    width:2rem;
+    height:2rem;
+    background-size: contain;
+}
+

@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-aside--access-map__text__parking{
+    font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    font-size: 1.1rem;
+    color:rgb(85,85,85);
+    line-height: 1.8;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.p-main--slider__items__wrapper{
+    position:absolute;
+    //画像より下にする
+    //z-index:0;
+    bottom:10%;
+    left:23%;
+    display:none;
+}
+
+.p-main--slider__items__wrapper.is-block{
+    display:block;
+}

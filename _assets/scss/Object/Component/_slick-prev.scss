@@ -1,0 +1,8 @@
+.slick-prev{
+    left:-10%;
+}
+
+.slick-prev::before, .slick-next::before{
+    color: #000;/*黒にする*/
+    font-size:4rem;
+}

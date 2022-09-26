@@ -1,0 +1,36 @@
+@use '../../../scss/Foundation/mixin';
+@use '../../Foundation/vars' as v;
+
+.p-main-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    &.is-open{
+        flex-direction: column;
+        margin:10rem 0 0;
+    }
+    &.is-open > li > a{
+        font-size:2.2rem;
+    }
+    > li > a {
+        color: #D61043;
+        width:14rem;
+        margin-right: v.$header-nav-menu-margin;
+        font-family: v.$font-base;
+        font-size:v.$header-font-size;
+        font-weight: 700;
+        text-align: center;
+        height: 70px;
+        //aタグがインライン要素なので高さを揃えるためにflexに
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        @include mixin.mq(tb){
+            color:#000;
+        }
+        &:hover{
+            color:#f7007f;
+        }  
+    }
+}
