@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--book__foot-prints__right{
     background: url(../images/foot-prints.webp) no-repeat;
     background-size:contain;
@@ -9,4 +11,7 @@
     min-height:16rem;
     max-height:16rem;
     transform:rotate(-80deg);
+    @include mixin.mq(sp){
+        display: none;
+    }
 }

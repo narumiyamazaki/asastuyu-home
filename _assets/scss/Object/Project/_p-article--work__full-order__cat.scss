@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--work__full-order__cat{
     background: url(../images/work__full-order__cat.png) no-repeat;
     position:absolute;
@@ -7,4 +9,7 @@
     max-height:9rem;
     background-size: contain;
     left:87%;
+    @include mixin.mq(sp){
+        display: none;
+    }
 }

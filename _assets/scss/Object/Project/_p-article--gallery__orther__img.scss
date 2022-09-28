@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--gallery__orther__img{
     height: 24rem;
     background: url("../images/gallery__orthers.png") no-repeat;
@@ -6,4 +8,9 @@
     margin-left: 4rem;
     background-position-x: 60%;
     background-position-y: 30%;
+    @include mixin.mq(sp){
+        width:7.5rem;
+        height:7.5rem;
+        margin-left:1rem;
+    }
 }

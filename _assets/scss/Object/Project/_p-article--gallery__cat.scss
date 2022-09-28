@@ -1,9 +1,15 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--gallery__cat{
     background: url(../images/gallery_cat.png) no-repeat;
     background-size: contain;
     width: 10rem;
     height: 10rem;
     position: absolute;
-    right: 1%;
-    bottom: 0%;
+    right: 2%;
+    bottom: -2%;
+    @include mixin.mq(sp){
+        width:6rem;
+        height: 6rem;
+    }
 }

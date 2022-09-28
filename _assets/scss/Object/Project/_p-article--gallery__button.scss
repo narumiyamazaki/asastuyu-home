@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--gallery__button{
     width:20%;
     border-radius: 10rem;
@@ -10,7 +12,11 @@
     padding: .8rem .5rem;
     letter-spacing: .4rem;
     display:block;
-    position:relative;    
+    position:relative;
+    @include mixin.mq(sp){
+        width:40%;
+        margin-top:1rem;
+    }
     &:before{
         content:'';
         position:absolute;

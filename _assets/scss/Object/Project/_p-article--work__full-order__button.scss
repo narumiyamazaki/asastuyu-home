@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--work__full-order__button{
     justify-content: center;
     align-items: center;
@@ -14,6 +16,10 @@
     display:block;
     position:relative;
     left:-34%;
+    @include mixin.mq(sp){
+        margin-top:2.5rem;
+        left:-5%;
+    }
     &:before{
         content:'';
         position:absolute;

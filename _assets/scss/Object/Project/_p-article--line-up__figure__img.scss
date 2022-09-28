@@ -1,6 +1,6 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--line-up__figure__img{
-    width:calc(300/375*100vw);
-    margin:auto;
     object-fit: cover;
     overflow: hidden;
     position:relative;
@@ -12,6 +12,9 @@
     //opacity:(0.4);
     //transform: scale(1.1, 1.1);
     //}
+    @include mixin.mq(sp){
+        width:calc(300/375*100vw);
+    }
 }
 .p-article--line-up__figure__img.is-hover{
     transition: 0.8s;

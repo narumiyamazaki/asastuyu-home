@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--quality-support__figure__wrapper{
     display: flex;
     align-items: center;
@@ -7,4 +9,7 @@
     max-width: 100rem;
     height: 100%;
     margin-top:3rem;
+    @include mixin.mq(sp){
+        flex-direction: column;
+    }
 }

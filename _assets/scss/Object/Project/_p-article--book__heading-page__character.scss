@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--book__heading-page__character{
     background:url(../images/book-cat.png) no-repeat;
     max-width:9rem;
@@ -8,4 +10,7 @@
     position:absolute;
     top:78%;
     left:280%;
+    @include mixin.mq(sp){
+        display: none;
+    }
 }

@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--work__renovation__text__wrapper{
     display: flex;
     flex-direction: column;
@@ -7,4 +9,7 @@
     position: relative;
     left:15%;
     order:-1;
+    @include mixin.mq(sp){
+        left:2%;
+    }
 }
