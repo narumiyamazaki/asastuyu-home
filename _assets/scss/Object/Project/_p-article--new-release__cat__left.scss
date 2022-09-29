@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--new-release__cat__left{
     background:url(../images/left-cat.gif) no-repeat;
     width:30rem;
@@ -5,4 +7,10 @@
     position: absolute;
     bottom: 0%;
     background-size: contain;
+    @include mixin.mq(sp){
+        left:6%;
+        bottom:10;
+        width:15rem;
+        height:15rem;
+    }
 }

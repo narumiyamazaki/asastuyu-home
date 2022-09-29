@@ -1172,6 +1172,13 @@ a {
   height: auto;
   max-height: 40rem;
 }
+@media screen and (max-width: 767px) {
+  .p-article--about-us__img__wrapper {
+    width: 91.4666666667vw;
+    max-width: none;
+    min-width: auto;
+  }
+}
 
 .p-article--about-us__heading2 {
   writing-mode: vertical-rl;
@@ -2489,6 +2496,7 @@ a {
 @media screen and (max-width: 767px) {
   .p-article--quality-support {
     margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 }
 
@@ -2810,6 +2818,9 @@ a {
 @media screen and (max-width: 767px) {
   .p-article--new-release__flag__left {
     z-index: 0;
+    width: 13rem;
+    height: 7rem;
+    top: 4%;
   }
 }
 
@@ -2819,9 +2830,18 @@ a {
   width: 25rem;
   height: 20rem;
   position: absolute;
-  left: 72%;
+  right: 2.7777777778vw;
   top: 7%;
   transform: rotate(25deg);
+}
+@media screen and (max-width: 767px) {
+  .p-article--new-release__flag__right {
+    z-index: 0;
+    width: 13rem;
+    height: 7rem;
+    left: 62%;
+    top: 4%;
+  }
 }
 
 .p-article--new-release__heading2 {
@@ -2832,6 +2852,12 @@ a {
   text-align: center;
   padding-top: 4rem;
   letter-spacing: 0.3rem;
+}
+@media screen and (max-width: 767px) {
+  .p-article--new-release__heading2 {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .p-article--new-release__heading3 {
@@ -2858,6 +2884,11 @@ a {
   margin: 0 auto;
   width: 30%;
 }
+@media screen and (max-width: 767px) {
+  .p-article--new-release__news__wrapper {
+    width: 80vw;
+  }
+}
 
 .p-article--new-release__news__space {
   margin-right: 1rem;
@@ -2878,6 +2909,11 @@ a {
   letter-spacing: 0.4rem;
   display: block;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .p-article--new-release__button {
+    width: 50%;
+  }
 }
 .p-article--new-release__button:before {
   content: "";
@@ -2922,6 +2958,14 @@ a {
   bottom: 0%;
   background-size: contain;
 }
+@media screen and (max-width: 767px) {
+  .p-article--new-release__cat__left {
+    left: 6%;
+    bottom: 10;
+    width: 15rem;
+    height: 15rem;
+  }
+}
 
 .p-article--new-release__cat__right {
   background: url(../images/right-cat.gif) no-repeat;
@@ -2934,8 +2978,9 @@ a {
 }
 @media screen and (max-width: 767px) {
   .p-article--new-release__cat__right {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
+    left: 60%;
   }
 }
 
@@ -2946,9 +2991,9 @@ a {
   margin: 0 auto;
   padding-top: 3rem;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .p-footer--icon__wrapper {
-    width: 25%;
+    width: 55%;
   }
 }
 
@@ -2987,6 +3032,11 @@ a {
   width: 25%;
   margin: 0 auto;
 }
+@media screen and (max-width: 767px) {
+  .p-footer--link__wrapper {
+    width: 50%;
+  }
+}
 
 .p-footer--link__text {
   color: rgb(255, 255, 255);
@@ -3010,7 +3060,7 @@ a {
 }
 @media screen and (max-width: 1023px) {
   .p-footer--company-profile__wrapper {
-    width: 50%;
+    width: 90%;
   }
 }
 
@@ -3153,6 +3203,13 @@ a {
     height: 13rem;
   }
 }
+@media screen and (max-width: 767px) {
+  .p-main--article__top__heading2 {
+    width: 80vw;
+    height: 21.3333333333vw;
+    margin: 0 auto;
+  }
+}
 
 .p-main--article__top__heading3 {
   background: url(../images/main--top__heading3.png) no-repeat;
@@ -3258,6 +3315,13 @@ a {
     bottom: 64%;
   }
 }
+@media screen and (max-width: 767px) {
+  .p-main--article__top__flag__left {
+    width: 15rem;
+    height: 7rem;
+    bottom: 85%;
+  }
+}
 
 .p-main--article__top__flag__right {
   background: url(../images/left-flag.png) no-repeat;
@@ -3275,6 +3339,13 @@ a {
     height: 18rem;
     bottom: 64%;
     right: 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-main--article__top__flag__right {
+    width: 14rem;
+    height: 7rem;
+    bottom: 85%;
   }
 }
 
@@ -3296,6 +3367,11 @@ a {
     bottom: 70%;
   }
 }
+@media screen and (max-width: 767px) {
+  .p-main--article__top__bow-tie {
+    left: 10%;
+  }
+}
 
 .p-main--article__top__rose__color {
   background: url(../images/rose-color.png) no-repeat;
@@ -3312,6 +3388,14 @@ a {
     height: 10rem;
     right: 20%;
     bottom: 69%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-main--article__top__rose__color {
+    width: 7rem;
+    height: 7rem;
+    right: 6%;
+    bottom: 75%;
   }
 }
 
@@ -5423,6 +5507,12 @@ a {
     display: none;
   }
 }
+@media screen and (min-width: 1024px) {
+  .p-article--philosophy__book-cover__text {
+    padding: 4rem 2rem;
+    right: 3%;
+  }
+}
 
 .p-article--philosophy__book-cover__left {
   background: url(../images/book-cover-left.png) no-repeat;
@@ -5848,5 +5938,9 @@ a {
   .u-display--none__block {
     display: block;
   }
+}
+
+.u-display__none--sp {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

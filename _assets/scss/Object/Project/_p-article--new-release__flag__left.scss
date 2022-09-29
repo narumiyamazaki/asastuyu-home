@@ -11,5 +11,8 @@
     transform: rotate(-25deg);
     @include mixin.mq(sp){
         z-index:0;
+        width:13rem;
+        height: 7rem;
+        top:4%;
     }
 }

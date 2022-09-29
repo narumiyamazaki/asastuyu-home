@@ -9,7 +9,8 @@
     left:70%;
     background-size: contain; 
     @include mixin.mq(sp){
-        width:20rem;
-        height: 20rem;
+        width:15rem;
+        height: 15rem;
+        left:60%;
     }
 }

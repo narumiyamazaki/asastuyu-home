@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--about-us__img__wrapper{
     //flexboxの幅を均等にさせるためのもの
     flex:2;
@@ -6,4 +8,9 @@
     min-width: 40rem;
     height: auto;
     max-height: 40rem;
+    @include mixin.mq(sp){
+        width:calc(343/375*100vw);
+        max-width: none;
+        min-width: auto;
+    }
 }

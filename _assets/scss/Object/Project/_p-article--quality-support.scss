@@ -6,5 +6,6 @@
     padding-bottom:3rem;
     @include mixin.mq(sp){
         margin-top:6rem;
+        margin-bottom:6rem;
     }
 }

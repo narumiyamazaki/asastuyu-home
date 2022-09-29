@@ -15,4 +15,7 @@
         left:24%;
         bottom:70%;
     }
+    @include mixin.mq(sp){
+        left:10%;
+    }
 }

@@ -14,4 +14,10 @@
         right:20%;
         bottom:69%;
     }
+    @include mixin.mq(sp){
+        width:7rem;
+        height:7rem;
+        right:6%;
+        bottom:75%;
+    }
 }

@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--new-release__button{
         justify-content: center;
         align-items: center;
@@ -13,6 +15,9 @@
         letter-spacing: .4rem;
         display:block;
         position:relative;
+        @include mixin.mq(sp){
+            width:50%;
+        }
         &:before{
             content:'';
             position:absolute;
