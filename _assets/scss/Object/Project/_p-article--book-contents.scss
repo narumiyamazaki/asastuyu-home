@@ -2,19 +2,20 @@
 
 .p-article--book-contents{
     background: url(../images/book.png) no-repeat;
-    background-size:cover;
-    max-width:88rem;
-    min-width:88rem;
-    max-height:60rem;
-    min-height:60rem;
+    background-size:contain;
+    //max-width:88rem;
+    //min-width:88rem;
+    //max-height:60rem;
+    //min-height:60rem;
+    height:calc(600/1440*100vw);
+    width:calc(900/1440*100vw);
     order:1;
     display:flex;
     justify-content: center;
-    object-fit: cover;
     margin-bottom:7rem;
-    margin-right:30rem;
+    margin-right:10rem;
     position:relative;
-    right:4%;
+    right:20%;
     @include mixin.mq(sp){
         width:calc(343/375*100vw);
         height:calc(643/375*100vw);

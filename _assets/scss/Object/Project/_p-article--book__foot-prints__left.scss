@@ -1,18 +1,18 @@
 @use '../../../scss/Foundation/mixin';
 
 .p-article--book__foot-prints__left{
-    background-size: cover;
-    max-width:38rem;
-    min-width:38rem;
-    min-height:16rem;
-    max-height:16rem;
-    transform:rotate(90deg);
+    width: calc(300/1440*100vw);
+    height: calc(150/1440*100vw);
+    //transform:rotate(190deg);
+    
     order:0;
     position:relative;
-    left:14%;
+    //left:14%;
     bottom:18%;
     margin-right:2%;
-    background: url(../images/foot-prints.webp) no-repeat;
+    background: url(../images/foot-prints.webp) no-repeat top left/contain;
+    transform: rotate(90deg);
+    z-index: 1;
     //position: absolute;
     //left:-7%;
     //top: 20%;

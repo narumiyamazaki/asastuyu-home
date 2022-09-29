@@ -2,10 +2,12 @@
 
 .p-article--book__wrapper{
     background: url(../images/book-background.jpg);
-    height:60rem;
+    //height:60rem;
+    height: calc(600/1440*100vw);
     background-size:contain;
     display: flex;
     align-items: center;
-    justify-content: center;
+    //justify-content: center;
     position: relative;
+    z-index: 0;
 }
