@@ -1,22 +1,20 @@
 @use '../../../scss/Foundation/mixin';
 
 .p-article--book__foot-prints__left{
-    width: calc(300/1440*100vw);
-    height: calc(150/1440*100vw);
-    //transform:rotate(190deg);
-    
+    width: calc(150/1440*100vw);
+    height: calc(450/1440*100vw);    
     order:0;
     position:relative;
     //left:14%;
-    bottom:18%;
-    margin-right:2%;
-    background: url(../images/foot-prints.webp) no-repeat top left/contain;
+    //bottom:30%;
+    background: url(../images/foot-prints.png) no-repeat;
+    background-size:contain;
     transform: rotate(90deg);
     z-index: 1;
-    //position: absolute;
-    //left:-7%;
-    //top: 20%;
-    @include mixin.mq(sp){
+    @include mixin.mq(tb){
         display: none;
     }
+}
+#foot-prints-left{
+    transform: rotate(90deg);
 }

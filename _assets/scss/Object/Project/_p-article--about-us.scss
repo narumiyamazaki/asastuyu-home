@@ -3,7 +3,7 @@
 .p-article--about-us{
     display: flex;
     justify-content: center;
-    padding-bottom: 8rem;
+    padding-bottom: calc(140/1440*100vw);
     @include mixin.mq(sp){
         flex-direction: column;
     }

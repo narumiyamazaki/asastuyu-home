@@ -7,9 +7,12 @@
     font-family:tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
     color:#D61043;
     position:relative;
-    left:100%;
-    top:13%;
+    left:calc(400/1440*100vw);
+    top:calc(120/1440*100vw);
     @include mixin.mq(sp){
         left:0;
+    }
+    @include mixin.mq(tb){
+        left:calc(350/1023*100vw);
     }
 }

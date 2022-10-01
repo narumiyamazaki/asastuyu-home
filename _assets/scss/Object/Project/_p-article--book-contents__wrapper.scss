@@ -4,9 +4,9 @@
     display: flex;
     flex-direction: column;
     position:relative;
-    right:16%;
-    margin-top:10rem;
-    width:33%;
+    left:calc(140/1440*100vw);
+    margin-top:calc(120/1440*100vw);
+    //width:calc(100/1440*100vw);
     @include mixin.mq(sp){
         margin-top:8rem;
         margin-left:5rem;

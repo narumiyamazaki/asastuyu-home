@@ -1,12 +1,12 @@
 @use '../../../scss/Foundation/mixin';
 .p-article--quality-support__cat{
     background: url(../images/quality-support__cat.png) no-repeat;
-    width:10rem;
-    height:10rem;
+    width:calc(130/1440*100vw);
+    height:calc(130/1440*100vw);;
     background-size: contain;
     position:absolute;
     top:0%;
-    left:calc(350/1440*100vw);
+    left:calc(250/1440*100vw);
     @include mixin.mq(sp){
         left:0;
         top:8%;

@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--about-us__img__right-flag{
     background: url(../images/right-flag.png) no-repeat;
     background-size: contain;
@@ -7,4 +9,7 @@
     right:8%;
     top:17%;
     transform: rotateZ(25deg);
+    @include mixin.mq(tb){
+        top:calc(150/1440*100vw);
+    }
 }

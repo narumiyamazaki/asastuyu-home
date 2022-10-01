@@ -10,4 +10,7 @@
     //justify-content: center;
     position: relative;
     z-index: 0;
+    @include mixin.mq(tb){
+        height:calc(600/1023*100vw);
+    }
 }

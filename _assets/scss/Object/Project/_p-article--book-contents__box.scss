@@ -2,11 +2,14 @@
 
 .p-article--book-contents__box{
     margin-bottom: 3.5rem;
-    width:33rem;
+    width:calc(400/1440*100vw);
     position: relative;
     display: flex;
     @include mixin.mq(sp){
         margin-bottom:1.4rem;
         flex-direction: column;
+    }
+    @include mixin.mq(tb){
+        margin-bottom:calc(40/1023*100vw);
     }
 }

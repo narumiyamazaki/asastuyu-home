@@ -13,4 +13,9 @@
         max-width: none;
         min-width: auto;
     }
+    @include mixin.mq(tb){
+        width:calc(500/1023*100vw);
+        max-width: none;
+        min-width: auto;
+    }
 }
