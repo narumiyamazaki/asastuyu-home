@@ -30,8 +30,9 @@
     width:23.5%;
     position:relative;
     min-height: 42rem;
-    @include mixin.mq(sp){
+    @include mixin.mq(tb){
         width:100%;
+        min-height:0;
     }
 }
 

@@ -15,11 +15,11 @@
         letter-spacing: .4rem;
         display:block;
         position:relative;
-        @include mixin.mq(sp){
-            width:50%;
-        }
         @include mixin.mq(tb){
             width:calc(250/1023*100vw);
+        }
+        @include mixin.mq(sp){
+            width:50%;
         }
         &:before{
             content:'';

@@ -16,13 +16,14 @@
     display:block;
     position:relative;
     left:-34%;
-    @include mixin.mq(sp){
-        margin-top:2.5rem;
-        left:-5%;
-    }
     @include mixin.mq(tb){
         width:calc(250/1023*100vw);
         left:calc(-130/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        margin-top:2.5rem;
+        left:-5%;
+        width:calc(140/375*100vw);
     }
     &:before{
         content:'';

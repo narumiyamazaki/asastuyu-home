@@ -16,6 +16,10 @@
         width:calc(200/1023*100vw);
         height:calc(200/1023*100vw);
     }
+    @include mixin.mq(sp){
+        width:calc(200/375*100vw);
+        height:calc(200/375*100vw);
+    }
     &:hover{
         opacity: 0;
     }

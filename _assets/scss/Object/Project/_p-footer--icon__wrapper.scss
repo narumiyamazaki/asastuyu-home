@@ -6,10 +6,10 @@
     justify-content: space-between;
     margin:0 auto;
     padding-top:3rem;
-    @include mixin.mq(sp){
-        width:55%;
-    }
     @include mixin.mq(tb){
         width:calc(200/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:55%;
     }
 }

@@ -7,12 +7,14 @@
     position:absolute;
     top:0%;
     left:calc(250/1440*100vw);
-    @include mixin.mq(sp){
-        left:0;
-        top:8%;
-    }
     @include mixin.mq(tb){
         top:8%;
         left:calc(50/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        left:0;
+        top:8%;
+        width:calc(100/375*100vw);
+        height:calc(100/375*100vw);
     }
 }
