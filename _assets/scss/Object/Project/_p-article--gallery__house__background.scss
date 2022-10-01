@@ -9,4 +9,7 @@
     @include mixin.mq(sp){
         height: auto;
     }
+    @include mixin.mq(tb){
+        height:calc(350/1023*100vw);
+    }
 }

@@ -20,6 +20,10 @@
         margin-top:2.5rem;
         left:-15%;
     }
+    @include mixin.mq(tb){
+        width:calc(250/1023*100vw);
+        left:calc(-130/1023*100vw);
+    }
     &:before{
         content:'';
         position:absolute;

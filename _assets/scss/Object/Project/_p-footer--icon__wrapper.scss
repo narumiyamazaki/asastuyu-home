@@ -9,4 +9,7 @@
     @include mixin.mq(sp){
         width:55%;
     }
+    @include mixin.mq(tb){
+        width:calc(200/1023*100vw);
+    }
 }

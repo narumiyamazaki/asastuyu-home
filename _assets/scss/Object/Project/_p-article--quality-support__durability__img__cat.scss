@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--quality-support__durability__img__cat{
     background:url(../images/durability-cat.jpg) no-repeat;
     background-size: cover;
@@ -7,5 +9,9 @@
     position: absolute;
     transition: .4s ease-in-out;
     bottom:0%;
+    @include mixin.mq(tb){
+        width:calc(200/1023*100vw);
+        height:calc(200/1023*100vw);
+    }
     //right:-150%;
 }

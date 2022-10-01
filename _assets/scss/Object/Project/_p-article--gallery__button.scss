@@ -17,6 +17,9 @@
         width:40%;
         margin-top:1rem;
     }
+    @include mixin.mq(tb){
+        width:calc(250/1023*100vw);
+    }
     &:before{
         content:'';
         position:absolute;

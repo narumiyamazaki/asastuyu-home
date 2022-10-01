@@ -8,14 +8,15 @@
     min-width: 40rem;
     height: auto;
     max-height: 40rem;
-    @include mixin.mq(sp){
-        width:calc(343/375*100vw);
-        max-width: none;
-        min-width: auto;
-    }
     @include mixin.mq(tb){
         width:calc(500/1023*100vw);
         max-width: none;
         min-width: auto;
+    }
+    @include mixin.mq(sp){
+        width:calc(343/375*100vw);
+        max-width: none;
+        min-width: auto;
+        display:none;
     }
 }

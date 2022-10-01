@@ -1,6 +1,13 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--line-up__wrapper{
     text-align: center;
     width:80%;
     position: relative;
     left: 10%;
+    @include mixin.mq(tb){
+        width:100%;
+        left:0;
+        margin-bottom:calc(40/1023*100vw);
+    }
 }

@@ -11,20 +11,21 @@
     //margin-right:10rem;
     position:relative;
     //right:20%;
-    @include mixin.mq(sp){
-        width:calc(343/375*100vw);
-        height:calc(643/375*100vw);
-        max-width:100vw;
-        min-width:auto;
-        max-height:100rem;
-        min-height:auto;
-        margin-right: 0;
-        background-size: calc(343/375*100vw) 60rem;
-        
-    }
     @include mixin.mq(tb){
         width:calc(1000/1023*100vw);
         height:calc(670/1023*100vw);
         background-position-x: calc(-20/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(343/375*100vw);
+        height:calc(743/375*100vw);
+        max-width:100vw;
+        min-width:auto;
+        //max-height:100rem;
+        min-height:auto;
+        margin-right: 0;
+        background-size: cover;
+        flex-direction: column;
+        background-position-x: calc(-32/375*100vw);
     }
 }

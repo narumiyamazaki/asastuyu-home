@@ -13,4 +13,8 @@
         width:15rem;
         height:15rem;
     }
+    @include mixin.mq(tb){
+        width:calc(300/1023*100vw);
+        height:calc(300/1023*100vw);
+    }
 }

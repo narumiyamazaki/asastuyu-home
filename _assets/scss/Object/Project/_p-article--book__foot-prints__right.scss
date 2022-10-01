@@ -17,6 +17,6 @@
         display: none;
     }
     @include mixin.mq(tb){
-        left:calc(400/1023*100vw);
+        left:calc(450/1023*100vw);
     }
 }

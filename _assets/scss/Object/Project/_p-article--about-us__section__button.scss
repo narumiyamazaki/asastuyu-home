@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--about-us__section__button{
     justify-content: center;
     align-items: center;
@@ -13,6 +15,12 @@
     letter-spacing: .4rem;
     display:block;
     position:relative;
+    @include mixin.mq(tb){
+        width:calc(250/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(200/375*100vw);
+    }
     &:before{
         content:'';
         position:absolute;

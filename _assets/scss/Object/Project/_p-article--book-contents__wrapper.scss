@@ -7,8 +7,12 @@
     left:calc(140/1440*100vw);
     margin-top:calc(120/1440*100vw);
     //width:calc(100/1440*100vw);
+    @include mixin.mq(tb){
+        margin-top:calc(120/1023*100vw);
+        left:calc(140/1023*100vw);
+    }
     @include mixin.mq(sp){
-        margin-top:8rem;
-        margin-left:5rem;
+        margin-top:calc(100/375*100vw);
+        margin-left:calc(50/375*100vw);
     }
 }

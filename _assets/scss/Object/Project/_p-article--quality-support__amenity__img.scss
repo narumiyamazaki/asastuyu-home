@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--quality-support__amenity__img{
     background: url(../images/amenity.jpg) no-repeat;
     background-size: cover;
@@ -9,6 +11,10 @@
     //right:-150%;
     z-index:10;
     transition: .4s ease-in-out;
+    @include mixin.mq(tb){
+        width:calc(200/1023*100vw);
+        height:calc(200/1023*100vw);
+    }
     &:hover{
         opacity: 0;
     }
