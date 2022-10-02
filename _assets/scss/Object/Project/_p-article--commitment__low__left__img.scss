@@ -10,4 +10,8 @@
         top:30%;
         left:5%;
     }
+    @include mixin.mq(sp){
+        top:0;
+        
+    }
 }

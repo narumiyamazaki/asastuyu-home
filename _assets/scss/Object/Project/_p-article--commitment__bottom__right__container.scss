@@ -11,4 +11,7 @@
         left:0;
         margin:0;
     }
+    @include mixin.mq(sp){
+        top:calc(400/375*100vw);
+    }
 }

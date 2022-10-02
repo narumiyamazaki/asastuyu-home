@@ -6,4 +6,7 @@
         position:relative;
         overflow: hidden;
     }
+    @include mixin.mq(sp){
+        padding-top:calc(50/375*100vw);
+    }
 }

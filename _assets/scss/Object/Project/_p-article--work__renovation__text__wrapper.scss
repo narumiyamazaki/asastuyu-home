@@ -9,7 +9,14 @@
     position: relative;
     left:15%;
     order:-1;
+    @include mixin.mq(tb){
+        width:45%;
+        left:0;
+        margin-left:5%;
+    }
     @include mixin.mq(sp){
-        left:2%;
+        width:100%;
+        order:1;
+        left:0;
     }
 }

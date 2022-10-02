@@ -1,13 +1,17 @@
 @use '../../../scss/Foundation/mixin';
 
 .p-article--work__renovation__heading3{
-    font-size:4rem;
+    font-size:calc(40/1440*100vw);
     font-family: tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
     color:rgb(51,51,51);
     font-weight: 600;
     line-height: 1;
     letter-spacing: .4rem;
+    @include mixin.mq(tb){
+        font-size:calc(32/1023*100vw);
+    }
     @include mixin.mq(sp){
-        font-size:1.6rem;
+        font-size:calc(32/375*100vw);
+        text-align: center;
     }
 }

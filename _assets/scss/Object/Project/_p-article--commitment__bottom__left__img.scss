@@ -13,4 +13,7 @@
         right:45%;
         object-fit: cover;
     }
+    @include mixin.mq(sp){
+        top:calc(200/375*100vw);
+    }
 }

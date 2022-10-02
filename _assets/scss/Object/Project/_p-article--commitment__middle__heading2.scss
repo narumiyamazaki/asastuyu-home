@@ -12,4 +12,7 @@
         width: 57%;
         left:24%;
     }
+    @include mixin.mq(sp){
+        bottom:calc(120/375*100vw);
+    }
 }

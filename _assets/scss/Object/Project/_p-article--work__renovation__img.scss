@@ -1,5 +1,15 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--work__renovation__img{
     object-fit: contain;
     width:50%;
     order:1;
+    @include mixin.mq(sp){
+        order:0;
+        width:100%;
+    }
+    @include mixin.mq(tb){
+        order:0;
+        width:50%;
+    }
 }

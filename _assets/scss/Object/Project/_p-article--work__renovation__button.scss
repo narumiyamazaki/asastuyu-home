@@ -23,7 +23,7 @@
     @include mixin.mq(sp){
         width:calc(140/375*100vw);
         margin-top:2.5rem;
-        left:-15%;
+        left:0;
     }
     &:before{
         content:'';

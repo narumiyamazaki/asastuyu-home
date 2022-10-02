@@ -6,6 +6,9 @@
     font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
     margin-bottom: 2rem;
     @include mixin.mq(tb){
-        font-size:1.6rem;
+        font-size:calc(16/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        font-size:calc(14/375*100vw);
     }
 }

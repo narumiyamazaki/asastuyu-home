@@ -9,4 +9,7 @@
         height: 48rem;
         background-position-y: -30rem;
     }
+    @include mixin.mq(sp){
+        height:calc(320/375*100vw);
+    }
 }

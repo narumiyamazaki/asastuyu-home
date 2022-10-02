@@ -12,4 +12,8 @@
         position: relative;
         right: 11%;
     }
+    @include mixin.mq(sp){
+        right:calc(70/375*100vw);
+        top:calc(-30/375*100vw);
+    }
 }

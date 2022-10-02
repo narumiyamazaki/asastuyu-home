@@ -13,4 +13,8 @@
         transform:scale(1.2,1.2);
         margin-bottom:13rem;
     }
+    @include mixin.mq(sp){
+        margin-bottom:calc(10/375*100vw);
+        right:0;
+    }
 }

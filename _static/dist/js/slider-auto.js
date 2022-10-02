@@ -9,5 +9,13 @@ $(function(){
       arrows: true, //矢印非表示
       pauseOnFocus: false, //スライダーをフォーカスした時にスライドを停止させるか
       pauseOnHover: false, //スライダーにマウスホバーした時にスライドを停止させるか
+      responsive:[
+        {
+            breakpoint: 400, // 399px以下のサイズに適用
+            settings: {
+            slidesToShow: 1,
+            },
+        },
+    ],
     });
 });

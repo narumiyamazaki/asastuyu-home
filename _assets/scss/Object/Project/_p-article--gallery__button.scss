@@ -17,7 +17,7 @@
         width:calc(250/1023*100vw);
     }
     @include mixin.mq(sp){
-        width:40%;
+        width:50%;
         margin-top:.5rem;
     }
     &:before{

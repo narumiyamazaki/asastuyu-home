@@ -9,4 +9,7 @@
         left:120%;
         top:90%;
     }
+    @include mixin.mq(sp){
+        left:calc(75/375*100vw);
+    }
 }

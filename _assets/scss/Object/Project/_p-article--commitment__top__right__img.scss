@@ -15,4 +15,8 @@
         object-fit: cover;
         background-position-x: -10rem;
     }
+    @include mixin.mq(sp){
+        left:0;
+        right:calc(50/375*100vw);
+    }
 }

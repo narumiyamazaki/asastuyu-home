@@ -3,13 +3,16 @@
 .p-article--reason__text{
     font-family:'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
     color:rgb(85,85,85);
-    font-size:1.3rem;
+    font-size:calc(16/1440*100vw);
     line-height: 2.5rem;
     @include mixin.mq(tb){
         width:86%;
         margin:0 auto;
-        font-size:2rem;
+        font-size:calc(16/1023*100vw);
         line-height: 1.8;
         letter-spacing: .2rem;
+    }
+    @include mixin.mq(sp){
+        font-size:calc(14/375*100vw);
     }
 }

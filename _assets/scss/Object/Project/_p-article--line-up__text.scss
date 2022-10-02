@@ -1,0 +1,11 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article--line-up__text{
+    font-size:calc(16/1440*100vw);
+    @include mixin.mq(tb){
+        font-size:calc(16/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        font-size:calc(14/1023*100vw);
+    }
+}
