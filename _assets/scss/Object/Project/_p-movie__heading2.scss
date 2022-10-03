@@ -1,0 +1,17 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-movie__heading2{
+    margin-top: calc(25/1440*100vw);
+    font-size: calc(32/1440*100vw);
+    font-weight: 700;
+    color:#D61043; 
+    text-shadow:#ffffff -1px -1px 0px, #ffffff -1px 1px 0px, #ffffff 1px 1px 0px, #ffffff 1px -1px 0px;
+    font-family: skip,ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
+    @include mixin.mq(tb){
+        margin-top:calc(5/1023*100vw);
+        font-size:calc(40/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        font-size:calc(18/375*100vw);
+    }
+}

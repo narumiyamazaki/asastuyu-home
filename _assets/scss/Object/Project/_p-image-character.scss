@@ -1,9 +1,0 @@
-@use '../../../scss/Foundation/mixin';
-
-.p-image-character{
-    width:12%;
-    order: -1;
-    @include mixin.mq(sp){
-        width:calc(60/375*100vw);
-    }
-}

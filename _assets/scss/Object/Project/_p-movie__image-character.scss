@@ -1,0 +1,9 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-movie__image-character{
+    width:calc(200/1440*100vw);
+    order: -1;
+    @include mixin.mq(sp){
+        width:calc(60/375*100vw);
+    }
+}

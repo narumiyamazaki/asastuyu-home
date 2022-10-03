@@ -1,0 +1,13 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-movie__wrapper__contents{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top: calc(200/1440*100vw);
+    align-items: center;
+    //width: 100%;
+    @include mixin.mq(sp){
+        top:5%;
+    }
+}

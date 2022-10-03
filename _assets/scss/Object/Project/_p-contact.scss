@@ -3,8 +3,8 @@
     background-size: contain;
     /*背景画像を繰り返さない*/
     background-repeat:no-repeat;
-    width: 14rem;
-    height: 6.5rem;
+    width: calc(160/1440*100vw);
+    height: calc(70/1440*100vw);
     &.is-open{
         display: none;
     }

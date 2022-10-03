@@ -54,10 +54,10 @@
                             </ul>
                         </li>
                         <div class="p-header__icon__wrapper">
-                            <div class="p-header__icon--facebook"></div>
-                            <div class="p-header__icon--twitter"><a href="#"></a></div>
-                            <div class="p-header__icon--youtube"><a href="#"></a></div>
-                            <div class="p-header__icon--instagram"><a href="#"></a></div>
+                            <div class="p-header__icon--facebook"><a class="p-header__icon__link--facebook" href="#"></a></div>
+                            <div class="p-header__icon--twitter"><a class="p-header__icon__link--twitter" href="#"></a></div>
+                            <div class="p-header__icon--youtube"><a class="p-header__icon__link--youtube" href="#"></a></div>
+                            <div class="p-header__icon--instagram"><a class="p-header__icon__link--instagram" href="#"></a></div>
                         </div>
                         <a class="p-contact" href="#"></a>
                     </ul>
@@ -66,30 +66,27 @@
         </header>
         <!--動画部分-->
         <main class="l-main">
-            <article class="p-movie--wrapper">
-                <video class="p-movie--top" src="./movie/TOP-movie.mp4" autoplay muted loop playsinline></video>
-                <div class="p-movie--wrapper__contents">
-                    <img class="p-image-character" src="images/cat-home.png" alt="猫のイメージキャラクター">
-                    <h2 class="p-top-head--logo"></h2>
-                    <h3 class="p-top-head--heading3">楽しい我が家！</h3>
-                    <div class="p-top-head--text__wrapper">
-                        <p class="p-top-head--text">わたしたちASATUSYUホームは<br>「必ず満足できる家づくり」のお手伝いをします。<br>世界にひとつだけの<br>お家を一緒に作りましょう！</p>
-                    </div>
-                    <button class="p-top-head--button" href="#">お家づくりを相談</button>
-                    <button class="p-button--scroll__pick-up">SCROLL</button>
+            <article class="p-movie__wrapper">
+                <video class="p-movie" src="./movie/TOP-movie.mp4" autoplay muted loop playsinline></video>
+                <div class="p-movie__wrapper__contents">
+                    <img class="p-movie__image-character" src="images/cat-home.png" alt="猫のイメージキャラクター">
+                    <h2 class="p-movie__heading2">楽しい我が家！</h2>
+                    <p class="p-movie__text">わたしたちASATUSYUホームは<br>「必ず満足できる家づくり」のお手伝いをします。<br>世界にひとつだけの<br>お家を一緒に作りましょう！</p>
+                    <button class="p-movie__button" href="#">お家づくりを相談</button>
+                    <button class="p-scroll__pick-up">SCROLL</button>
                 </div>
             </article>
-            <section id="pick-up" class="p-section--pick-up fade-down-trigger delayScroll">
-                <div class="p-section--pick-up__wrapper box">
-                    <h3 class="p-section--pick-up__heading3">PICK&nbsp;UP</h3>
-                    <p class="p-section--pick-up__text">ASATSUYUホームのピックアップ情報</p>
+            <section id="pick-up" class="p-section__pick-up fade-down-trigger delayScroll">
+                <div class="p-section__pick-up__wrapper box">
+                    <h2 class="p-section__pick-up__heading2">PICK&nbsp;UP</h3>
+                    <p class="p-section__pick-up__text">ASATSUYUホームのピックアップ情報</p>
                 </div>
-                <div class="p-section--pick-up__item__wrapper delayScroll">
-                    <figure class="p-section--pick-up__about-JamHome box">
+                <div class="p-section__pick-up__item__wrapper delayScroll">
+                    <figure class="p-section__pick-up__about-JamHome box">
                         <img class="p-section--pick-up__about-JamHome__img" src="images/pick-up__about-ASASTUYU.png">
-                        <h4 class="p-section--pick-up__heading4">ASATSUYUホームってどんな会社？</h4>
-                        <a class="p-section--pick-up__read-more" href="#">read&nbsp;more</a>
-                        <figcaption class="p-section--pick-up__figcaption">注文住宅はもちろん、不動産のご紹介・売却などを行っております！
+                        <h3 class="p-section__pick-up__heading3">ASATSUYUホームってどんな会社？</h3>
+                        <a class="p-section__pick-up__read-more" href="#">read&nbsp;more</a>
+                        <figcaption class="p-section__pick-up__figcaption">注文住宅はもちろん、不動産のご紹介・売却などを行っております！
                     </figure>
                     <figure class="p-section--pick-up__movie box">
                         <img class="p-section--pick-up__movie__img" src="images/pick-up__movie.png">

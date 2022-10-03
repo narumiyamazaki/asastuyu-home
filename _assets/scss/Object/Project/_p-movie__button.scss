@@ -1,0 +1,18 @@
+.p-movie__button{
+    border-radius: 10rem;
+    background: #D61043;
+    border: .1rem solid #D61043;
+    font-size: 1rem;
+    font-weight:600;
+    color:#fafafa;
+    order:3;
+    margin-top: calc(20/1440*100vw);
+    padding: calc(15/1440*100vw) calc(50/1440*100vw);
+    letter-spacing: .4rem;
+    
+    &:hover{
+        background: #fff;
+        color:#D61043;
+        transition: .2s;
+    }
+}

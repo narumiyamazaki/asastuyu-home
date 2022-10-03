@@ -9,7 +9,7 @@
     //サブメニュー部分
     >li > a {
         background: #fff;
-        padding:.8rem 0 .8rem .5rem;
+        padding:calc(10/1440*100vw) 0 calc(10/1440*100vw) calc(8/1440*100vw);
         font-size: max(calc(18/1440*100vw),16px);
         display: flex;
         font-family: "libre baskerville",serif;
@@ -30,9 +30,9 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    width:23.5%;
+    width:calc(320/1440*100vw);
     position:relative;
-    min-height: 42rem;
+    min-height:calc(500/1440*100vw);
     @include mixin.mq(tb){
         width:100%;
         min-height:0;
