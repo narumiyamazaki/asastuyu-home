@@ -70,34 +70,3 @@ $(function() {
       });
     });
   });
-
-    $(function() {
-      // hoverを使用
-      $(".p-nav__company-profile > a").hover(function(){
-        $(".p-sub-menu--company-profile").toggleClass("is-block");p-main-menu
-        //ホバーが離れた時
-      }, function(){
-        $(".p-sub-menu--company-profile").toggleClass("is-block");
-      });
-    });
-
-       //ヘッダーメニューのナビゲーション部分開閉
-       $(function() {
-        // hoverを使用
-        $(".p-nav__custom-home > a").hover(function(){
-          $(".p-sub-menu__custom-home").toggleClass("is-block");
-          //ホバーが離れた時
-        }, function(){
-          $(".p-sub-menu__custom-home").toggleClass("is-block");
-        });
-      });
-       //ヘッダーメニューのナビゲーション部分開閉
-       $(function() {
-        // hoverを使用
-        $(".p-nav__about > a").hover(function(){
-          $(".p-sub-menu__about").toggleClass("is-block");
-          //ホバーが離れた時
-        }, function(){
-          $(".p-sub-menu__about").toggleClass("is-block");
-        });
-      });

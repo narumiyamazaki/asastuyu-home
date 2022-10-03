@@ -5,7 +5,7 @@
     @extend %p-sub-menu__about;    
 }
 
-.p-sub-menu__custom-home.is-block{
+.p-nav__custom-home:hover .p-sub-menu__custom-home{
     display: block;
     background-color: #fff;
     @include mixin.mq(tb){

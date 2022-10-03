@@ -11,6 +11,7 @@
     background-color: #fff;
     @include mixin.mq(tb){
         position: relative;
+        width:auto;
     }
 }
 /*

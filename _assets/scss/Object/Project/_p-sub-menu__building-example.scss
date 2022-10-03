@@ -4,3 +4,12 @@
 .p-sub-menu__building-example {
     @extend %p-sub-menu__about;    
 }
+
+.p-nav__building-example:hover .p-sub-menu__building-example{
+    display: block;
+    background-color: #fff;
+    @include mixin.mq(tb){
+        position: relative;
+        width:auto;
+    }
+}

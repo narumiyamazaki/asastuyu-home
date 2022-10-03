@@ -3,6 +3,8 @@
 @use './p-main-menu';
 @use './p-header--home-link';
 @use './p-header__heading1';
+@use './p-nav__about';
+//@use './p-sub-menu__about__link';
 @use './p-nav__custom-home';
 @use './p-nav__company-profile';
 @use './p-sub-menu__custom-home';
@@ -197,11 +199,11 @@
 @use './p-footer--summo';
 @use './p-footer--summo__tb';
 @use './p-footer--copy';
-@use './p-icon--header__wrapper';
-@use './p-icon--header__facebook';
-@use './p-icon--header__twitter';
-@use './p-icon--header__youtube';
-@use './p-icon--header__instagram';
+@use './p-header__icon__wrapper';
+@use './p-header__icon--facebook';
+@use './p-header__icon--twitter';
+@use './p-header__icon--youtube';
+@use './p-header__icon--instagram';
 @use './p-article--gallery__link';
 
 //JamHomeエステートとは

@@ -1,0 +1,9 @@
+@use '../../Foundation/extend';
+@use '../../Foundation/mixin';
+
+.p-nav__about{
+    width:calc(220/1440*100vw);
+    @include mixin.mq(tb){
+        width:auto;
+    }
+}

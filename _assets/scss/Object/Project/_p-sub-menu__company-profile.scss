@@ -5,6 +5,11 @@
     @extend %p-sub-menu__about;
 }
 
-.p-sub-menu__company-profile.is-block{
+.p-nav__company-profile:hover .p-sub-menu__company-profile{
     display: block;
+    background-color: #fff;
+    @include mixin.mq(tb){
+        position: relative;
+        width:auto;
+    }
 }

@@ -1,0 +1,8 @@
+.p-header__icon__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width:max(calc(130/1440*100vw),130px);
+    &.is-open{
+        display: none;
+    }
+}

@@ -10,15 +10,18 @@
     >li > a {
         background: #fff;
         padding:.8rem 0 .8rem .5rem;
-        font-size: 1rem;
+        font-size: max(calc(18/1440*100vw),16px);
         display: flex;
-        width: 12rem;
         font-family: "libre baskerville",serif;
+        width:calc(220/1440*100vw);   
         @include mixin.mq(tb){
-            font-size:2rem;
+            font-size:calc(24/1023*100vw);
             justify-content: center;
             width:100%;
             position: relative;
+            }
+        @include mixin.mq(sp){
+            font-size:calc(20/375*100vw);
             }
         }
     }
