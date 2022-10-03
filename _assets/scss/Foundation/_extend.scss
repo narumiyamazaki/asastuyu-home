@@ -1,7 +1,7 @@
 //extend
 @use '../Foundation/mixin';
 
-%p-sub-menu--about {
+%p-sub-menu__about {
     display: none;
     position: absolute;
     z-index:1;

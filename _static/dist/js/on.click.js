@@ -36,23 +36,11 @@ $(function() {
       $(this).toggleClass('is-block');
     });
 
-
-    //ヘッダーメニューのナビゲーション部分開閉
-    $(function() {
-      // hoverを使用
-      $(".p-nav--custom-home > a").hover(function(){
-        $(".p-sub-menu--custom-home").toggleClass("is-block");
-        //ホバーが離れた時
-      }, function(){
-        $(".p-sub-menu--custom-home").toggleClass("is-block");
-      });
-    });
-
     //ハンバーガーメニューの開閉
     $('.p-nav-btn').on('click',function(){
-      $(".p-header--nav-body").toggleClass("is-open");
-      $(".p-header--heading1").toggleClass("is-open");
-      $(".p-header--link").toggleClass("is-open");
+      $(".p-header__nav-body").toggleClass("is-open");
+      $(".p-header__heading1").toggleClass("is-open");
+      $(".p-header__link").toggleClass("is-open");
       $('.p-main-menu').toggleClass('is-open');
       $('.p-icon--header__wrapper').toggleClass('is-open');
       $('.p-contact').toggleClass('is-open');
@@ -67,9 +55,9 @@ $(function() {
         $(function(){
           //pc
         if (window.matchMedia("(min-width: 1024px)").matches) {
-          $(".p-header--nav-body").removeClass("is-open");
-          $(".p-header--heading1").removeClass("is-open");
-          $(".p-header--link").removeClass("is-open");
+          $(".p-header__nav-body").removeClass("is-open");
+          $(".p-header__heading1").removeClass("is-open");
+          $(".p-header__link").removeClass("is-open");
           $('.p-main-menu').removeClass('is-open');
           $('.p-icon--header__wrapper').removeClass('is-open');
           $('.p-contact').removeClass('is-open');
@@ -85,10 +73,31 @@ $(function() {
 
     $(function() {
       // hoverを使用
-      $(".p-nav--company-profile > a").hover(function(){
-        $(".p-sub-menu--company-profile").toggleClass("is-block");
+      $(".p-nav__company-profile > a").hover(function(){
+        $(".p-sub-menu--company-profile").toggleClass("is-block");p-main-menu
         //ホバーが離れた時
       }, function(){
         $(".p-sub-menu--company-profile").toggleClass("is-block");
       });
     });
+
+       //ヘッダーメニューのナビゲーション部分開閉
+       $(function() {
+        // hoverを使用
+        $(".p-nav__custom-home > a").hover(function(){
+          $(".p-sub-menu__custom-home").toggleClass("is-block");
+          //ホバーが離れた時
+        }, function(){
+          $(".p-sub-menu__custom-home").toggleClass("is-block");
+        });
+      });
+       //ヘッダーメニューのナビゲーション部分開閉
+       $(function() {
+        // hoverを使用
+        $(".p-nav__about > a").hover(function(){
+          $(".p-sub-menu__about").toggleClass("is-block");
+          //ホバーが離れた時
+        }, function(){
+          $(".p-sub-menu__about").toggleClass("is-block");
+        });
+      });

@@ -9,8 +9,13 @@
     //ピンク背景より下に
     z-index: -10;
     @include mixin.mq(tb){
-        width:80%;
+        width:calc(450/1023*100vw);
         overflow: hidden;
+        right:0;
+        top:calc(200/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:80%;
         top:-4%;
         right:-20%;
     }

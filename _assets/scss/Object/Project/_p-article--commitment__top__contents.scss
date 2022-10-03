@@ -4,7 +4,12 @@
     width:40%;
     position:relative;
     padding:5rem 0 0;
+    @include mixin.mq(tb){
+        left:calc(30/1023*100vw);
+        width:100%;
+    }
     @include mixin.mq(sp){
+        left:0;
         padding:0;
     }
 }

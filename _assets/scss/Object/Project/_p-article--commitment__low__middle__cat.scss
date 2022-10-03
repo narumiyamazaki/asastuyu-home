@@ -9,6 +9,10 @@
     left: 50%;
     top: 15%;
     @include mixin.mq(tb){
+        left:calc(180/1023*100vw);
+        top:calc(1100/1023*100vw);
+    }
+    @include mixin.mq(sp){
         left:20%;
         top:70%;
     }

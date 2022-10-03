@@ -2,7 +2,7 @@
 
 .l-header {
     display: flex;
-    padding-left:2rem;
+    padding-left:calc(20/1440*100vw);
     // justify-content: space-between;
     //headerを固定する場合
     position:fixed;
@@ -12,11 +12,11 @@
     z-index:100;
     justify-content: space-between;
     background: #fff;
+    height: 8rem;
     &.is-open{
         background: #EEECE4;
     }
     @include mixin.mq(tb){
-        height: 8rem;
         padding-left:0;
     }
 }

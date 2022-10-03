@@ -7,11 +7,11 @@
     margin-bottom: 3rem;
     @include mixin.mq(tb){
         position: relative;
-        right:20%;
         z-index: -1;
-        width: 40%;
+        width: calc(250/1023*100vw);
+        top:calc(60/1023*100vw);
         transform:scale(1.2,1.2);
-        margin-bottom:13rem;
+        //margin-bottom:13rem;
     }
     @include mixin.mq(sp){
         margin-bottom:calc(10/375*100vw);

@@ -8,7 +8,11 @@
     bottom:30%;
     right:0%;
     @include mixin.mq(tb){
-        top:1040%;
-        right:20%;
+        top:calc(1200/1023*100vw);
+        right:calc(350/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        right:calc(10/375*100vw);
+        top:calc(500/375*100vw);
     }
 }

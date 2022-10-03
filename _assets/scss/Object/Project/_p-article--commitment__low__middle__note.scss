@@ -9,6 +9,12 @@
     left: 57%;
     top:14%;
     @include mixin.mq(tb){
+        width:calc(40/1023*100vw);
+        height:calc(40/1023*100vw);
+        top:calc(1100/1023*100vw);
+        left:calc(340/1023*100vw);
+    }
+    @include mixin.mq(sp){
         width:4rem;
         height:4rem;
         top:70%;

@@ -1,13 +1,14 @@
 @use '../../Foundation/mixin';
 
-.p-header--heading1{
-    width:25%;
+.p-header__heading1{
+    width:calc(360/1440*100vw);
     margin:0;
     display: flex;
     align-items: center;
+    height:8rem;
     @include mixin.mq(tb){
-        width:60%;
-        margin-left:2rem;
+        width:calc(864/1440*100vw);
+        margin-left:calc(20/1440*100vw);
     }
     &.is-open{
         display: none;

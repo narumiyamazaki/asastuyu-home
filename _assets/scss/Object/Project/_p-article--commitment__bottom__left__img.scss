@@ -7,13 +7,15 @@
     right:5%;
     z-index:-10;
     @include mixin.mq(tb){
-        width:50%;
+        width:calc(400/1023*100vw);
         position:absolute;
-        top:28%;
-        right:45%;
+        top:calc(30/1023*100vw);
+        right:0;
+        left:0;
         object-fit: cover;
     }
     @include mixin.mq(sp){
+        top:28%;
         top:calc(200/375*100vw);
     }
 }

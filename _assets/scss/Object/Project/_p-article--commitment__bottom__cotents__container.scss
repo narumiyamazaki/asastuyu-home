@@ -1,3 +1,8 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article--commitment__bottom__cotents__container{
     position:relative;
+    @include mixin.mq(tb){
+        height:calc(1000/1023*100vw);
+    }
 }

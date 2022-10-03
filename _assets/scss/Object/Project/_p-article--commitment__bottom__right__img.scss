@@ -7,10 +7,14 @@
     position: relative;
     right:10%;
     @include mixin.mq(tb){
-        width: 35%;
+        width: calc(270/1023*100vw);
         position: absolute;
-        right:6%;
+        right:3%;
         top:39%;
         transform: rotate(-4deg);
+    }
+    @include mixin.mq(sp){
+        width: 35%;
+        top:calc(250/375*100vw);
     }
 }

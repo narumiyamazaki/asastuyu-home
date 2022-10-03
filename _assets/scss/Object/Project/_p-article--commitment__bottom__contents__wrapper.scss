@@ -4,9 +4,9 @@
     display: flex;
     @include mixin.mq(tb){
         flex-direction: column;
-        height:140rem;
+        height:calc(600/1023*100vw);
     }
     @include mixin.mq(sp){
-        height:calc(1600/375*100vw);
+        height:calc(1000/375*100vw);
     }
 }

@@ -1,6 +1,6 @@
 @use '../../Foundation/mixin';
 
-.p-nav--company-profile{
+.p-nav__company-profile{
     @include mixin.mq(tb){
         position: relative;
         display: block;

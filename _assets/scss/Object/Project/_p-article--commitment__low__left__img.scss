@@ -5,13 +5,13 @@
     transform: rotate(-5deg);
     width:45%;
     @include mixin.mq(tb){
-        width:40%;
+        width:calc(280/1023*100vw);
         position: absolute;
-        top:30%;
-        left:5%;
+        top:calc(800/1023*100vw);
+        left:2%;
     }
     @include mixin.mq(sp){
-        top:0;
-        
+        width:40%;
+        top:calc(80/375*100vw);        
     }
 }

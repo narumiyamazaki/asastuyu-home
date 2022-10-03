@@ -12,6 +12,11 @@
     @include mixin.mq(tb){
         width:75%;
         height:15%;
+        bottom:calc(1600/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:75%;
+        height:15%;
         bottom:55%;
     }
 }
