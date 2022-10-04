@@ -1305,16 +1305,16 @@ a {
   }
 }
 
-.p-article--about-us__heading2 {
+.p-article__about-us__heading2 {
   writing-mode: vertical-rl;
   font-family: sukushioldmincho, ms mincho, ヒラギノ明朝 pro w3, hiragino mincho pro, serif;
   color: #D61043;
-  font-size: 2.3rem;
+  font-size: 1.9444444444vw;
   font-weight: 800;
-  padding: 3rem 3rem 0 3rem;
+  padding: 2.7777777778vw 2.7777777778vw 0;
 }
 @media screen and (max-width: 767px) {
-  .p-article--about-us__heading2 {
+  .p-article__about-us__heading2 {
     writing-mode: horizontal-tb;
   }
 }
@@ -1415,70 +1415,70 @@ a {
   bottom: 13.8888888889vw;
 }
 
-.p-article--about-us__img__left-three-tree {
+.p-article__about-us__img__left-three-tree {
   background: url(../images/three-tree.png) no-repeat;
   background-size: contain;
-  min-width: 6.8rem;
-  min-height: 6.8rem;
+  width: 5.5555555556vw;
+  height: 5.5555555556vw;
   position: absolute;
   z-index: 9;
-  left: 21%;
-  bottom: 23%;
+  left: 11.1111111111vw;
+  bottom: 8.3333333333vw;
 }
 
-.p-article--about-us__img__right-three-tree {
+.p-article__about-us__img__right-three-tree {
   background: url(../images/three-tree.png) no-repeat;
   background-size: contain;
-  min-width: 6.8rem;
-  min-height: 6.8rem;
+  width: 5.5555555556vw;
+  height: 5.5555555556vw;
   position: absolute;
   z-index: 9;
-  right: 24%;
-  bottom: 23%;
+  right: 11.1111111111vw;
+  bottom: 7.6388888889vw;
 }
 
-.p-article--about-us__img__left-green-tree {
+.p-article__about-us__img__left-green-tree {
   background: url(../images/green-tree.png) no-repeat;
   background-size: contain;
-  min-width: 6.8rem;
-  min-height: 6.8rem;
+  width: 5.5555555556vw;
+  height: 5.5555555556vw;
   position: absolute;
   z-index: 9;
-  left: 3%;
-  bottom: 20%;
+  left: 2.0833333333vw;
+  bottom: 5.5555555556vw;
 }
 
-.p-article--about-us__img__left-red-tree {
+.p-article__about-us__img__left-red-tree {
   background: url(../images/red-tree.png) no-repeat;
   background-size: contain;
-  min-width: 6.8rem;
-  min-height: 6.8rem;
+  width: 5.5555555556vw;
+  height: 5.5555555556vw;
   position: absolute;
   z-index: 9;
-  left: 13%;
-  bottom: 18%;
+  left: 5.5555555556vw;
+  bottom: 6.25vw;
 }
 
-.p-article--about-us__img__right-green-tree {
+.p-article__about-us__img__right-green-tree {
   background: url(../images/green-tree.png) no-repeat;
   background-size: contain;
-  min-width: 6.8rem;
-  min-height: 6.8rem;
+  width: 5.5555555556vw;
+  height: 5.5555555556vw;
   position: absolute;
   z-index: 9;
-  right: -3.5%;
-  top: 69%;
+  right: -0.6944444444vw;
+  top: 21.5277777778vw;
 }
 
-.p-article--about-us__img__right-red-tree {
+.p-article__about-us__img__right-red-tree {
   background: url(../images/red-tree.png) no-repeat;
   background-size: contain;
-  min-width: 6.8rem;
-  min-height: 6.8rem;
+  width: 5.5555555556vw;
+  height: 5.5555555556vw;
   position: absolute;
   z-index: 9;
-  top: 66%;
-  right: 6%;
+  right: 2.7777777778vw;
+  bottom: 5.5555555556vw;
 }
 
 .p-article__about-us__img__home {
@@ -1615,34 +1615,34 @@ a {
   height: 5rem;
 }
 
-.p-article--about-us__gif__left-cat {
+.p-article__about-us__gif__left-cat {
   background: url(../images/left-cat.gif) no-repeat;
   background-size: contain;
-  width: 9rem;
-  height: 9rem;
+  width: 7.6388888889vw;
+  height: 7.6388888889vw;
   position: absolute;
-  bottom: -13%;
-  left: 10%;
+  bottom: -6.25vw;
+  left: 4.1666666667vw;
 }
 
-.p-article--about-us__gif__center-cat {
+.p-article__about-us__gif__center-cat {
   background: url(../images/center-cat.png) no-repeat;
   background-size: contain;
-  width: 11rem;
-  height: 4rem;
+  width: 8.3333333333vw;
+  height: 3.4722222222vw;
   position: absolute;
-  bottom: -10%;
-  left: 36%;
+  bottom: -4.8611111111vw;
+  left: 17.3611111111vw;
 }
 
-.p-article--about-us__gif__right-cat {
+.p-article__about-us__gif__right-cat {
   background: url(../images/right-cat.gif) no-repeat;
   background-size: contain;
-  width: 9rem;
-  height: 9rem;
+  width: 6.9444444444vw;
+  height: 6.9444444444vw;
   position: absolute;
-  bottom: -13%;
-  right: 12%;
+  bottom: -6.25vw;
+  right: 4.1666666667vw;
 }
 
 .p-article--book__wrapper {

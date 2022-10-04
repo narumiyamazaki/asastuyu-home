@@ -1,0 +1,9 @@
+.p-article__about-us__gif__left-cat{
+    background: url(../images/left-cat.gif) no-repeat;
+    background-size:contain;
+    width: calc(110/1440*100vw);
+    height: calc(110/1440*100vw);
+    position: absolute;
+    bottom: calc(-90/1440*100vw);
+    left: calc(60/1440*100vw);
+}

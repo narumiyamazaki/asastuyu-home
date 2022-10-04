@@ -1,0 +1,9 @@
+.p-article__about-us__gif__right-cat{
+    background: url(../images/right-cat.gif) no-repeat;
+    background-size:contain;
+    width: calc(100/1440*100vw);
+    height: calc(100/1440*100vw);
+    position: absolute;
+    bottom: calc(-90/1440*100vw);
+    right: calc(60/1440*100vw); 
+}

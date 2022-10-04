@@ -1,13 +1,13 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--about-us__heading2{
+.p-article__about-us__heading2{
     //flexboxを均等にするための記述
     writing-mode: vertical-rl;
     font-family: sukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
     color: #D61043;
-    font-size: 2.3rem;
+    font-size: calc(28/1440*100vw);
     font-weight: 800;
-    padding:3rem 3rem 0 3rem;
+    padding:calc(40/1440*100vw) calc(40/1440*100vw) 0;
     @include mixin.mq(sp){
         writing-mode: horizontal-tb;
     }

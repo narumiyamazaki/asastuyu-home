@@ -1,0 +1,10 @@
+.p-article__about-us__img__right-red-tree{
+    background:url(../images/red-tree.png) no-repeat;
+    background-size: contain;
+    width: calc(80/1440*100vw);
+    height: calc(80/1440*100vw);
+    position:absolute;
+    z-index:9;
+    right:calc(40/1440*100vw);
+    bottom:calc(80/1440*100vw);
+}

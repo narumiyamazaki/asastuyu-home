@@ -1,0 +1,9 @@
+.p-article__about-us__gif__center-cat{
+    background: url(../images/center-cat.png) no-repeat;
+    background-size:contain;
+    width: calc(120/1440*100vw);
+    height: calc(50/1440*100vw);
+    position: absolute;
+    bottom: calc(-70/1440*100vw);
+    left: calc(250/1440*100vw);
+}
