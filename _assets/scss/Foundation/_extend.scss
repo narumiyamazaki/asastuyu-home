@@ -26,7 +26,7 @@
         }
     }
 
-%p-section--pick-up__about-JamHome{
+%p-section__pick-up__about{
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -39,14 +39,15 @@
     }
 }
 
-%p-section--pick-up__about-JamHome__img {
-    padding: 1.5rem;
+%p-section__pick-up__about__img {
+    padding: calc(20/1440*100vw);
     order: 0;
-    height: 20.5rem;
-    max-height: 21rem;
+    height: calc(220/1440*100vw);
+    //max-height: 21rem;
     object-fit: cover;
 }
 
+/*
 %p-section--pick-up__heading4{
     color: #555555;
     padding: 0.5 1.5rem;
@@ -54,6 +55,7 @@
     font-weight: 600;
     order: 1;
 }
+
 
 %p-section--pick-up__read-more{
     color: #D61043;
@@ -68,6 +70,7 @@
     font-size: 1.3rem;
     padding: 0.5rem 1.5rem;
 }
+*/
 
 %p-article--gallery__country__caption{
     order:-1;

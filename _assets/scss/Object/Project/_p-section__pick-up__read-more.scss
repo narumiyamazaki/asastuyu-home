@@ -9,6 +9,7 @@
     //bottom: 1%;
     margin:calc(15/1440*100vw) auto 0;
     display: block;
+    margin-top:auto;
     @include mixin.mq(tb){
         position:static;
         margin:0 auto;

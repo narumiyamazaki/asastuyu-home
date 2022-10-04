@@ -1,0 +1,9 @@
+.p-article__about-us__img__balloon__buttom{
+    background:url(../images/balloon__buttom.png) no-repeat;
+    background-size:contain;
+    width: calc(60/1440*100vw);
+    height: calc(60/1440*100vw);
+    position:absolute;
+    left:calc(150/1440*100vw);
+    top:calc(200/1440*100vw);
+}

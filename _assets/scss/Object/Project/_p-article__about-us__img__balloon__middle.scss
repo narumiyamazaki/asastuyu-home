@@ -1,8 +1,8 @@
-.p-article--about-us__img__balloon__middle{
+.p-article__about-us__img__balloon__middle{
     background: url(../images/balloon__middle.png) no-repeat;
     background-size:contain;
-    min-width: 5.5rem;
-    min-height: 5.5rem;
+    width: calc(60/1440*100vw);
+    height: calc(60/1440*100vw);
     position:absolute;
     right:12%;
     top:44%;

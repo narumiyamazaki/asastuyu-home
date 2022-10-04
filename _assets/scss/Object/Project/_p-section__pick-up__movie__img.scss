@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.p-section__pick-up__movie__img {
+    @extend %p-section__pick-up__about__img;
+}

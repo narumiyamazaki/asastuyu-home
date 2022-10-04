@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.p-section__pick-up__about{
+    @extend %p-section__pick-up__about;
+}

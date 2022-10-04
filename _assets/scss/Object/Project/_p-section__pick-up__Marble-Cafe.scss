@@ -1,0 +1,5 @@
+@use '../../Foundation/extend';
+
+.p-section__pick-up__Marble-Cafe{
+    @extend %p-section__pick-up__about;
+}
