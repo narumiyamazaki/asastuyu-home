@@ -1951,7 +1951,6 @@ a {
 
 .p-article__line-up__figure {
   margin-left: 1.1111111111vw;
-  overflow: hidden;
   width: 19.4444444444vw;
   height: 13.8888888889vw;
 }
@@ -1977,12 +1976,12 @@ a {
   }
 }
 
-.p-article--line-up {
+.p-article__line-up {
   background: url(../images/background-pink.png);
-  padding-bottom: 15rem;
+  padding-bottom: 8.3333333333vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--line-up {
+  .p-article__line-up {
     padding-bottom: 9.7751710655vw;
   }
 }
@@ -2047,6 +2046,10 @@ a {
   width: 83.3333333333vw;
   position: relative;
   left: 8.3333333333vw;
+}
+
+.p-article__line-up__french-bulldog-house {
+  padding-bottom: 3.4722222222vw;
 }
 
 .p-article--line-up__button {
@@ -2569,15 +2572,16 @@ a {
   }
 }
 
-.p-article--gallery {
+.p-article__gallery {
   position: relative;
   background: url(../images/gallery__background-bird.png) no-repeat;
   background-size: 100%;
   padding-bottom: 1rem;
   height: 100%;
+  margin-top: 6.9444444444vw;
 }
 @media screen and (max-width: 767px) {
-  .p-article--gallery {
+  .p-article__gallery {
     background: none;
   }
 }

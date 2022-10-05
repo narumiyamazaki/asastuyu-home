@@ -1,0 +1,9 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__line-up{
+    background: url(../images/background-pink.png);
+    padding-bottom: calc(120/1440*100vw);
+    @include mixin.mq(tb){
+        padding-bottom:calc(100/1023*100vw);
+    }
+}

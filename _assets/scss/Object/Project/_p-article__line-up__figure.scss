@@ -2,7 +2,7 @@
 
 .p-article__line-up__figure{
     margin-left:calc(16/1440*100vw);
-    overflow: hidden;
+    //overflow: hidden;
     width:calc(280/1440*100vw);
     height:calc(200/1440*100vw);
     @include mixin.mq(sp){

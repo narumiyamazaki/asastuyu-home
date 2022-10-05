@@ -92,12 +92,13 @@
 @use './p-article__line-up__figcaption';
 @use './p-article__line-up__figure';
 @use './p-article__line-up__background';
-@use './p-article--line-up';
+@use './p-article__line-up';
 @use './p-article__line-up__heading2';
 @use './p-article__line-up__wrapper';
 @use './p-article__line-up__text__wrapper';
 @use './p-article__line-up__heading3';
 @use './p-article__line-up__slide__wrapper';
+@use './p-article__line-up__french-bulldog-house';
 @use './p-article--line-up__button';
 @use './p-article--line-up__background-wave';
 @use './p-article--work__heading3';
@@ -122,7 +123,7 @@
 @use './p-article--gallery__heading3';
 @use './_p-article--gallery__heading4';
 @use './p-article--gallery__text';
-@use './p-article--gallery';
+@use './p-article__gallery';
 @use './p-article--gallery__house__background';
 @use './p-article--gallery__house__wrapper';
 @use './p-article--gallery__country__caption';
