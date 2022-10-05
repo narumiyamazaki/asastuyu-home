@@ -1,17 +1,13 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book__heading-page__character{
+.p-article__book__heading-page__character{
     background:url(../images/book-cat.png) no-repeat;
-    //max-width:9rem;
-    //min-width:9rem;
-    //max-height:9rem;
-    //min-height: 9rem;
     width:calc(100/1440*100vw);
     height:calc(100/1440*100vw);
     background-size: contain;
     position:absolute;
     top:calc(595/1440*100vw);
-    left:calc(600/1440*100vw);;
+    left:calc(1000/1440*100vw);;
     @include mixin.mq(sp){
         display: none;
     }

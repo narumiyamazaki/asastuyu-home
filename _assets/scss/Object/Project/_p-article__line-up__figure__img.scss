@@ -1,22 +1,23 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--line-up__figure__img{
+.p-article__line-up__figure__img{
     object-fit: cover;
     overflow: hidden;
     position:relative;
     z-index: 0;
-    /*ホバー時黒くする挙動*/
+    /*ホバー時黒くする挙動
     display: block;
-    //&:hover{
-    //transition: 0.8s;
-    //opacity:(0.4);
-    //transform: scale(1.1, 1.1);
-    //}
+    &:hover{
+    transition: 0.8s;
+    opacity:(0.4);
+    transform: scale(1.1, 1.1);
+    }
     @include mixin.mq(sp){
         width:calc(300/375*100vw);
     }
+    */
 }
-.p-article--line-up__figure__img.is-hover{
+.p-article__line-up__figure__img.is-hover{
     transition: 0.8s;
     opacity:(0.4);
     transform: scale(1.1, 1.1);

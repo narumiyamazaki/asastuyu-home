@@ -1,6 +1,8 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--line-up__text{
+.p-article__line-up__text{
+    font-family:tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
+    font-weight: 600;
     font-size:calc(16/1440*100vw);
     @include mixin.mq(tb){
         font-size:calc(16/1023*100vw);

@@ -1,6 +1,6 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book-contents{
+.p-article__book-contents{
     background: url(../images/book.png) no-repeat;
     background-size:contain;
     height:calc(750/1440*100vw);

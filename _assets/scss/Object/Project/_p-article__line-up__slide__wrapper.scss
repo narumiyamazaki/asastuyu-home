@@ -1,0 +1,8 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__line-up__slide__wrapper{
+    margin-top:calc(40/1440*100vw);
+    width:calc(950/1140*100vw);
+    position:relative;
+    left:calc(120/1440*100vw);
+}

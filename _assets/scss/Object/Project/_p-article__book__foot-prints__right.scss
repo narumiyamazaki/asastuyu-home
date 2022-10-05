@@ -1,17 +1,13 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book__foot-prints__right{
+.p-article__book__foot-prints__right{
     background: url(../images/foot-prints.webp) no-repeat;
     background-size:contain;
     position:absolute;
     top:calc(380/1440*100vw);
-    left:calc(620/1440*100vw);
+    left:calc(820/1440*100vw);
     width:calc(340/1440*100vw);
     height:calc(150/1440*100vw);
-    //max-width:26rem;
-    //min-width:26rem;
-    //min-height:16rem;
-    //max-height:16rem;
     transform:rotate(-80deg);
     @include mixin.mq(sp){
         display: none;

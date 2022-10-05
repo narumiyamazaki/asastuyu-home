@@ -1,5 +1,7 @@
-.p-article--line-up__figcaption{
-    font-size:1rem;
+@use '../../../scss/Foundation/mixin';
+
+.p-article__line-up__figcaption{
+    font-size:max(calc(14/1440*100vw),12px);
     color:rgb(51,51,51);
     text-overflow: ellipsis;
     white-space: nowrap;

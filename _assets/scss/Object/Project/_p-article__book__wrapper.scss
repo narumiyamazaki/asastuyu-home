@@ -1,8 +1,7 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book__wrapper{
+.p-article__book__wrapper{
     background: url(../images/book-background.jpg);
-    //height:60rem;
     height: calc(600/1440*100vw);
     background-size:contain;
     display: flex;

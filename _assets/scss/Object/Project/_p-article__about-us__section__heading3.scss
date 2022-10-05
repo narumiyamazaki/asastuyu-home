@@ -1,0 +1,23 @@
+@use '../../../scss/Foundation/mixin';
+.p-article__about-us__section__heading3{
+    position: relative;
+    background:url(../images/about_us.png) no-repeat;
+    background-size: contain;
+    width:calc(170/1440*100vw);
+    height:calc(60/1440*100vw);
+    margin-top:calc(90/1440*100vw);
+    @include mixin.mq(sp){
+        margin-top:calc(40/375*100vw);
+        margin-left:calc(16/375*100vw);
+    }
+    &::after{
+        content:'';
+        position:absolute;
+        width:calc(400/1440*100vw);
+        background-color: #D61043;
+        height:.1rem;
+        top:calc(25/1440*100vw);
+        left:100%;
+        margin-left:calc(15/1440*100vw);
+    }
+}

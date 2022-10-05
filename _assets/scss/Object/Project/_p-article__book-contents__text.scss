@@ -1,9 +1,9 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book-contents__text{
+.p-article__book-contents__text{
 font-family:tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
 color: rgb(138,101,62);
-font-size:1rem;
+font-size:max(calc(12/1440*100vw),12px);
 font-weight: 600;
 white-space: nowrap;
 margin-left:1rem;

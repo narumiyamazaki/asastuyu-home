@@ -1,14 +1,13 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book-contents__arrow{
+.p-article__book-contents__arrow{
     background:#D61043;
-    width:1.3rem;
-    max-width:1.3rem;
-    height:1.3rem;
-    max-height:1.3rem;
+    width:calc(16/1440*100vw);
+    height:calc(16/1440*100vw);
     position:absolute;
     border-radius: 80%;
-    left:-2.5%;
+    left:calc(-15/1440*100vw);
+    top:calc(3/1440*100vw);
     position: absolute;
     transform: rotate(45deg);
     @include mixin.mq(sp){
@@ -16,15 +15,15 @@
     }
     &::after{
         content:'';
-        width:.5rem;
-        height:.5rem;
+        width:calc(8/1440*100vw);
+        height:calc(8/1440*100vw);
         border: 0px;
         border-top: solid .1rem #fff;
         border-right: solid .1rem #fff;
         transition-duration: 0.3s;
         position:absolute;
-        top:35%;
-        left:20%;
+        top:calc(4/1440*100vw);
+        left:calc(3/1440*100vw);
     }
     &:hover::after{
         transform: scale(1.2);

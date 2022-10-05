@@ -1,17 +1,17 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--about-us__section__button{
+.p-article__about-us__section__button{
     justify-content: center;
     align-items: center;
-    width:50%;
+    width:calc(400/1440*100vw);
     border-radius: 10rem;
     background: #D61043;
     border: .1rem solid #D61043;
-    font-size: 1rem;
+    font-size: max(calc(14/1440*100vw),14px);
     font-weight:600;
     color:#fafafa;
-    margin: 5.5rem auto 0;
-    padding: .8rem .5rem;
+    margin: calc(60/1440*100vw) auto 0;
+    padding: calc(10/1440*100vw) calc(8/1440*100vw);
     letter-spacing: .4rem;
     display:block;
     position:relative;
@@ -24,19 +24,19 @@
     &:before{
         content:'';
         position:absolute;
-        right: 14.6%;
-        top:50%;
-        width: 3rem;
+        right: calc(30/1440*100vw);
+        top:calc(25/1440*100vw);
+        width: calc(40/1440*100vw);
         height: .1rem;
         background: #fafafa; 
     }
     &:after{
         content:'';
         position:absolute;
-        top:35%;
-        right: 14.5%;
+        top:calc(20/1440*100vw);
+        right: calc(32/1440*100vw);
         content: '';
-        width: 1rem;
+        width: calc(10/1440*100vw);
         height: 1rem;
         border: 0px;
         border-top: solid .1rem #fafafa;

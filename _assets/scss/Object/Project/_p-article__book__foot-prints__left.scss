@@ -1,6 +1,6 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book__foot-prints__left{
+.p-article__book__foot-prints__left{
     width: calc(150/1440*100vw);
     height: calc(450/1440*100vw);    
     order:0;
@@ -14,7 +14,4 @@
     @include mixin.mq(tb){
         display: none;
     }
-}
-#foot-prints-left{
-    transform: rotate(90deg);
 }

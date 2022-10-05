@@ -1,9 +1,9 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--book-contents__border{
+.p-article__book-contents__border{
     border-bottom: solid .1rem;
     width: 100%;
-    margin: 0 .1rem .7rem .1rem;
+    margin: 0 calc(5/1440*100vw);
     @include mixin.mq(sp){
         display: none;
     }

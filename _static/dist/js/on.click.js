@@ -1,7 +1,7 @@
 $(function() {
     //マウスをのせたらクラスを追加・除去
     //トップページ
-    $('.p-article--line-up__french-bulldog-house,.p-article--line-up__figure__cute-house,.p-article--line-up__figure__living-access,.p-article--line-up__figure__French-taste,.p-article--line-up__figure__Playful-house,.p-article--line-up__meruhen-house,.p-article--line-up__shabbychic-house,.p-article--line-up__shabbychic-house,.p-article--line-up__Country-house,.p-article--line-up__walnut-tree').hover(function() {
+    $('.p-article__line-up__french-bulldog-house,.p-article__line-up__figure__cute-house,.p-article__line-up__figure__living-access,.p-article__line-up__figure__French-taste,.p-article__line-up__figure__Playful-house,.p-article__line-up__meruhen-house,.p-article__line-up__shabbychic-house,.p-article__line-up__shabbychic-house,.p-article__line-up__Country-house,.p-article__line-up__walnut-tree').hover(function() {
       $(this).find('i:first').toggleClass('is-block');
       $(this).find('img').toggleClass('is-hover');
     });
