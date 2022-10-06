@@ -1,0 +1,22 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__work__full-order__text__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:calc(720/1440*100vw);
+    text-align: left;
+    position: relative;
+    left:10%;
+    @include mixin.mq(sp){
+        left:0;
+        width:100%;
+        margin-top:calc(30/375*100vw);
+    }
+    @include mixin.mq(tb){
+        width:calc(168/375*100vw);
+        left:0;
+        margin-left:calc(18/375*100vw);
+        //margin-top:calc(30/375*100vw);
+    }
+}

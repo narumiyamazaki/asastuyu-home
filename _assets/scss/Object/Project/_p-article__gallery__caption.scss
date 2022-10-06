@@ -1,0 +1,12 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__gallery__caption{
+    order:-1;
+    font-size: max(calc(16/1440*100vw),16px);
+    text-align: center;
+    color:rgb(85,85,85);
+    font-family:メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif';
+    @include mixin.mq(sp){
+        font-size:max(calc(14/1440*100vw),14px);
+    }
+}

@@ -1,0 +1,58 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__line-up__button{
+    justify-content: center;
+    align-items: center;
+    width:calc(300/1440*100vw);
+    border-radius: 10rem;
+    background: #D61043;
+    border: .1rem solid #D61043;
+    font-size: calc(14/1440*100vw);
+    font-weight:600;
+    color:#fafafa;
+    margin: calc(60/1440*100vw) auto 0;
+    padding: calc(15/1440*100vw) calc(10/1440*100vw);
+    letter-spacing: .4rem;
+    display:block;
+    position:relative;
+    @include mixin.mq(tb){
+        width:calc(250/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(160/375*100vw);
+    }
+    &:before{
+        content:'';
+        position:absolute;
+        right: calc(50/1440*100vw);
+        top:calc(25/1440*100vw);
+        width: calc(30/1440*100vw);
+        height: .1rem;
+        background: #fafafa; 
+    }
+    &:after{
+        content:'';
+        position:absolute;
+        top:calc(20/1440*100vw);
+        right: calc(50/1440*100vw);
+        content: '';
+        width: calc(10/1440*100vw);
+        height: 1rem;
+        border: 0px;
+        border-top: solid .1rem #fafafa;
+        border-right: solid .1rem #fafafa;
+        transform: rotate(45deg);
+    }
+    &:hover{
+        background: #fff;
+        color:#D61043;
+        transition: .2s;
+    }
+    &:hover:before{
+        background:#D61043;
+    }
+    &:hover:after{
+        border-top: solid .1rem #D61043;
+        border-right: solid .1rem #D61043;
+    }
+}

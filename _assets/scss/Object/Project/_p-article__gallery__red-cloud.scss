@@ -1,0 +1,16 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__gallery__red-cloud{
+    background: url(../images/red-cloud.png) no-repeat;
+    width:calc(90/1440*100vw);
+    height:calc(90/1440*100vw);
+    background-size: contain;
+    position: absolute;
+    left: calc(300/1440*100vw);
+    top:calc(100/1440*100vw);
+    @include mixin.mq(sp){
+        width: calc(90/375*100vw);
+        height:calc(90/375*100vw);
+        top:calc(110/375*100vw);
+    }
+}

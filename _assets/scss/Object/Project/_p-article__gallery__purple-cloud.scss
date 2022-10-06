@@ -1,0 +1,15 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__gallery__purple-cloud{
+    background: url(../images/purple-cloud.png) no-repeat;
+    width:calc(90/1440*100vw);
+    height:calc(90/1440*100vw);
+    background-size: contain;
+    position: absolute;
+    left: calc(30/1440*100vw);
+    top:calc(50/1440*100vw);
+    @include mixin.mq(tb){
+        top:calc(50/375*100vw);
+        left:calc(20/1023*100vw);   
+    }
+}

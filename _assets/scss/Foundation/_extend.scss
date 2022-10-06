@@ -72,20 +72,23 @@
 }
 */
 
-%p-article--gallery__country__caption{
+/*
+%p-article__gallery__caption{
     order:-1;
-    font-size: 1.3rem;
+    font-size: max(calc(16/1440*100vw),16px);
     text-align: center;
     color:rgb(85,85,85);
     font-family:メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif';
 }
+*/
 
-%p-article--gallery__country{
+
+%p-article__gallery__country{
     display:flex;
     flex-direction: column;
     position: relative;
     @include mixin.mq(sp){
-        width:7.5rem;
+        width:calc(80/375*100vw);
     }
 }
 

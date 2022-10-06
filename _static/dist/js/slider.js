@@ -1,5 +1,5 @@
 $('.slider').slick({
-    autoplay:false,
+    autoplay:true,
     autoplaySpeed:3000,
     dots:false,
     infinite: true, // スライドのループを有効にするか

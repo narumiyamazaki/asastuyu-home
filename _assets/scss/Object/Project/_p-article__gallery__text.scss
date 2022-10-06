@@ -1,0 +1,13 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__gallery__text{
+    text-align: center;
+    color:rgb(85,85,85);
+    font-family: tsukushigothic,ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
+    font-size: max(calc(14/1440*100vw),14px);
+    margin-top:calc(90/1440*100vw);
+    font-weight: 600;
+    @include mixin.mq(sp){
+        margin-top:calc(130/375*100vw);
+    }
+}

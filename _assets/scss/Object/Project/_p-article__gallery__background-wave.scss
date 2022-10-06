@@ -1,0 +1,8 @@
+.p-article__gallery__background-wave{
+    background: url(../images/background-wave.png) no-repeat;
+    height: calc(50/1440*100vw);
+    width: 100%;
+    background-size: cover;
+    position:absolute;
+    top:calc(-150/1440*100vw);
+}

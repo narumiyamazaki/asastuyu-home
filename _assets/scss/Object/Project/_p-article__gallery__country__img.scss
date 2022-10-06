@@ -1,0 +1,17 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__gallery__country__img{
+    height: calc(250/1440*100vw);
+    background: url("../images/gallery__conutry.png") no-repeat;
+    background-size: 110%;
+    background-position-x: 55%;
+    background-position-y: 14%;
+    margin-top:calc(15/1440*100vw);
+    @include mixin.mq(sp){
+        width:calc(60/375*100vw);
+        height:calc(60/375*100vw);
+    }
+    @include mixin.mq(tb){
+        height:calc(150/1023*100vw);
+    }
+}

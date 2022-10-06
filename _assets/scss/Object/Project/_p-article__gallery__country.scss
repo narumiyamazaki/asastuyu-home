@@ -1,0 +1,10 @@
+@use '../../Foundation/extend';
+@use '../../../scss/Foundation/mixin';
+
+.p-article__gallery__country{
+    @extend %p-article__gallery__country;
+    width: 16%;
+    @include mixin.mq(sp){
+        width: auto;
+    }
+}

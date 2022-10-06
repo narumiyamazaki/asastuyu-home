@@ -1,0 +1,15 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__work__full-order__cat{
+    background: url(../images/work__full-order__cat.png) no-repeat;
+    position:absolute;
+    width:100%;
+    height:100%;
+    width:calc(110/1440*100vw);
+    height:calc(110/1440*100vw);
+    background-size: contain;
+    left:87%;
+    @include mixin.mq(sp){
+        display: none;
+    }
+}

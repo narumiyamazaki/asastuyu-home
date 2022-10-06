@@ -1,6 +1,8 @@
+@use '../../../scss/Foundation/mixin';
+
 //白抜き
 .far.fa-heart{
-    font-size:1.5rem;
+    font-size:calc(18/1440*100vw);
     position:absolute;
     z-index:10;
     top:50%;
