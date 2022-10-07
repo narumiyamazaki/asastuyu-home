@@ -1,14 +1,13 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--quality-support__figure__wrapper{
+.p-article__quality-support__figure__wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin:0 auto;
-    width:80%;
-    max-width: 100rem;
+    width:calc(1152/1440*100vw);
     height: 100%;
-    margin-top:3rem;
+    margin-top:calc(40/1440*100vw);
     @include mixin.mq(sp){
         flex-direction: column;
     }

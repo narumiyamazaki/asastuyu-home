@@ -1,5 +1,5 @@
 @use '../../../scss/Foundation/mixin';
-.p-article--quality-support__cat{
+.p-article__quality-support__cat{
     background: url(../images/quality-support__cat.png) no-repeat;
     width:calc(130/1440*100vw);
     height:calc(130/1440*100vw);;
@@ -13,7 +13,7 @@
     }
     @include mixin.mq(sp){
         left:0;
-        top:4%;
+        top:calc(20/375*100vw);
         width:calc(80/375*100vw);
         height:calc(80/375*100vw);
     }

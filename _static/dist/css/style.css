@@ -2232,7 +2232,7 @@ a {
   width: 50vw;
   text-align: left;
   position: relative;
-  left: 10%;
+  left: 9.7222222222vw;
 }
 @media screen and (max-width: 767px) {
   .p-article__work__full-order__text__wrapper {
@@ -2243,8 +2243,8 @@ a {
 }
 @media screen and (max-width: 1023px) {
   .p-article__work__full-order__text__wrapper {
-    width: 44.8vw;
-    left: 0;
+    width: 49.9511241447vw;
+    left: 4.8875855327vw;
     margin-left: 4.8vw;
   }
 }
@@ -2277,48 +2277,55 @@ a {
   }
 }
 
-.p-article--work__full-order__button {
+.p-article__work__full-order__button {
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 20.8333333333vw;
   border-radius: 10rem;
   background: #333333;
   border: 0.1rem solid #333333;
   font-size: 1rem;
   font-weight: 600;
   color: #fafafa;
-  margin: 5.5rem auto 0;
-  padding: 0.5rem 0.5rem;
+  font-size: max(1.1111111111vw, 16px);
+  margin: 4.1666666667vw auto 0;
+  padding: 0.3472222222vw;
   display: block;
   position: relative;
-  left: -34%;
+  right: 13.8888888889vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--work__full-order__button {
+  .p-article__work__full-order__button {
     width: 24.4379276637vw;
     left: -9.7751710655vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__full-order__button {
-    margin-top: 2.5rem;
+  .p-article__work__full-order__button {
+    margin-top: 1.7361111111vw;
     left: 0;
     width: 37.3333333333vw;
   }
 }
-.p-article--work__full-order__button:before {
+.p-article__work__full-order__button:before {
   content: "";
   position: absolute;
-  right: 17.6%;
-  top: 50%;
-  width: 3rem;
+  right: 3.4722222222vw;
+  top: 1.3888888889vw;
+  width: 2.0833333333vw;
   height: 0.1rem;
   background: #fafafa;
 }
-.p-article--work__full-order__button:after {
+@media screen and (max-width: 1023px) {
+  .p-article__work__full-order__button:before {
+    right: 4.3988269795vw;
+    top: 1.2707722385vw;
+  }
+}
+.p-article__work__full-order__button:after {
   content: "";
   position: absolute;
-  top: 35%;
+  top: 1.0416666667vw;
   right: 17.5%;
   content: "";
   width: 1rem;
@@ -2328,15 +2335,15 @@ a {
   border-right: solid 0.1rem #fafafa;
   transform: rotate(45deg);
 }
-.p-article--work__full-order__button:hover {
+.p-article__work__full-order__button:hover {
   background: #fff;
   color: #333333;
   transition: 0.2s;
 }
-.p-article--work__full-order__button:hover:before {
+.p-article__work__full-order__button:hover:before {
   background: #333333;
 }
-.p-article--work__full-order__button:hover:after {
+.p-article__work__full-order__button:hover:after {
   border-top: solid 0.1rem #333333;
   border-right: solid 0.1rem #333333;
 }
@@ -2357,7 +2364,7 @@ a {
   }
 }
 
-.p-article--work__renovation__heading3 {
+.p-article__work__renovation__heading2 {
   font-size: 2.7777777778vw;
   font-family: tsukushioldmincho, ms mincho, ヒラギノ明朝 pro w3, hiragino mincho pro, serif;
   color: rgb(51, 51, 51);
@@ -2366,131 +2373,130 @@ a {
   letter-spacing: 0.4rem;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--work__renovation__heading3 {
+  .p-article__work__renovation__heading2 {
     font-size: 3.128054741vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__renovation__heading3 {
+  .p-article__work__renovation__heading2 {
     font-size: 8.5333333333vw;
     text-align: center;
   }
 }
 
-.p-article--work__renovation__heading4 {
+.p-article__work__renovation__heading3 {
   font-size: 2.7777777778vw;
   font-weight: 600;
   font-family: tsukushioldmincho, ms mincho, ヒラギノ明朝 pro w3, hiragino mincho pro, serif;
   color: rgb(51, 51, 51);
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__renovation__heading4 {
+  .p-article__work__renovation__heading3 {
     font-size: 4.2666666667vw;
     text-align: center;
   }
 }
 
-.p-article--work__renovation__wrapper {
+.p-article__work__renovation__wrapper {
   display: flex;
   position: relative;
-  margin-top: 5rem;
+  margin-top: 4.1666666667vw;
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__renovation__wrapper {
+  .p-article__work__renovation__wrapper {
     flex-direction: column;
   }
 }
 
-.p-article--work__renovation__img {
+.p-article__work__renovation__img {
   object-fit: contain;
-  width: 50%;
+  width: 50vw;
   order: 1;
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__renovation__img {
+  .p-article__work__renovation__img {
     order: 0;
     width: 100%;
   }
 }
 @media screen and (max-width: 1023px) {
-  .p-article--work__renovation__img {
+  .p-article__work__renovation__img {
     order: 0;
-    width: 50%;
+    width: 50vw;
   }
 }
 
-.p-article--work__renovation__text__wrapper {
+.p-article__work__renovation__text__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 50vw;
   text-align: left;
   position: relative;
-  left: 15%;
+  left: 13.8888888889vw;
   order: -1;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--work__renovation__text__wrapper {
-    width: 45%;
-    left: 0;
-    margin-left: 5%;
+  .p-article__work__renovation__text__wrapper {
+    width: 49.9511241447vw;
+    left: 13.6852394917vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__renovation__text__wrapper {
+  .p-article__work__renovation__text__wrapper {
     width: 100%;
     order: 1;
     left: 0;
   }
 }
 
-.p-article--work__renovation__text {
+.p-article__work__renovation__text {
   font-size: 1.1111111111vw;
   text-align: left;
   font-family: tsukushigothic, ms gothic, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, osaka, sans-serif;
   margin-top: 2rem;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--work__renovation__text {
+  .p-article__work__renovation__text {
     font-size: 1.5640273705vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__renovation__text {
+  .p-article__work__renovation__text {
     font-size: 3.7333333333vw;
   }
 }
 
-.p-article--work__renovation__button {
+.p-article__work__renovation__button {
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 20.8333333333vw;
   border-radius: 10rem;
   background: #8A653E;
   border: 0.1rem solid #8A653E;
-  font-size: 1rem;
+  font-size: max(1.1111111111vw, 16px);
   font-weight: 600;
   color: #fafafa;
-  margin: 5.5rem auto 0;
-  padding: 0.5rem 0.5rem;
+  margin: 4.1666666667vw auto 0;
+  padding: 0.3472222222vw;
   display: block;
   position: relative;
   left: -34%;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--work__renovation__button {
+  .p-article__work__renovation__button {
     width: 24.4379276637vw;
     left: -12.7077223851vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--work__renovation__button {
+  .p-article__work__renovation__button {
     width: 37.3333333333vw;
     margin-top: 2.5rem;
     left: 0;
   }
 }
-.p-article--work__renovation__button:before {
+.p-article__work__renovation__button:before {
   content: "";
   position: absolute;
   right: 17.6%;
@@ -2499,7 +2505,7 @@ a {
   height: 0.1rem;
   background: #fafafa;
 }
-.p-article--work__renovation__button:after {
+.p-article__work__renovation__button:after {
   content: "";
   position: absolute;
   top: 35%;
@@ -2512,15 +2518,15 @@ a {
   border-right: solid 0.1rem #fafafa;
   transform: rotate(45deg);
 }
-.p-article--work__renovation__button:hover {
+.p-article__work__renovation__button:hover {
   background: #fff;
   color: #8A653E;
   transition: 0.2s;
 }
-.p-article--work__renovation__button:hover:before {
+.p-article__work__renovation__button:hover:before {
   background: #8A653E;
 }
-.p-article--work__renovation__button:hover:after {
+.p-article__work__renovation__button:hover:after {
   border-top: solid 0.1rem #8A653E;
   border-right: solid 0.1rem #8A653E;
 }
@@ -2932,13 +2938,7 @@ a {
   color: #EC008C;
 }
 
-.p-article--line-up__heart {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
-.p-article--quality-support__heading2 {
+.p-article__quality-support__heading2 {
   font-family: tsukushioldmincho, ms mincho, ヒラギノ明朝 pro w3, hiragino mincho pro, serif;
   color: rgb(116, 52, 52);
   font-size: 4.1666666667vw;
@@ -2947,48 +2947,48 @@ a {
   letter-spacing: 0.4rem;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__heading2 {
+  .p-article__quality-support__heading2 {
     font-size: 5.8651026393vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__heading2 {
+  .p-article__quality-support__heading2 {
     font-size: 10.6666666667vw;
   }
 }
 
-.p-article--quality-support__heading3 {
+.p-article__quality-support__heading3 {
   font-size: 1.6666666667vw;
   font-family: tsukushioldmincho, ms mincho, ヒラギノ明朝 pro w3, hiragino mincho pro, serif;
   color: rgb(116, 52, 52);
-  font-size: 2rem;
+  font-size: 1.6666666667vw;
   font-weight: 600;
   text-align: center;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__heading3 {
+  .p-article__quality-support__heading3 {
     font-size: 2.3460410557vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__heading3 {
+  .p-article__quality-support__heading3 {
     font-size: 5.3333333333vw;
   }
 }
 
-.p-article--quality-support {
+.p-article__quality-support {
   position: relative;
-  margin-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 5.5555555556vw;
+  padding-bottom: 2.7777777778vw;
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+  .p-article__quality-support {
+    margin-top: 16vw;
+    margin-bottom: 16vw;
   }
 }
 
-.p-article--quality-support__cat {
+.p-article__quality-support__cat {
   background: url(../images/quality-support__cat.png) no-repeat;
   width: 9.0277777778vw;
   height: 9.0277777778vw;
@@ -2998,208 +2998,207 @@ a {
   left: 17.3611111111vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__cat {
+  .p-article__quality-support__cat {
     top: 8%;
     left: 4.8875855327vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__cat {
+  .p-article__quality-support__cat {
     left: 0;
-    top: 4%;
+    top: 5.3333333333vw;
     width: 21.3333333333vw;
     height: 21.3333333333vw;
   }
 }
 
-.p-article--quality-support__text {
+.p-article__quality-support__text {
   text-align: center;
   font-size: 1.1111111111vw;
-  margin-top: 3rem;
-  padding-bottom: 2rem;
+  margin-top: 2.7777777778vw;
+  padding-bottom: 2.0833333333vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__text {
+  .p-article__quality-support__text {
     font-size: 1.5640273705vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__text {
+  .p-article__quality-support__text {
     font-size: 3.7333333333vw;
   }
 }
 
-.p-article--quality-support__figure__wrapper {
+.p-article__quality-support__figure__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  width: 80%;
-  max-width: 100rem;
+  width: 80vw;
   height: 100%;
-  margin-top: 3rem;
+  margin-top: 2.7777777778vw;
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__figure__wrapper {
+  .p-article__quality-support__figure__wrapper {
     flex-direction: column;
   }
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__figure__wrapper {
+  .p-article__quality-support__figure__wrapper {
     width: 92.8641251222vw;
   }
 }
 
-.p-article--quality-support__safety {
+.p-article__quality-support__safety {
   display: flex;
   flex-direction: column;
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__safety {
-    margin-bottom: 4rem;
+  .p-article__quality-support__safety {
+    margin-bottom: 3.4722222222vw;
   }
 }
 
-.p-article--quality-support__safety__img__wrapper {
+.p-article__quality-support__safety__img__wrapper {
   position: relative;
 }
 
-.p-article--quality-support__safety__img {
+.p-article__quality-support__safety__img {
   background: url(../images/safety.jpg) no-repeat;
   background-size: cover;
-  width: 20rem;
-  height: 20rem;
+  width: 16.6666666667vw;
+  height: 16.6666666667vw;
   border-radius: 50%;
   position: relative;
   z-index: 10;
   transition: 0.4s ease-in-out;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__safety__img {
+  .p-article__quality-support__safety__img {
     width: 19.550342131vw;
     height: 19.550342131vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__safety__img {
+  .p-article__quality-support__safety__img {
     width: 53.3333333333vw;
     height: 53.3333333333vw;
   }
 }
-.p-article--quality-support__safety__img:hover {
+.p-article__quality-support__safety__img:hover {
   opacity: 0;
 }
 
-.p-article--quality-support__safety__img__cat {
+.p-article__quality-support__safety__img__cat {
   background: url(../images/safety-cat.jpg) no-repeat;
   background-size: cover;
-  width: 20rem;
-  height: 20rem;
+  width: 16.6666666667vw;
+  height: 16.6666666667vw;
   border-radius: 50%;
   position: absolute;
   transition: 0.4s ease-in-out;
   bottom: 0%;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__safety__img__cat {
+  .p-article__quality-support__safety__img__cat {
     width: 19.550342131vw;
     height: 19.550342131vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__safety__img__cat {
+  .p-article__quality-support__safety__img__cat {
     width: 53.3333333333vw;
     height: 53.3333333333vw;
   }
 }
 
-.p-article--quality-support__safety__figcaption {
-  width: 50%;
+.p-article__quality-support__safety__figcaption {
+  width: 12.5vw;
   margin: 0 auto;
   text-align: center;
-  margin-top: 3rem;
-  font-size: 1.3rem;
+  margin-top: 3.4722222222vw;
+  font-size: max(0.9722222222vw, 14px);
   font-weight: 600;
   color: #fffffe;
   background-color: #D61043;
-  padding: 0 1.5rem;
+  padding: 0 0.5555555556vw;
   font-family: tsukushigothic, ms gothic, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, osaka, sans-serif;
 }
 
-.p-article--quality-support__durability {
+.p-article__quality-support__durability {
   display: flex;
   flex-direction: column;
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__durability {
-    margin-bottom: 4rem;
+  .p-article__quality-support__durability {
+    margin-bottom: 13.3333333333vw;
   }
 }
 
-.p-article--quality-support__durability__img__wrapper {
+.p-article__quality-support__durability__img__wrapper {
   position: relative;
 }
 
-.p-article--quality-support__durability__img {
+.p-article__quality-support__durability__img {
   background: url(../images/durability.jpg) no-repeat;
   background-size: cover;
-  width: 20rem;
-  height: 20rem;
+  width: 16.6666666667vw;
+  height: 16.6666666667vw;
   border-radius: 50%;
   position: relative;
   z-index: 10;
   transition: 0.4s ease-in-out;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__durability__img {
+  .p-article__quality-support__durability__img {
     width: 19.550342131vw;
     height: 19.550342131vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__durability__img {
+  .p-article__quality-support__durability__img {
     width: 53.3333333333vw;
     height: 53.3333333333vw;
   }
 }
-.p-article--quality-support__durability__img:hover {
+.p-article__quality-support__durability__img:hover {
   opacity: 0;
 }
 
-.p-article--quality-support__durability__img__cat {
+.p-article__quality-support__durability__img__cat {
   background: url(../images/durability-cat.jpg) no-repeat;
   background-size: cover;
-  width: 20rem;
-  height: 20rem;
+  width: 16.6666666667vw;
+  height: 16.6666666667vw;
   border-radius: 50%;
   position: absolute;
   transition: 0.4s ease-in-out;
   bottom: 0%;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--quality-support__durability__img__cat {
+  .p-article__quality-support__durability__img__cat {
     width: 19.550342131vw;
     height: 19.550342131vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--quality-support__durability__img__cat {
+  .p-article__quality-support__durability__img__cat {
     width: 53.3333333333vw;
     height: 53.3333333333vw;
   }
 }
 
-.p-article--quality-support__durability__figcaption {
-  width: 50%;
+.p-article__quality-support__durability__figcaption {
+  width: 12.5vw;
   margin: 0 auto;
   text-align: center;
-  margin-top: 3rem;
-  font-family: tsukushigothic, ms gothic, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, osaka, sans-serif;
-  font-size: 1.3rem;
+  margin-top: 3.4722222222vw;
+  font-size: max(0.9722222222vw, 14px);
   font-weight: 600;
   color: #fffffe;
   background-color: rgb(71, 124, 106);
-  padding: 0 1.5rem;
+  padding: 0 0.5555555556vw;
+  font-family: tsukushigothic, ms gothic, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, osaka, sans-serif;
 }
 
 .p-article--quality-support__amenity {

@@ -1,18 +1,18 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--work__renovation__text__wrapper{
+.p-article__work__renovation__text__wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:50%;
+    width:calc(720/1440*100vw);
     text-align: left;
     position: relative;
-    left:15%;
+    left:calc(200/1440*100vw);
     order:-1;
     @include mixin.mq(tb){
-        width:45%;
-        left:0;
-        margin-left:5%;
+        width:calc((511/1023*100vw));
+        left:calc(140/1023*100vw);
+        //margin-left:calc(50/1023*100vw);
     }
     @include mixin.mq(sp){
         width:100%;

@@ -1,8 +1,8 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--work__renovation__img{
+.p-article__work__renovation__img{
     object-fit: contain;
-    width:50%;
+    width:calc(720/1440*100vw);
     order:1;
     @include mixin.mq(sp){
         order:0;
@@ -10,6 +10,6 @@
     }
     @include mixin.mq(tb){
         order:0;
-        width:50%;
+        width:calc(720/1440*100vw);
     }
 }

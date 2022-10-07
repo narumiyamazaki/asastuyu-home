@@ -1,9 +1,9 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--work__renovation__wrapper{
+.p-article__work__renovation__wrapper{
     display:flex;
     position:relative;
-    margin-top:5rem;
+    margin-top:calc(60/1440*100vw);
     @include mixin.mq(sp){
         flex-direction: column;
     }

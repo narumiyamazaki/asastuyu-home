@@ -1,17 +1,15 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--quality-support__durability__img{
-    background: url(../images/durability.jpg) no-repeat;
+.p-article__quality-support__safety__img__cat{
+    background:url(../images/safety-cat.jpg) no-repeat;
     background-size: cover;
-    width: 20rem;
-    height: 20rem;
+    width: calc(240/1440*100vw);
+    height: calc(240/1440*100vw);
     border-radius: 50%;
-    position: relative;
-    z-index: 10;
-    //bottom:40%;
-    //z-index:10;
+    position: absolute;
     transition: .4s ease-in-out;
-    //right:-150%;
+    bottom:0%;
+    //left: -150%;
     @include mixin.mq(tb){
         width:calc(200/1023*100vw);
         height:calc(200/1023*100vw);
@@ -19,8 +17,5 @@
     @include mixin.mq(sp){
         width:calc(200/375*100vw);
         height:calc(200/375*100vw);
-    }
-    &:hover{
-        opacity: 0;
     }
 }

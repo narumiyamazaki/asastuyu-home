@@ -1,29 +1,29 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--work__full-order__button{
+.p-article__work__renovation__button{
     justify-content: center;
     align-items: center;
-    width:30%;
+    width:calc(300/1440*100vw);
     border-radius: 10rem;
-    background: #333333;
-    border: .1rem solid #333333;
-    font-size: 1rem;
+    background: #8A653E;
+    border: .1rem solid #8A653E;
+    font-size: max(calc(16/1440*100vw),16px);
     font-weight:600;
     color:#fafafa;
-    margin: 5.5rem auto 0;
-    padding: .5rem .5rem;
+    margin: calc(60/1440*100vw) auto 0;
+    padding: calc(5/1440*100vw);
     //letter-spacing: .4rem;
     display:block;
     position:relative;
     left:-34%;
     @include mixin.mq(tb){
         width:calc(250/1023*100vw);
-        left:calc(-100/1023*100vw);
+        left:calc(-130/1023*100vw);
     }
     @include mixin.mq(sp){
+        width:calc(140/375*100vw);
         margin-top:2.5rem;
         left:0;
-        width:calc(140/375*100vw);
     }
     &:before{
         content:'';
@@ -49,14 +49,14 @@
     }
     &:hover{
         background: #fff;
-        color:#333333;
+        color:#8A653E;
         transition: .2s;
     }
     &:hover:before{
-        background:#333333;
+        background:#8A653E;
     }
     &:hover:after{
-        border-top: solid .1rem #333333;
-        border-right: solid .1rem #333333;
+        border-top: solid .1rem #8A653E;
+        border-right: solid .1rem #8A653E;
     }
 }

@@ -1,9 +1,9 @@
 @use '../../../scss/Foundation/mixin';
 
-.p-article--quality-support__durability{
+.p-article__quality-support__safety{
     display: flex;
     flex-direction: column;
     @include mixin.mq(sp){
-        margin-bottom:4rem;
+        margin-bottom:calc(50/1440*100vw);
     }
 }
