@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__about-us__img__green-cloud{
     background:url(../images/green-cloud.png) no-repeat;
     background-size: contain;
@@ -6,4 +8,10 @@
     position: absolute;
     top:calc(50/1440*100vw);
     left:calc(30/1440*100vw);
+    @include mixin.mq(tb){
+        height:calc(90/1023*100vw);
+        width:calc(90/1023*100vw);
+        top:calc(60/1023*100vw);
+        left:calc(140/1023*100vw);
+    }
 }

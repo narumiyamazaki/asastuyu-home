@@ -2,8 +2,7 @@
 
 .p-article__quality-support{
     position:relative;
-    margin-top:calc(80/1440*100vw);
-    padding-bottom:calc(40/1440*100vw);
+    padding-bottom:calc(80/1440*100vw);
     @include mixin.mq(sp){
         margin-top:calc(60/375*100vw);
         margin-bottom:calc(60/375*100vw);

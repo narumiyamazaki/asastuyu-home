@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__about-us__gif__center-cat{
     background: url(../images/center-cat.png) no-repeat;
     background-size:contain;
@@ -6,4 +8,10 @@
     position: absolute;
     bottom: calc(-70/1440*100vw);
     left: calc(250/1440*100vw);
+    @include mixin.mq(tb){
+        width:calc(130/1023*100vw);
+        height:calc(130/1023*100vw);
+        bottom:calc(-280/1023*100vw);
+        left:calc(380/1023*100vw);
+    }
 }

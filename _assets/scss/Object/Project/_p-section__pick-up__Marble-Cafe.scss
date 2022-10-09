@@ -1,5 +1,9 @@
 @use '../../Foundation/extend';
+@use '../../../scss/Foundation/mixin';
 
 .p-section__pick-up__Marble-Cafe{
     @extend %p-section__pick-up__about;
+    @include mixin.mq(tb){
+        margin-bottom:calc(40/1023*100vw);
+    }
 }

@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-footer__banner{
+    background:url(../images/summo.png) no-repeat;
+    background-size: contain;
+    width: calc(110/1440*100vw);
+    height:calc(30/1440*100vw);
+    margin-left:calc(20/1440*100vw);
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

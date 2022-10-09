@@ -1,0 +1,19 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__new-release__flag__left{
+    background:url(../images/new-release__flag.png) no-repeat;
+    background-size: contain;
+    width:calc(350/1440*100vw);
+    height:calc(250/1440*100vw);
+    position:absolute;
+    left:calc(30/1440*100vw);
+    top:calc(65/1440*100vw);
+    transform: rotate(-25deg);
+    @include mixin.mq(sp){
+        z-index:0;
+        width:calc(140/375*100vw);
+        height: calc(75/375*100vw);
+        top:calc(30/375*100vw);
+        left:calc(200/375*100vw);
+    }
+}

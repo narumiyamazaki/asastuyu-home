@@ -8,6 +8,10 @@
         font-size:calc(16/1023*100vw);
     }
     @include mixin.mq(sp){
-        font-size:calc(14/1023*100vw);
+        font-size:max(calc(14/375*100vw),14px);
+        font-weight: 500;
+    }
+    &:last-child{
+        margin-bottom:calc(32/375*100vw);
     }
 }

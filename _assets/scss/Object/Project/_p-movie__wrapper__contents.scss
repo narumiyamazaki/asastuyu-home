@@ -6,8 +6,10 @@
     position:absolute;
     top: calc(200/1440*100vw);
     align-items: center;
-    //width: 100%;
+    @include mixin.mq(tb){
+        top:calc(90/1023*100vw)
+    }
     @include mixin.mq(sp){
-        top:5%;
+        top:calc(20/375*100vw);
     }
 }

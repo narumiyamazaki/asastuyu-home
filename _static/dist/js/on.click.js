@@ -42,7 +42,7 @@ $(function() {
       $(".p-header__heading1").toggleClass("is-open");
       $(".p-header__link").toggleClass("is-open");
       $('.p-main-menu').toggleClass('is-open');
-      $('.p-icon--header__wrapper').toggleClass('is-open');
+      $('.p-header__icon__wrapper').toggleClass('is-open');
       $('.p-contact').toggleClass('is-open');
       $('.l-header').toggleClass('is-open');
       $('.p-nav-btn').toggleClass('is-open');

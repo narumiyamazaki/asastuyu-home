@@ -1,7 +1,7 @@
 @use '../../../scss/Foundation/mixin';
 
 .p-article__book-contents__box{
-    margin-bottom: 3.5rem;
+    margin-bottom: calc(45/1440*100vw);
     width:calc(400/1440*100vw);
     position: relative;
     display: flex;
@@ -10,7 +10,7 @@
         margin-bottom:calc(40/1023*100vw);
     }
     @include mixin.mq(sp){
-        margin-bottom:1.4rem;
+        margin-bottom:calc(16/375*100vw);
         flex-direction: column;
         width:calc(230/375*100vw);
     }

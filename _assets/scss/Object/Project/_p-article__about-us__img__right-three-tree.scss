@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__about-us__img__right-three-tree{
     background:url(../images/three-tree.png) no-repeat;
     background-size: contain;
@@ -8,4 +10,10 @@
     z-index:9;
     right: calc(160/1440*100vw);
     bottom: calc(110/1440*100vw);
+    @include mixin.mq(tb){
+        width:calc(100/1023*100vw);
+        height:calc(100/1023*100vw);
+        right:calc(190/1023*100vw);
+        bottom:calc(70/1023*100vw);
+    }
 }

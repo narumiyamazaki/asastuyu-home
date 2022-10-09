@@ -9,7 +9,8 @@
     left: calc(30/1440*100vw);
     top:calc(50/1440*100vw);
     @include mixin.mq(tb){
-        top:calc(50/375*100vw);
-        left:calc(20/1023*100vw);   
+        width: calc(70/375*100vw);
+        height:calc(70/375*100vw);
+        top:calc(70/375*100vw);
     }
 }

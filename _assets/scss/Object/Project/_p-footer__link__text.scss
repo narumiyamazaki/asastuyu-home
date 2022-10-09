@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-footer__link__text{
+    color: rgb(255,255,255);
+    font-family: tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
+    font-weight: 700;
+    font-size: calc(24/1440*100vw);
+    @include mixin.mq(tb){
+        font-size:calc(20/1023*100vw);
+    }
+    @include mixin.mq(tb){
+        font-size:calc(16/375*100vw);
+    }
+}

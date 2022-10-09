@@ -8,7 +8,12 @@
     font-size: calc(28/1440*100vw);
     font-weight: 800;
     padding:calc(40/1440*100vw) calc(40/1440*100vw) 0;
-    @include mixin.mq(sp){
+    @include mixin.mq(tb){
         writing-mode: horizontal-tb;
+        margin-top:calc(240/1023*100vw);
+        font-size:calc(32/1023*100vw);
     }
+    @include mixin.mq(sp){
+        font-size:calc(20/375*100vw);
+    };
 }

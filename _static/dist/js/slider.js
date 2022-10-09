@@ -1,5 +1,5 @@
 $('.slider').slick({
-    autoplay:true,
+    autoplay:false,
     autoplaySpeed:3000,
     dots:false,
     infinite: true, // スライドのループを有効にするか
@@ -7,7 +7,7 @@ $('.slider').slick({
     slidesToShow: 4, // 表示するスライド数を設定 
     responsive:[
         {
-            breakpoint: 400, // 399px以下のサイズに適用
+            breakpoint: 767, // 767px以下のサイズに適用
             settings: {
             slidesToShow: 1,
             },

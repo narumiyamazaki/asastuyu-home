@@ -45,6 +45,9 @@
     height: calc(220/1440*100vw);
     //max-height: 21rem;
     object-fit: cover;
+    @include mixin.mq(tb){
+        height:calc(500/1023*100vw);
+    }
 }
 
 /*

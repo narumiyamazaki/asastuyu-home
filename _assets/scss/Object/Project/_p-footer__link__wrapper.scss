@@ -1,0 +1,15 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-footer__link__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:calc(350/1440*100vw);
+    margin: 0 auto;
+    @include mixin.mq(tb){
+        width:calc(350/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(187/375*100vw);
+    }
+}

@@ -1,0 +1,25 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__quality-support__amenity__img{
+    background: url(../images/amenity.jpg) no-repeat;
+    background-size: cover;
+    width: calc(240/1440*100vw);
+    height: calc(240/1440*100vw);
+    border-radius: 50%;
+    position: relative;
+    //bottom:40%;
+    //right:-150%;
+    z-index:10;
+    transition: .4s ease-in-out;
+    @include mixin.mq(tb){
+        width:calc(200/1023*100vw);
+        height:calc(200/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(200/375*100vw);
+        height:calc(200/375*100vw);
+    }
+    &:hover{
+        opacity: 0;
+    }
+}

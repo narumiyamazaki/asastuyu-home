@@ -1,3 +1,8 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__line-up__text__wrapper{
     text-align:center;
+    @include mixin.mq(sp){
+        text-align: left;
+    }
 }

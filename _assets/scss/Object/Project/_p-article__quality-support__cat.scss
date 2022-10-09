@@ -8,8 +8,8 @@
     top:0%;
     left:calc(250/1440*100vw);
     @include mixin.mq(tb){
-        top:8%;
-        left:calc(50/1023*100vw);
+        top:calc(40/1023*100vw);
+        left:calc(140/1023*100vw);
     }
     @include mixin.mq(sp){
         left:0;

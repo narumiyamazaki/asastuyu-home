@@ -1,0 +1,8 @@
+@use '../../Foundation/mixin';
+
+.p-footer__company-profile__text{
+    color: rgb(255,255,255);
+    font-family: tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
+    font-size:max(calc(16/1440*100vw),14px);
+    font-weight: 600;
+}

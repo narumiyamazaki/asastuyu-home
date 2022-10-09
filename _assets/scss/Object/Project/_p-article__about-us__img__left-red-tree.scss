@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__about-us__img__left-red-tree{
     background:url(../images/red-tree.png) no-repeat;
     background-size: contain;
@@ -8,4 +10,10 @@
     z-index:9;
     left:calc(80/1440*100vw);
     bottom:calc(90/1440*100vw);
+    @include mixin.mq(tb){
+        width:calc(70/1023*100vw);
+        height:calc(70/1023*100vw);
+        left:calc(140/1023*100vw);
+        bottom:calc(25/1023*100vw);
+    }
 }

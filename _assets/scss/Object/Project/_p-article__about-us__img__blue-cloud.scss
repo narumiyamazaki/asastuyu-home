@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__about-us__img__blue-cloud{
     background:url(../images/blue-cloud.png) no-repeat;
     background-size:contain;
@@ -6,4 +8,10 @@
     position:absolute;
     right:5%;
     top:8%;
+    @include mixin.mq(tb){
+        height:calc(90/1023*100vw);
+        width:calc(90/1023*100vw);
+        right:calc(190/1023*100vw);
+        top:calc(80/1023*100vw);
+    }
 }

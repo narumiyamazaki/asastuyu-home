@@ -2,10 +2,10 @@
 
 .p-article__gallery__house__background{
     background:url(../images/gallery__background-grass.png) no-repeat;
-    background-size:152%;
+    background-size:calc(3000/1440*100vw);
     background-position-y:100%;
     position:relative;
-    height:40rem;
+    height:calc(450/1440*100vw);
     @include mixin.mq(tb){
         height:calc(350/1023*100vw);
     }

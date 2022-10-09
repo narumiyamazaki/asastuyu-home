@@ -1,0 +1,9 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__quality-support__amenity{
+    display: flex;
+    flex-direction: column;
+    @include mixin.mq(sp){
+        margin-bottom:calc(50/375*100vw);
+    }
+}

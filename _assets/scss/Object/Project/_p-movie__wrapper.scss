@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-movie__wrapper{
     position:relative;
     //headerナビゲーションの高さ
@@ -8,4 +10,10 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    @include mixin.mq(tb){
+        margin-bottom:calc(120/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        margin-bottom:calc(80/375*100vw);
+    }
 }

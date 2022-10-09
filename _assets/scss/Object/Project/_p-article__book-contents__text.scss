@@ -9,6 +9,7 @@ white-space: nowrap;
 margin-left:1rem;
     @include mixin.mq(sp){
         white-space: normal;
-        width:calc(200/375*100vw);
+        width:calc(240/375*100vw);
+        font-size:max(calc(14/375*100vw),14px);
     }
 }

@@ -1,0 +1,20 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__new-release__cat__left{
+    background:url(../images/left-cat.gif) no-repeat;
+    width:calc(320/1440*100vw);
+    height:calc(320/1440*100vw);
+    position: absolute;
+    bottom: 0%;
+    background-size: contain;
+    @include mixin.mq(sp){
+        left:calc(20/375*100vw);
+        bottom:calc(30/375*100vw);
+        width:calc(150/375*100vw);
+        height:calc(150/375*100vw);
+    }
+    @include mixin.mq(tb){
+        width:calc(300/1023*100vw);
+        height:calc(300/1023*100vw);
+    }
+}

@@ -11,7 +11,12 @@
     display: block;
     margin-top:auto;
     @include mixin.mq(tb){
+        font-size:calc(32/1023*100vw);
         position:static;
-        margin:0 auto;
+        margin:calc(24/1023*100vw) auto;
+    }
+    @include mixin.mq(sp){
+        font-size:calc(24/375*100vw);
+        margin:calc(24/375*100vw) auto;
     }
 }

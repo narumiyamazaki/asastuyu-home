@@ -1,0 +1,7 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__new-release__text{
+    text-align: center;
+    font-size:max(calc(16/1440*100vw),16px);
+    margin:calc(40/1440*100vw) 0;
+}

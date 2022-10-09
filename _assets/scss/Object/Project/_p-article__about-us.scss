@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     padding-bottom: calc(140/1440*100vw);
-    @include mixin.mq(sp){
+    margin-bottom:calc(40/1440*100vw);
+    @include mixin.mq(tb){
         flex-direction: column;
     }
 }

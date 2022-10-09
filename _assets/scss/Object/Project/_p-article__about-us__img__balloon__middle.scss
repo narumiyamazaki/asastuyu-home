@@ -1,9 +1,17 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__about-us__img__balloon__middle{
     background: url(../images/balloon__middle.png) no-repeat;
     background-size:contain;
     width: calc(60/1440*100vw);
     height: calc(60/1440*100vw);
     position:absolute;
-    right:12%;
-    top:44%;
+    right:calc(110/1440*100vw);
+    top:calc(140/1440*100vw);
+    @include mixin.mq(tb){
+        height:calc(80/1023*100vw);
+        width:calc(80/1023*100vw);
+        right:calc(70/1023*100vw);
+        top:calc(170/1023*100vw);
+    }
 }

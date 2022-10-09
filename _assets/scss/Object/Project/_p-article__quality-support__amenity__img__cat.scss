@@ -1,0 +1,21 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__quality-support__amenity__img__cat{
+    background:url(../images/amenity-cat.jpg) no-repeat;
+    background-size: 110%;
+    width: calc(240/1440*100vw);
+    height: calc(240/1440*100vw);
+    border-radius: 50%;
+    position: absolute;
+    transition: .4s ease-in-out;
+    bottom: 0%;
+    //right: -150%;
+    @include mixin.mq(tb){
+        width:calc(200/1023*100vw);
+        height:calc(200/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(200/375*100vw);
+        height:calc(200/375*100vw);
+    }
+}

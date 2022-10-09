@@ -2,7 +2,7 @@
     border-radius: 10rem;
     background: #D61043;
     border: .1rem solid #D61043;
-    font-size: 1rem;
+    font-size: max(calc(16/1440*100vw),16px);
     font-weight:600;
     color:#fafafa;
     order:3;

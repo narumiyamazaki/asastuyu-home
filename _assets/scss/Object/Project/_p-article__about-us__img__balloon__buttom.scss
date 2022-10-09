@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__about-us__img__balloon__buttom{
     background:url(../images/balloon__buttom.png) no-repeat;
     background-size:contain;
@@ -6,4 +8,10 @@
     position:absolute;
     left:calc(150/1440*100vw);
     top:calc(200/1440*100vw);
+    @include mixin.mq(tb){
+        height:calc(80/1023*100vw);
+        width:calc(80/1023*100vw);
+        left:calc(160/1023*100vw);
+        top:calc(160/1023*100vw);
+    }
 }

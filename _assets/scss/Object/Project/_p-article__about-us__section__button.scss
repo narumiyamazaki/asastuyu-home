@@ -3,15 +3,15 @@
 .p-article__about-us__section__button{
     justify-content: center;
     align-items: center;
-    width:calc(400/1440*100vw);
+    width:calc(280/1440*100vw);
     border-radius: 10rem;
     background: #D61043;
     border: .1rem solid #D61043;
-    font-size: max(calc(14/1440*100vw),14px);
+    font-size: max(calc(16/1440*100vw),16px);
     font-weight:600;
     color:#fafafa;
     margin: calc(60/1440*100vw) auto 0;
-    padding: calc(10/1440*100vw) calc(8/1440*100vw);
+    padding: calc(5/1440*100vw);
     letter-spacing: .4rem;
     display:block;
     position:relative;
@@ -24,24 +24,60 @@
     &:before{
         content:'';
         position:absolute;
-        right: calc(30/1440*100vw);
-        top:calc(25/1440*100vw);
-        width: calc(40/1440*100vw);
+        right:  calc(40/1440*100vw);
+        top: calc(22/1440*100vw);
+        width: calc(25/1440*100vw);
         height: .1rem;
-        background: #fafafa; 
+        background: #fafafa;
+        @include mixin.mq(pcfull){
+            top:calc(18/1440*100vw);
+        }
+        @include mixin.mq(pc1399){
+            top:calc(20/1440*100vw);
+        }
+        @include mixin.mq(pc){
+            top: calc(22/1440*100vw);
+        }
+        @include mixin.mq(tb){
+            top:calc(18/1023*100vw);
+        }
+        @include mixin.mq(tb948){
+            top:calc(20/1023*100vw)
+        }
+        @include mixin.mq(tb848){
+            top:calc(20/1023*100vw);
+        }
     }
     &:after{
         content:'';
         position:absolute;
-        top:calc(20/1440*100vw);
-        right: calc(32/1440*100vw);
+        top:calc(18/1440*100vw);
+        right: calc(39/1440*100vw);
         content: '';
-        width: calc(10/1440*100vw);
-        height: 1rem;
+        width: calc(9/1440*100vw);
+        height: calc(9/1440*100vw);
         border: 0px;
         border-top: solid .1rem #fafafa;
         border-right: solid .1rem #fafafa;
-        transform: rotate(45deg);
+        transform: rotate(45deg);     
+        @include mixin.mq(pcfull){
+            top:calc(14/1440*100vw);
+        }
+        @include mixin.mq(pc1399){
+            top:calc(16/1440*100vw);
+        }
+        @include mixin.mq(pc){
+            top:calc(18/1440*100vw);
+        }
+        @include mixin.mq(tb){
+            top:calc(16/1023*100vw);
+        }
+        @include mixin.mq(tb948){
+            top:calc(18/1023*100vw);
+        }
+        @include mixin.mq(tb848){
+            top:calc(17/1023*100vw);
+        }
     }
     &:hover{
         background: #fff;

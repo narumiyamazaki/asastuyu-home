@@ -1,0 +1,25 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__quality-support__heat-resistant__img{
+    background: url(../images/heat-resistant.jpg) no-repeat;
+    background-size: cover;
+    width: calc(240/1440*100vw);
+    height: calc(240/1440*100vw);
+    border-radius: 50%;
+    position: relative;
+    z-index:10;
+    transition: .4s ease-in-out;
+    //bottom: 40%;
+    //right: -150%;
+    @include mixin.mq(tb){
+        width:calc(200/1023*100vw);
+        height:calc(200/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(200/375*100vw);
+        height:calc(200/375*100vw);
+    }
+    &:hover{
+        opacity: 0;
+    }
+}

@@ -7,4 +7,7 @@
     white-space: nowrap;
     overflow: hidden;
     display: block;
+    @include mixin.mq(sp){
+        //margin-left:calc(45/375*100vw);
+    }
 }

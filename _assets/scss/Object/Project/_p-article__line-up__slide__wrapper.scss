@@ -5,4 +5,8 @@
     width:calc(950/1140*100vw);
     position:relative;
     left:calc(120/1440*100vw);
+    @include mixin.mq(sp){
+        left:calc(18/375*100vw);
+        margin-bottom:calc(40/375*100vw);
+    }
 }
