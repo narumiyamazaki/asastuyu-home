@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__cat__bottom{
+    background: url(../images/cat-over.png) no-repeat;
+    background-size:contain;
+    width:calc(180/1440*100vw);
+    height: calc(180/1440*100vw);
+    position: absolute;
+    bottom:calc(-40/1440*100vw);
+    left:calc(250/1440*100vw);
+    z-index:1;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

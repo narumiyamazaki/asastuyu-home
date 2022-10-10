@@ -4,12 +4,12 @@
     object-fit: contain;
     width:calc(720/1440*100vw);
     order:1;
-    @include mixin.mq(sp){
-        order:0;
-        width:100%;
-    }
     @include mixin.mq(tb){
         order:0;
         width:calc(720/1440*100vw);
+    }
+    @include mixin.mq(sp){
+        width:100%;
+        margin-bottom:calc(30/375*100vw);
     }
 }

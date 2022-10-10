@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-movie__button{
     border-radius: 10rem;
     background: #D61043;
@@ -9,7 +11,9 @@
     margin-top: calc(20/1440*100vw);
     padding: calc(15/1440*100vw) calc(50/1440*100vw);
     letter-spacing: .4rem;
-    
+    @include mixin.mq(sp){
+        font-size:max(calc(14/1440*100vw),14px);
+    }   
     &:hover{
         background: #fff;
         color:#D61043;

@@ -8,7 +8,7 @@
     @include mixin.mq(tb){
         font-size:calc(20/1023*100vw);
     }
-    @include mixin.mq(tb){
+    @include mixin.mq(sp){
         font-size:calc(16/375*100vw);
     }
 }

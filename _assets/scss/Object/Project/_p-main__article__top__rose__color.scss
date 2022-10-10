@@ -1,0 +1,20 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__rose__color{
+    background:url(../images/rose-color.png) no-repeat;
+    background-size: contain;
+    width:calc(120/1440*100vw);
+    height: calc(120/1440*100vw);
+    position: absolute;
+    bottom:calc(550/1440*100vw);
+    right:calc(400/1440*100vw);
+    @include mixin.mq(tb){
+        width: calc(100/1023*100vw);
+        height: calc(100/1023*100vw);
+        right:calc(100/1023*100vw);
+        bottom:calc(350/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        display: none;
+    }
+}

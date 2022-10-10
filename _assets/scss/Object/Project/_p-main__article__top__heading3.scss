@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__heading3{
+    background: url(../images/main--top__heading3.png) no-repeat;
+    background-size:contain;
+    width:calc(370/1440*100vw);
+    height:calc(80/1440*100vw);
+    margin:0 auto;
+    @include mixin.mq(tb){
+        width: calc(270/1023*100vw);
+        margin-bottom:calc(24/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(160/375*100vw);
+        height:calc(40/375*100vw);
+    }
+}

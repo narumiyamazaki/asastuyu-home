@@ -10,4 +10,7 @@
     @include mixin.mq(tb){
         width:calc(900/1023*100vw);
     }
+    @include mixin.mq(sp){
+        flex-direction: column;
+    }
 }

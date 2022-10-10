@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__rose__solid{
+    background:url(../images/rose-solid.png) no-repeat;
+    background-size:contain;
+    width:calc(150/1440*100vw);
+    height: calc(150/1440*100vw);
+    position: absolute;
+    bottom:calc(400/1440*100vw);
+    right:calc(110/1440*100vw);
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

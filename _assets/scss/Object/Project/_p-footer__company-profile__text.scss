@@ -5,4 +5,7 @@
     font-family: tsukushioldmincho,ms mincho,ヒラギノ明朝 pro w3,hiragino mincho pro,serif;
     font-size:max(calc(16/1440*100vw),14px);
     font-weight: 600;
+    @include mixin.mq(sp){
+        margin-bottom:calc(16/375*100vw);
+    }
 }

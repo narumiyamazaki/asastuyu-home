@@ -8,5 +8,6 @@
     }
     @include mixin.mq(sp){
         width:calc(300/375*100vw);
+        margin-bottom: calc(24/375*100vw);
     }
 }

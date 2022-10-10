@@ -1,0 +1,24 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__key{
+    background:url(../images/key.png) no-repeat;
+    background-size: contain;
+    width:calc(110/1440*100vw);
+    height: calc(110/1440*100vw);
+    position: absolute;
+    bottom:calc(80/1440*100vw);
+    right:calc(300/1440*100vw);
+    transform: rotate(80deg);
+    @include mixin.mq(tb){
+        width: calc(90/1023*100vw);
+        height: calc(90/1023*100vw);
+        right: calc(480/1023*100vw);
+        transform: rotate(90deg);
+    }
+    @include mixin.mq(sp){
+        width: calc(80/375*100vw);
+        height:calc(80/375*100vw);
+        right:calc(160/375*100vw);
+        bottom:calc(20/375*100vw);
+    }
+}

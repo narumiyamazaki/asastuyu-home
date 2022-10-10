@@ -13,7 +13,7 @@
     }
     @include mixin.mq(sp){
         left:0;
-        top:calc(20/375*100vw);
+        top:calc(60/375*100vw);
         width:calc(80/375*100vw);
         height:calc(80/375*100vw);
     }

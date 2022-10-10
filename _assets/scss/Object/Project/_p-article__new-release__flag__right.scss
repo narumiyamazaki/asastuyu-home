@@ -11,8 +11,9 @@
     transform:rotate(25deg);
     @include mixin.mq(sp){
         z-index:0;
-        width:calc(140/375*100vw);
+        width:calc(150/375*100vw);
         height: calc(75/375*100vw);
         top:calc(30/375*100vw);
+        right:calc(0/375*100vw);
     }
 }

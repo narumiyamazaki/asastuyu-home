@@ -8,10 +8,11 @@
     width:calc(1152/1440*100vw);
     height: 100%;
     margin-top:calc(40/1440*100vw);
-    @include mixin.mq(sp){
-        flex-direction: column;
-    }
     @include mixin.mq(tb){
         width:calc(950/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        flex-direction: column;
+        margin-bottom: calc(40/375*100vw);
     }
 }

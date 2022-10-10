@@ -10,5 +10,6 @@
     }
     @include mixin.mq(sp){
         font-size:calc(14/375*100vw);
+        margin-bottom:calc(24/375*100vw);
     }
 }

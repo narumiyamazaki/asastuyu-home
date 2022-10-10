@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-main__file-pass{
+    display: flex;
+    background-color: rgb(255,241,235);
+    padding:calc(5/1440*100vw) 0;
+    @include mixin.mq(tb){
+        display: none;
+        overflow: hidden;
+    }
+}

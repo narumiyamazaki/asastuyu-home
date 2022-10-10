@@ -44,6 +44,18 @@
         @include mixin.mq(tb848){
             top:calc(19/1023*100vw);
         }
+        @include mixin.mq(sp){
+            top:calc(9/375*100vw);
+            right:calc(20/375*100vw);
+            width: calc(20/375*100vw);
+        }
+        @include mixin.mq(sp550){
+            top:calc(10/375*100vw);
+            right:calc(20/375*100vw);
+        }
+        @include mixin.mq(sp450){
+            top:calc(13/375*100vw);
+        }
     }
     &:after{
         content:'';
@@ -71,6 +83,21 @@
         }
         @include mixin.mq(tb848){
             top:calc(16/1023*100vw);
+        }
+        @include mixin.mq(sp){
+            top:calc(5/375*100vw);
+            right:calc(20/375*100vw);
+            width:calc(9/375*100vw);
+            height:calc(9/375*100vw);
+        }
+        @include mixin.mq(sp550){
+            top:calc(6/375*100vw);
+            right:calc(20/375*100vw);
+            width:calc(9/375*100vw);
+            height:calc(9/375*100vw);
+        }
+        @include mixin.mq(sp450){
+            top:calc(9/375*100vw);
         }
     &:hover{
         background: #fff;

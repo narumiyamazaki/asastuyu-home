@@ -13,5 +13,8 @@
     @include mixin.mq(sp){
         width:calc(60/375*100vw);
         height:calc(60/375*100vw);
+        background-size: 100%;
+        margin-top:calc(10/375*100vw);
+        margin-left: calc(5/375*100vw);
     }
 }

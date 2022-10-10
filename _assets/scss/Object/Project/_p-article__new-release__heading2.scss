@@ -8,6 +8,7 @@
     text-align: center;
     padding-top:calc(60/1440*100vw);
     letter-spacing: .3rem;
+    margin-bottom:calc(30/1440*100vw);
     @include mixin.mq(tb){
         position: relative;
         z-index:1;
@@ -17,5 +18,7 @@
         position: relative;
         z-index:1;
         font-size:calc(40/375*100vw);
+        padding-top:calc(120/375*100vw);
+        margin-bottom:0;
     }
 }

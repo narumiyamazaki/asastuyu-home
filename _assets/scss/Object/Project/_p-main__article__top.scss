@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top{
+    background: url(../images/pick-up--background.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: calc(110/1440*100vw);
+    background-position: calc(20/1440*100vw);
+    height: calc(760/1440*100vw);
+    @include mixin.mq(tb){
+        padding-bottom:calc(140/1023*100vw);
+        height: calc(700/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        height:calc(550/375*100vw);
+    }
+}

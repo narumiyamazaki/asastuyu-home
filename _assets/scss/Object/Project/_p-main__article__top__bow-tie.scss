@@ -1,0 +1,24 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__bow-tie{
+    background: url(../images/bow-tie.png) no-repeat;
+    background-size:contain;
+    width:calc(100/1440*100vw);
+    height: calc(100/1440*100vw);
+    position: absolute;
+    bottom: calc(550/1440*100vw);
+    left: calc(400/1440*100vw);
+    transform: rotate(-10deg);
+    @include mixin.mq(tb){
+        width: calc(70/1023*100vw);
+        height: calc(70/1023*100vw);
+        left:calc(150/1023*100vw);
+        bottom:calc(300/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width: calc(50/375*100vw);
+        height: calc(50/375*100vw);
+        bottom:calc(270/375*100vw);
+        left:calc(40/375*100vw);
+    }
+}

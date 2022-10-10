@@ -11,93 +11,88 @@
         <!-- slickのCSS -->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-    
-        <!--モーダルウィンドウのCSS-->
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
         <!--自作のCSS-->
         <link href="./css/style.css" rel="stylesheet">
     <!--jQuery-->      
     </head>
 	<body class="p-body">
-        <body>
-            <header class="l-header">
-                <!--ロゴ-->
-                <h1 class="p-header--heading1">
-                    <a href="http://localhost:3000/">logoが入ります</a>
-                </h1>
-                <div class="p-header--link">
-                    <p class="p-nav-btn">
-                        <a href="javascript:void(0)"><span>メニューを開く</span></a>
-                    </p>
-                    <nav class="p-header--nav-body">
-                        <ul class="p-main-menu">
-                            <li class="p-nav--about">
-                                <a class="" href="./page2.html">ASATSUYUホームとは</a>
-                                <ul class="p-sub-menu--about">
-                                    <li><a href="#">お客様の声</a></li>
-                                </ul>
-                            </li>
-                            <li class="p-nav--custom-home">
-                                <a href="#">注文住宅</a>
-                                <ul class="p-sub-menu--custom-home">
-                                    <li><a href="#">おすすめの注文住宅</a></li>
-                                    <li><a href="#">リノベーション</a></li>
-                                    <li><a href="#">性能&amp;サポート</a></li>
-                                    <li><a href="#">アフターサービス</a></li>
-                                </ul>
-                            </li>
-                            <li class="p-nav--building-example"><a href="#">建築事例</a>
-                                <ul class="p-sub-menu--building-example">
-                                    <li><a href="#">施工事例</a></li>
-                                </ul>
-                            </li>
-                            <li class="p-nav--flow-from-order"><a href="#"></a></li>
-                            <li class="p-nav--company-profile">
-                                <a href="./page3.html">会社概要</a>
-                                <ul class="p-sub-menu--company-profile">
-                                    <li><a href="#">GALLERY</a></li>
-                                </ul>
-                            </li>
-                            <div class="p-icon--header__wrapper">
-                                <div class="p-icon--header__facebook"></div>
-                                <div class="p-icon--header__twitter"><a href="#"></a></div>
-                                <div class="p-icon--header__youtube"><a href="#"></a></div>
-                                <div class="p-icon--header__instagram"><a href="#"></a></div>
-                            </div>
-                            <a class="p-contact" href="#"></a>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-        <main class="p-main">
-            <div class="p-main--file-pass">
-                <a class="p-file-pass--link" href="./index.html">HOME</a>
-                <span class="p-file-pass--text">&#032;&#047;&#032;ASATSUYUホームってどんな会社?</span>
+        <header class="l-header">
+            <!--ロゴ-->
+            <h1 class="p-header__heading1">
+                <a href="http://localhost:3000/">logoが入ります</a>
+            </h1>
+            <div class="p-header__link">
+                <p class="p-nav-btn">
+                    <a href="javascript:void(0)"><span>メニューを開く</span></a>
+                </p>
+                <nav class="p-header__nav-body">
+                    <ul class="p-main-menu">
+                        <li class="p-nav__about">
+                            <a class="p-nav__about__item" href="./page2.html">ASATSUYUホームとは</a>
+                            <ul class="p-sub-menu__about">
+                                <li class="p-sub-menu__about__item"><a class="p-sub-menu__about__link" href="#">お客様の声</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav__custom-home">
+                            <a class="p-nav__custom-home__item" href="#">注文住宅</a>
+                            <ul class="p-sub-menu__custom-home">
+                                <li class="p-sub-menu__custom-home__item"><a class="p-sub-menu__custom-home__link" href="#">おすすめの注文住宅</a></li>
+                                <li class="p-sub-menu__custom-home__item"><a class="p-sub-menu__custom-home__link" href="#">リノベーション</a></li>
+                                <li class="p-sub-menu__custom-home__item"><a class="p-sub-menu__custom-home__link" href="#">性能&amp;サポート</a></li>
+                                <li class="p-sub-menu__custom-home__item"><a class="p-sub-menu__custom-home__link" href="#">アフターサービス</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav__building-example"><a href="#">建築事例</a>
+                            <ul class="p-sub-menu__building-example">
+                                <li class="p-sub-menu__building-example__item"><a class="p-sub-menu__building-example__link" href="#">施工事例</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-nav__company-profile">
+                            <a href="./page3.html">会社概要</a>
+                            <ul class="p-sub-menu__company-profile">
+                                <li class="p-sub-menu__company-profile__item"><a class="p-sub-menu__company-profile__link" href="#">GALLERY</a></li>
+                            </ul>
+                        </li>
+                        <div class="p-header__icon__wrapper">
+                            <div class="p-header__icon--facebook"><a class="p-header__icon__link--facebook" href="#"></a></div>
+                            <div class="p-header__icon--twitter"><a class="p-header__icon__link--twitter" href="#"></a></div>
+                            <div class="p-header__icon--youtube"><a class="p-header__icon__link--youtube" href="#"></a></div>
+                            <div class="p-header__icon--instagram"><a class="p-header__icon__link--instagram" href="#"></a></div>
+                        </div>
+                        <a class="p-contact" href="#"></a>
+                    </ul>
+                </nav>
             </div>
-            <article class="p-main--article__top">
-                <div class="p-main--article__top__heading__wrapper">
-                    <h2 class="p-main--article__top__heading2"></h2>
-                    <h3 class="p-main--article__top__heading3"></h3>
-                    <h4 class="p-main--article__top__heading4">楽しいお家</h4>
+        </header>
+        <main class="p-main">
+            <div class="p-main__file-pass">
+                <a class="p-file-pass__link" href="./index.html">HOME</a>
+                <span class="p-file-pass__text">&#032;&#047;&#032;ASATSUYUホームってどんな会社?</span>
+            </div>
+            <article class="p-main__article__top">
+                <div class="p-main__article__top__heading-wrapper">
+                    <h2 class="p-main__article__top__heading2"></h2>
+                    <h3 class="p-main__article__top__heading3"></h3>
+                    <h4 class="p-main__article__top__heading4">楽しいお家</h4>
                 </div>
-                <div class="p-main--article__top__text__wrapper">
-                    <p class="p-main--article__top__text__top">ASATSUYUホームってどんな会社?</p>
-                    <p class="p-main--article__top__text__bottom">注文住宅はもちろん<br>不動産のご紹介・売却のご提案まで<br>トータルで行っております</p>
+                <div class="p-main__article__top__text__wrapper">
+                    <p class="p-main__article__top__text__top">ASATSUYUホームってどんな会社?</p>
+                    <p class="p-main__article__top__text__bottom">注文住宅はもちろん<br>不動産のご紹介・売却のご提案まで<br>トータルで行っております</p>
                 </div>
-                <div class="p-main--article__top__garland"></div>
-                <div class="p-main--article__top__flag__left"></div>
-                <div class="p-main--article__top__flag__right"></div>
-                <div class="p-main--article__top__top-cat"></div>
-                <div class="p-main--article__top__bow-tie"></div>
-                <div class="p-main--article__top__rose__color"></div>
-                <div class="p-main--article__top__rose__solid"></div>
-                <div class="p-main--article__top__cat__left"></div>
-                <div class="p-main--article__top__cat__right"></div>
-                <div class="p-main--article__top__key"></div>
-                <div class="p-main--article__top__cat__bottom"></div>
+                <div class="p-main__article__top__garland"></div>
+                <div class="p-main__article__top__flag__left"></div>
+                <div class="p-main__article__top__flag__right"></div>
+                <div class="p-main__article__top__top-cat"></div>
+                <div class="p-main__article__top__bow-tie"></div>
+                <div class="p-main__article__top__rose__color"></div>
+                <div class="p-main__article__top__rose__solid"></div>
+                <div class="p-main__article__top__cat__left"></div>
+                <div class="p-main__article__top__cat__right"></div>
+                <div class="p-main__article__top__key"></div>
+                <div class="p-main__article__top__cat__bottom"></div>
             </article>
             <!--スライダー部分-->
-            <div class="p-main--slider slider-auto">
+            <div class="p-main__slider slider-auto">
                 <div class="p-main--slide__img__wrapper">
                     <img class="p-main--slider__img" src="images/slider-house1.webp" alt="住宅内装">
                     <div class="p-main--slider__items__wrapper"> 

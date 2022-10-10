@@ -1,0 +1,24 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__cat__left{
+    background: url(../images/left-cat-mono.png) no-repeat;
+    background-size:contain;
+    width:calc(260/1440*100vw);
+    height: calc(260/1440*100vw);
+    position: absolute;
+    bottom:calc(150/1440*100vw);
+    left:calc(80/1440*100vw);
+    transform: rotate(-5deg);
+    @include mixin.mq(tb){
+        width:calc(150/1023*100vw);
+        height: calc(150/1023*100vw);
+        bottom:calc(30/1023*100vw);
+        left:calc(200/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width: calc(90/375*100vw);
+        height: calc(90/375*100vw);
+        bottom:calc(50/375*100vw);
+        left:calc(30/375*100vw);
+    }
+}

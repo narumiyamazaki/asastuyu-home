@@ -8,15 +8,15 @@
     text-align: left;
     position: relative;
     left:calc(140/1440*100vw);
-    @include mixin.mq(sp){
-        left:0;
-        width:100%;
-        margin-top:calc(30/375*100vw);
-    }
     @include mixin.mq(tb){
         width:calc(511/1023*100vw);
         left:calc(50/1023*100vw);
         margin-left:calc(18/375*100vw);
         //margin-top:calc(30/375*100vw);
+    }
+    @include mixin.mq(sp){
+        left:0;
+        width:100%;
+        margin-left:0;
     }
 }

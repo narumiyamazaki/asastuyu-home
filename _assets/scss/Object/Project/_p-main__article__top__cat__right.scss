@@ -1,0 +1,24 @@
+@use  '../../Foundation/mixin';
+
+.p-main__article__top__cat__right{
+    background: url(../images/right-cat-mono.png) no-repeat;
+    background-size:contain;
+    width:20rem;
+    height: 20rem;
+    position: absolute;
+    bottom:15%;
+    right:0%;
+    transform: rotate(10deg);
+    @include mixin.mq(tb){
+        width: 13rem;
+        height: 13rem;
+        bottom: 2%;
+        right:16%;
+    }
+    @include mixin.mq(sp){
+        width: calc(90/375*100vw);
+        height: calc(90/375*100vw);
+        bottom:calc(40/375*100vw);
+        right:calc(30/375*100vw);
+    }
+}

@@ -1,0 +1,20 @@
+@use '../../Foundation/mixin';
+
+.p-main__article__top__top-cat{
+    background: url(../images/snack-house-cats.png) no-repeat;
+    background-size:contain;
+    width:calc(150/1440*100vw);
+    height:calc(120/1440*100vw);
+    position: absolute;
+    bottom:calc(600/1440*100vw);
+    left:calc(660/1440*100vw);
+    @include mixin.mq(tb){
+        bottom:calc(570/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        left:calc(150/375*100vw);
+        width: calc(90/375*100vw);
+        height:calc(90/375*100vw);
+        bottom:calc(120/375*100vw);
+    }
+}

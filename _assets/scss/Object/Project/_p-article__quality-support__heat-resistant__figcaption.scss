@@ -1,3 +1,5 @@
+@use '../../../scss/Foundation/mixin';
+
 .p-article__quality-support__heat-resistant__figcaption{
     width:calc(180/1440*100vw);
     margin:0 auto;
@@ -9,5 +11,7 @@
     background-color:#ff4040;
     padding:0 calc(8/1440*100vw);
     font-family: tsukushigothic,ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
+    @include mixin.mq(sp){
+        width:calc(150/375*100vw);
+    }
 }
-

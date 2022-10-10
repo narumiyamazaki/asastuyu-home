@@ -4,7 +4,7 @@
     font-size:calc(16/1440*100vw);
     text-align: left;
     font-family:tsukushigothic,ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
-    margin-top:2rem;
+    margin-top:calc(24/1440*100vw);
     @include mixin.mq(tb){
         font-size:calc(16/1023*100vw);
     }
