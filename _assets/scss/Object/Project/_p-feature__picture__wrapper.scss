@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-feature__picture__wrapper{
+    display: flex;
+    position:relative;
+    right:calc(50/1440*100vw);
+    margin-bottom:calc(80/1440*100vw);
+    @include mixin.mq(tb){
+        order:0;
+        margin-bottom:calc(80/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        margin-bottom:calc(80/375*100vw);
+    }
+}

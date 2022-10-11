@@ -1,0 +1,16 @@
+@use '../../Foundation/mixin';
+
+.p-feature__picture2{
+    width:calc(475/1440*100vw);
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    right:2%;
+    z-index: 1;
+    transform: rotate(1deg);
+    margin-top:calc(20/1440*100vw);
+    @include mixin.mq(tb){
+        margin:0;
+        width: calc(337/1023*100vw);
+    }
+}

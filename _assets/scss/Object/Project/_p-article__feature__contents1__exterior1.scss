@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-article__feature__contents1__exterior1{
+    height: 100%;
+    object-fit: cover;
+    width:100%;
+    order:2;
+    display: none;
+    margin:0 auto;
+    @include mixin.mq(tb){
+        display: block;
+        margin-bottom:calc(40/1023*100vw);
+    }
+}

@@ -1,0 +1,11 @@
+@use '../../Foundation/mixin';
+
+.p-article__feature__contents1{
+    display: flex;
+    margin-bottom: calc(40/1440*100vw);
+    @include mixin.mq(tb){
+        position: relative;
+        flex-direction: column;
+        margin-bottom:calc(40/1023*100vw);
+    }
+}

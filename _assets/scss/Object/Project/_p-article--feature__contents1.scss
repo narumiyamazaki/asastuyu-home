@@ -1,9 +1,0 @@
-@use '../../Foundation/mixin';
-
-.p-article--feature__contents1{
-    display: flex;
-    @include mixin.mq(tb){
-        position: relative;
-        flex-direction: column;
-    }
-}

@@ -1,0 +1,18 @@
+@use '../../Foundation/mixin';
+
+.p-article__feature__contents1__point1{
+    background: url(../images/point1.png) no-repeat;
+    background-size:cover;
+    width:calc(160/1440*100vw);
+    height: calc(90/1440*100vw);
+    @include mixin.mq(tb){
+        margin:0 auto;
+        width:calc(180/1023*100vw);
+        height: calc(90/1023*100vw);
+        order: 0;
+    }
+    @include mixin.mq(sp){
+        width:calc(120/375*100vw);
+        height:calc(80/375*100vw);
+    }
+}

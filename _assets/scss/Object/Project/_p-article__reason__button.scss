@@ -1,0 +1,80 @@
+@use '../../Foundation/mixin';
+
+.p-article__reason__button{
+    justify-content: center;
+        align-items: center;
+        width:60%;
+        border-radius: 10rem;
+        background: #F7004E;
+        border: .1rem solid #F7004E;
+        font-size: max(calc(16/1440*100vw),16px);
+        font-weight:600;
+        color:#fafafa;
+        margin: 2.5rem auto;
+        padding: 1rem .5rem;
+        letter-spacing: .4rem;
+        display:block;
+        position:relative;
+        @include mixin.mq(tb){
+            padding:1.5rem .5rem;
+            font-size:2rem;
+        }
+        @include mixin.mq(sp){
+            width:calc(200/375*100vw);
+            padding:calc(16/375*100vw) calc(5/375*100vw);
+            font-size:calc(16/375*100vw);
+        }
+        &:before{
+            content:'';
+            position:absolute;
+            right: calc(50/1440*100vw);
+            top:calc(27/1440*100vw);
+            width: 3rem;
+            height: .1rem;
+            background: #fafafa;
+            @include mixin.mq(pc1399){
+                top:calc(25/1440*100vw);
+            }
+            @include mixin.mq(pc){
+                top:calc(28/1440*100vw)
+            }
+            @include mixin.mq(tb){
+                display: none;
+            } 
+        }
+        &:after{
+            content:'';
+            position:absolute;
+            top:calc(18/1440*100vw);
+            right: calc(50/1440*100vw);
+            content: '';
+            width: 1rem;
+            height: 1rem;
+            border: 0px;
+            border-top: solid .1rem #fafafa;
+            border-right: solid .1rem #fafafa;
+            transform: rotate(45deg);
+            @include mixin.mq(pc1399){
+                top: calc(21/1440*100vw);
+            }
+            @include mixin.mq(pc){
+                top:calc(22/1440*100vw);
+            }
+            @include mixin.mq(tb){
+                display: none;
+            }
+        }
+        &:hover{
+            background: #fff;
+            color:rgb(85,85,85);
+            transition: .2s;
+            border: .1rem solid rgb(85,85,85);
+        }
+        &:hover:before{
+            background:rgb(85,85,85);
+        }
+        &:hover:after{
+            border-top: solid .1rem rgb(85,85,85);
+            border-right: solid .1rem rgb(85,85,85);
+    }
+}

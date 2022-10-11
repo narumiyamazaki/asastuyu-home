@@ -1,0 +1,19 @@
+@use '../../Foundation/mixin';
+
+.p-article__reason__heading2{
+    padding-top:calc(60/1440*100vw);
+    font-family:'メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif;
+    color:rgb(116,52,52);
+    font-size:calc(24/1440*100vw);
+    //font-weight: 600;
+    text-align: center;
+    margin-bottom:calc(16/1440*100vw);
+    @include mixin.mq(tb){
+        font-size:calc(40/1023*100vw);
+        margin-top:calc(16/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        font-size:calc(20/375*100vw);
+        margin-bottom:calc(16/375*100vw);
+    }
+}
