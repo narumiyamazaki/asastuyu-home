@@ -1,19 +1,19 @@
 @use '../../Foundation/mixin';
 
-.p-article--feature__right-cat{
+.p-article__feature__right-cat{
     background:url(../images/right-cat-mono.png) no-repeat;
     background-size:contain;
-    width:18rem;
-    height:18rem;
+    width:calc(180/1440*100vw);
+    height:calc(180/1440*100vw);
     position:absolute;
-    top:25%;
-    right:-2%;
+    top:calc(200/1440*100vw);
+    right:calc(20/1440*100vw);
     visibility: hidden;
     transition: 2.5s;
     @include mixin.mq(tb){
         display: none;
     }
 }
-.p-article--feature__right-cat.inview-js{
+.p-article__feature__right-cat.inview-js{
     visibility: visible;
 }

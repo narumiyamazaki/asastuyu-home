@@ -1,0 +1,10 @@
+.p-main__slider__hover__click-here{
+    border:#fff solid .1rem;
+    padding:calc(5/1440*100vw) calc(50/1440*100vw);
+    color:#fff;
+    font-size:max(calc(14/1440*100vw),14px);
+    &:hover{
+        border:#dcdcdc solid .1rem;
+        color:#dcdcdc;
+    }   
+}

@@ -220,11 +220,11 @@
 @use './p-main__article__top__cat__left';
 @use './p-main__article__top__cat__bottom';
 //JamHomeエステートとは　スライダー関係
-@use './p-main--slide__img__wrapper';
-@use './p-main--slider__img';
+@use './p-main__slide__img__wrapper';
+@use './p-main__slider__img';
 @use './p-main__slider';
-@use './p-main--slider__hover__click-here';
-@use './p-main--slider__items__wrapper';
+@use './p-main__slider__hover__click-here';
+@use './p-main__slider__items__wrapper';
 @use './p-main--slider__hover__icon__wrapper';
 @use './slider';
 //SNSリンク関係
@@ -236,31 +236,30 @@
 @use './p-body--sns-link__facebook';
 @use './p-body--sns-link__twitter';
 //魅力
-@use './p-article--charm';
-@use './p-article--charm__heading2';
-@use './p-article--charm__heading3';
-@use './p-article--charm__text__img';
-@use './p-article--charm__text';
+@use './p-article__charm';
+@use './p-article__charm__heading2';
+@use './p-article__charm__heading3';
+@use './p-article__charm__text';
 @use './p-article--charm__flyer';
-@use './p-article--charm__img__wood-frame__left';
-@use './p-article--charm__img__wood-frame__right';
-@use './p-article--charm__img__cat-sakuramochiko';
-@use './p-article--charm__img__cat-jam';
+@use './p-article__charm__wood-frame__left';
+@use './p-article__charm__wood-frame__right';
+@use './p-article__charm__cat-sakuramochiko';
+@use './p-article__charm__cat-jam';
 @use './modaal-container.scss';
-@use './p-background--move__img';
-@use './p-background--move__text';
+@use './p-background__move__img';
+@use './p-background__move__text';
 @use './p-box';
-@use './p-background--move__wrapper';
+@use './p-background__move__wrapper';
 //JamHomeエステートの特徴
-@use './p-article--feature';
-@use './p-article--feature__contents';
-@use './p-article--feature__left-cat';
-@use './p-article--feature__rose-mono';
-@use './p-article--feature__wall';
-@use './p-article--feature__jam__illustration';
-@use './p-article--feature__rose__solid';
-@use './p-article--feature__contents__cat';
-@use './p-article--feature__contents__heading2';
+@use './p-article__feature';
+@use './p-article__feature__contents';
+@use './p-article__feature__left-cat';
+@use './p-article__feature__rose-mono';
+@use './p-article__feature__wall';
+@use './p-article__feature__jam__illustration';
+@use './p-article__feature__rose__solid';
+@use './p-article__feature__contents__cat';
+@use './p-article__feature__contents__heading2';
 @use './p-article--feature__contents1';
 @use './p-article--feature__contents1__left__wrapper';
 @use './p-article--feature__contents1__heading__img';
@@ -290,7 +289,7 @@
 @use './p-article--feature__contents2__top-cat';
 @use './p-article--feature__contents2__speach-bubble';
 @use './p-article--feature__contents2__bottom__cats';
-@use './p-article--feature__right-cat';
+@use './p-article__feature__right-cat';
 //選ばれる理由
 @use './p-article--reason';
 @use './p-article--reason__text__img';

@@ -1,12 +1,12 @@
 @use '../../Foundation/mixin';
 
-.p-article--feature__rose-mono{
+.p-article__feature__rose-mono{
     background:url(../images/rose-mono.png) no-repeat;
     background-size:contain;
-    width:20rem;
-    height:20rem;
+    width:calc(200/1440*100vw);
+    height:calc(200/1440*100vw);
     position:absolute;
-    top:50%;
+    top:calc(450/1440*100vw);
     left:0%;
     visibility: hidden;
     transition: 2.5s;
@@ -14,6 +14,6 @@
         display: none;
     }
 }
-.p-article--feature__rose-mono.inview-js{
+.p-article__feature__rose-mono.inview-js{
     visibility: visible;
 }

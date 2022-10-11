@@ -1,19 +1,19 @@
 @use '../../Foundation/mixin';
 
-.p-article--feature__wall{
+.p-article__feature__wall{
     background:url(../images/wall.png) no-repeat;
     background-size:contain;
-    width:18rem;
-    height:18rem;
+    width:calc(180/1440*100vw);
+    height:calc(180/1440*100vw);
     position:absolute;
-    top:57%;
-    right:-2%;
+    top:calc(500/1440*100vw);
+    right:calc(10/1440*100vw);
     visibility: hidden;
     transition: 2.5s;
     @include mixin.mq(tb){
         display: none;
     }
 }
-.p-article--feature__wall.inview-js{
+.p-article__feature__wall.inview-js{
     visibility: visible;
 }

@@ -1,12 +1,12 @@
 @use '../../Foundation/mixin';
 
-.p-article--charm__img__cat-sakuramochiko{
+.p-article__charm__cat-sakuramochiko{
     background:url(../images/cat-sakuramochiko.png) no-repeat;
     background-size:contain;
-    width:23rem;
-    height: 35rem;
+    width:calc(120/1440*100vw);
+    height: calc(150/1440*100vw);
     position: absolute;
-    bottom:10%;
+    bottom:calc(30/1440*100vw);
     left:0%;
     transition: .5s;
     @include mixin.mq(tb){
@@ -14,6 +14,6 @@
     }
 }
 
-.p-article--charm__img__cat-sakuramochiko.inview-js{
-    margin-left:2rem;
+.p-article__charm__cat-sakuramochiko.inview-js{
+    margin-left:calc(20/1440*100vw);
 }

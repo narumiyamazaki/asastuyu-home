@@ -5215,18 +5215,24 @@ a {
   }
 }
 
-.p-main--slide__img__wrapper {
+.p-main__slide__img__wrapper {
   overflow: hidden;
   position: relative;
 }
 
-.p-main--slider__img {
-  width: 40rem;
-  height: 20rem;
+.p-main__slider__img {
+  width: 29.1666666667vw;
+  height: 15.2777777778vw;
   object-fit: cover;
   transition-duration: 0.3s;
 }
-.p-main--slider__img.is-hover {
+@media screen and (max-width: 767px) {
+  .p-main__slider__img {
+    width: 100vw;
+    height: 53.3333333333vw;
+  }
+}
+.p-main__slider__img.is-hover {
   opacity: 0.5;
   transition-duration: 0.3s;
 }
@@ -5237,25 +5243,25 @@ a {
   position: relative;
 }
 
-.p-main--slider__hover__click-here {
+.p-main__slider__hover__click-here {
   border: #fff solid 0.1rem;
-  padding: 0.5rem 4rem;
+  padding: 0.3472222222vw 3.4722222222vw;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: max(0.9722222222vw, 14px);
 }
-.p-main--slider__hover__click-here:hover {
+.p-main__slider__hover__click-here:hover {
   border: #dcdcdc solid 0.1rem;
   color: #dcdcdc;
 }
 
-.p-main--slider__items__wrapper {
+.p-main__slider__items__wrapper {
   position: absolute;
   bottom: 10%;
-  left: 23%;
+  left: 20.8333333333vw;
   display: none;
 }
 
-.p-main--slider__items__wrapper.is-block {
+.p-main__slider__items__wrapper.is-block {
   display: block;
 }
 
@@ -5312,7 +5318,7 @@ a {
   background-image: url(../images/twitter.webp);
 }
 
-.p-article--charm {
+.p-article__charm {
   background: url(../images/pick-up--background.png) no-repeat;
   background-size: cover;
   position: relative;
@@ -5320,65 +5326,69 @@ a {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  padding: 5.5555555556vw 0;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm {
+  .p-article__charm {
     background-color: #fff;
     background-image: none;
+    padding: 7.8201368524vw 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__charm {
+    padding: 10.6666666667vw 0;
   }
 }
 
-.p-article--charm__heading2 {
+.p-article__charm__heading2 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: rgb(116, 52, 52);
-  font-size: 1.8rem;
-  margin-top: 5rem;
+  font-size: 4.1666666667vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm__heading2 {
-    font-size: 2.2rem;
+  .p-article__charm__heading2 {
+    font-size: 3.9100684262vw;
+    margin-top: 7.8201368524vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__charm__heading2 {
+    font-size: 6.4vw;
+    margin-top: 10.6666666667vw;
   }
 }
 
-.p-article--charm__heading3 {
+.p-article__charm__heading3 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: rgb(116, 52, 52);
-  font-size: 2.5rem;
+  font-size: 2.7777777778vw;
   margin: 1rem 0;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm__heading3 {
-    font-size: 2.6rem;
+  .p-article__charm__heading3 {
+    font-size: 3.128054741vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__charm__heading3 {
+    font-size: 6.4vw;
   }
 }
 
-.p-article--charm__text__img {
-  background: url(../images/Jam_Dream_House.png) no-repeat;
-  background-size: contain;
-  width: 14rem;
-  height: 5rem;
-  margin: 0 auto 3rem;
-  transform: rotate(4deg);
-}
-@media screen and (max-width: 1023px) {
-  .p-article--charm__text__img {
-    margin: 0 auto 1rem;
-  }
-}
-
-.p-article--charm__text {
+.p-article__charm__text {
   color: rgb(51, 51, 51);
-  font-size: 1.2rem;
+  font-size: max(1.1111111111vw, 16px);
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  margin-bottom: 2rem;
+  margin-bottom: 1.6666666667vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm__text {
+  .p-article__charm__text {
     font-size: 1.5640273705vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--charm__text {
+  .p-article__charm__text {
     font-size: 3.7333333333vw;
   }
 }
@@ -5390,93 +5400,93 @@ a {
   margin: 0 auto;
 }
 
-.p-article--charm__img__wood-frame__left {
+.p-article__charm__wood-frame__left {
   background: url(../images/wood-frame1.png) no-repeat;
   background-size: contain;
-  width: 22rem;
-  height: 20rem;
+  width: 10.4166666667vw;
+  height: 8.3333333333vw;
   position: absolute;
-  top: 13%;
-  left: 0%;
+  top: 4.1666666667vw;
+  left: 6.25vw;
   transform: rotate(-5deg);
   transition: 0.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm__img__wood-frame__left {
+  .p-article__charm__wood-frame__left {
     display: none;
   }
 }
 
-.p-article--charm__img__wood-frame__left.inview-js {
-  margin-left: 2rem;
+.p-article__charm__wood-frame__left.inview-js {
+  margin-left: 1.3888888889vw;
 }
 
-.p-article--charm__img__wood-frame__right {
+.p-article__charm__wood-frame__right {
   background: url(../images/wood-frame2.png) no-repeat;
   background-size: contain;
-  width: 22rem;
-  height: 20rem;
+  width: 10.4166666667vw;
+  height: 8.3333333333vw;
   position: absolute;
-  top: 19%;
-  right: 0%;
+  top: 4.8611111111vw;
+  right: 4.1666666667vw;
   transform: rotate(6deg);
   transition: 0.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm__img__wood-frame__right {
+  .p-article__charm__wood-frame__right {
     display: none;
   }
 }
 
-.p-article--charm__img__wood-frame__right.inview-js {
-  margin-right: 2rem;
+.p-article__charm__wood-frame__right.inview-js {
+  margin-right: 1.3888888889vw;
 }
 
-.p-article--charm__img__cat-sakuramochiko {
+.p-article__charm__cat-sakuramochiko {
   background: url(../images/cat-sakuramochiko.png) no-repeat;
   background-size: contain;
-  width: 23rem;
-  height: 35rem;
+  width: 8.3333333333vw;
+  height: 10.4166666667vw;
   position: absolute;
-  bottom: 10%;
+  bottom: 2.0833333333vw;
   left: 0%;
   transition: 0.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm__img__cat-sakuramochiko {
+  .p-article__charm__cat-sakuramochiko {
     display: none;
   }
 }
 
-.p-article--charm__img__cat-sakuramochiko.inview-js {
-  margin-left: 2rem;
+.p-article__charm__cat-sakuramochiko.inview-js {
+  margin-left: 1.3888888889vw;
 }
 
-.p-article--charm__img__cat-jam {
+.p-article__charm__cat-jam {
   background: url(../images/cat-jam.png) no-repeat;
   background-size: contain;
-  width: 25rem;
-  height: 20rem;
+  width: 8.3333333333vw;
+  height: 10.4166666667vw;
   position: absolute;
-  bottom: 3%;
-  right: 1%;
+  bottom: 4.1666666667vw;
+  right: 0.6944444444vw;
   transition: 0.8s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--charm__img__cat-jam {
+  .p-article__charm__cat-jam {
     display: none;
   }
 }
 
-.p-article--charm__img__cat-jam.inview-js {
-  margin-right: 2rem;
+.p-article__charm__cat-jam.inview-js {
+  margin-right: 1.3888888889vw;
 }
 
 .modaal-container {
   background: 0;
 }
 
-.p-background--move__img {
+.p-background__move__img {
   background: url(../images/jam-home-exteriorr.jpg) no-repeat;
   background-size: 100%;
   width: 100%;
@@ -5486,20 +5496,20 @@ a {
   align-items: center;
 }
 
-.p-background--move__text {
-  font-size: 1.6666666667vw;
+.p-background__move__text {
+  font-size: 2.7777777778vw;
   color: #fff;
 }
 @media screen and (max-width: 1023px) {
-  .p-background--move__text {
-    width: 63%;
+  .p-background__move__text {
+    width: 55.5555555556ve;
     margin: 0 auto;
     font-size: 2.9325513196vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-background--move__text {
-    width: 63%;
+  .p-background__move__text {
+    width: 58.6666666667vw;
     margin: 0 auto;
     font-size: 5.3333333333vw;
   }
@@ -5509,24 +5519,24 @@ a {
   height: 100rem;
 }
 
-.p-background--move__wrapper {
-  height: 40vh;
+.p-background__move__wrapper {
+  height: 41.6666666667vw;
 }
 
-.p-article--feature {
+.p-article__feature {
   position: relative;
   background: url(../images/pick-up--background.png) no-repeat;
   background-size: cover;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature {
+  .p-article__feature {
     background: url(../images/background-pink.png) no-repeat;
   }
 }
 
-.p-article--feature__contents {
+.p-article__feature__contents {
   position: relative;
-  width: 65%;
+  width: 62.5vw;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -5535,155 +5545,165 @@ a {
   padding: 0 2rem;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__contents {
-    width: 95%;
+  .p-article__feature__contents {
+    width: 95.7966764418vw;
   }
 }
 
-.p-article--feature__left-cat {
+.p-article__feature__left-cat {
   background: url(../images/left-cat-mono.png) no-repeat;
   background-size: contain;
-  width: 22rem;
-  height: 22rem;
+  width: 15.2777777778vw;
+  height: 15.2777777778vw;
   position: absolute;
-  top: 10%;
-  left: 1%;
+  top: 8.3333333333vw;
+  left: 1.3888888889vw;
   visibility: hidden;
   transition: 2.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__left-cat {
+  .p-article__feature__left-cat {
     display: none;
   }
 }
 
-.p-article--feature__left-cat.inview-js {
+.p-article__feature__left-cat.inview-js {
   visibility: visible;
 }
 
-.p-article--feature__rose-mono {
+.p-article__feature__rose-mono {
   background: url(../images/rose-mono.png) no-repeat;
   background-size: contain;
-  width: 20rem;
-  height: 20rem;
+  width: 13.8888888889vw;
+  height: 13.8888888889vw;
   position: absolute;
-  top: 50%;
+  top: 31.25vw;
   left: 0%;
   visibility: hidden;
   transition: 2.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__rose-mono {
+  .p-article__feature__rose-mono {
     display: none;
   }
 }
 
-.p-article--feature__rose-mono.inview-js {
+.p-article__feature__rose-mono.inview-js {
   visibility: visible;
 }
 
-.p-article--feature__wall {
+.p-article__feature__wall {
   background: url(../images/wall.png) no-repeat;
   background-size: contain;
-  width: 18rem;
-  height: 18rem;
+  width: 12.5vw;
+  height: 12.5vw;
   position: absolute;
-  top: 57%;
-  right: -2%;
+  top: 34.7222222222vw;
+  right: 0.6944444444vw;
   visibility: hidden;
   transition: 2.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__wall {
+  .p-article__feature__wall {
     display: none;
   }
 }
 
-.p-article--feature__wall.inview-js {
+.p-article__feature__wall.inview-js {
   visibility: visible;
 }
 
-.p-article--feature__jam__illustration {
+.p-article__feature__jam__illustration {
   background: url(../images/cat-jam-mono.png) no-repeat;
   background-size: contain;
-  width: 22rem;
-  height: 22rem;
+  width: 15.2777777778vw;
+  height: 15.2777777778vw;
   position: absolute;
-  top: 73%;
-  left: 1%;
+  top: 48.6111111111vw;
+  left: 0.6944444444vw;
   visibility: hidden;
   transition: 2.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__jam__illustration {
+  .p-article__feature__jam__illustration {
     display: none;
   }
 }
 
-.p-article--feature__jam__illustration.inview-js {
+.p-article__feature__jam__illustration.inview-js {
   visibility: visible;
 }
 
-.p-article--feature__rose__solid {
+.p-article__feature__rose__solid {
   background: url(../images/rose-solid.png) no-repeat;
   background-size: contain;
-  width: 18rem;
-  height: 18rem;
+  width: 12.5vw;
+  height: 12.5vw;
   position: absolute;
-  top: 85%;
-  right: -2%;
+  top: 55.5555555556vw;
+  right: 1.3888888889vw;
   visibility: hidden;
   transition: 2.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__rose__solid {
+  .p-article__feature__rose__solid {
     display: none;
   }
 }
 
-.p-article--feature__rose__solid.inview-js {
+.p-article__feature__rose__solid.inview-js {
   visibility: visible;
 }
 
-.p-article--feature__contents__cat {
+.p-article__feature__contents__cat {
   background: url(../images/cats-feature-top.png) no-repeat;
   background-size: contain;
-  width: 11rem;
-  height: 11rem;
+  width: 8.3333333333vw;
+  height: 8.3333333333vw;
   position: absolute;
-  top: 2%;
-  left: 45%;
+  top: 4.8611111111vw;
+  left: 27.7777777778vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__contents__cat {
+  .p-article__feature__contents__cat {
     background: url(../images/cat-home.png) no-repeat;
     background-size: contain;
-    width: 15rem;
-    height: 15rem;
-    left: 40%;
-    top: 1%;
+    width: 14.6627565982vw;
+    height: 14.6627565982vw;
+    left: 42.0332355816vw;
+    top: 4.8875855327vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__feature__contents__cat {
+    width: 21.3333333333vw;
+    height: 21.3333333333vw;
+    left: 38.6666666667vw;
+    top: 5.3333333333vw;
   }
 }
 
-.p-article--feature__contents__heading2 {
+.p-article__feature__contents__heading2 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: rgb(116, 52, 52);
-  font-size: 1.6666666667vw;
-  padding-top: 15rem;
+  font-size: 4.1666666667vw;
+  padding-top: 10.4166666667vw;
   text-align: center;
   position: relative;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__contents__heading2 {
-    font-size: 3.128054741vw;
+  .p-article__feature__contents__heading2 {
+    font-size: 3.9100684262vw;
+    padding-top: 11.7302052786vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--feature__contents__heading2 {
+  .p-article__feature__contents__heading2 {
     font-size: 6.4vw;
+    padding-top: 21.3333333333vw;
   }
 }
-.p-article--feature__contents__heading2::after {
+.p-article__feature__contents__heading2::after {
   display: block;
   content: "";
   width: 3rem;
@@ -6076,24 +6096,24 @@ a {
   margin: 3rem 0 5rem;
 }
 
-.p-article--feature__right-cat {
+.p-article__feature__right-cat {
   background: url(../images/right-cat-mono.png) no-repeat;
   background-size: contain;
-  width: 18rem;
-  height: 18rem;
+  width: 12.5vw;
+  height: 12.5vw;
   position: absolute;
-  top: 25%;
-  right: -2%;
+  top: 13.8888888889vw;
+  right: 1.3888888889vw;
   visibility: hidden;
   transition: 2.5s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--feature__right-cat {
+  .p-article__feature__right-cat {
     display: none;
   }
 }
 
-.p-article--feature__right-cat.inview-js {
+.p-article__feature__right-cat.inview-js {
   visibility: visible;
 }
 

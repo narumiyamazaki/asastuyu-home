@@ -1,19 +1,19 @@
 @use  '../../Foundation/mixin';
 
-.p-article--charm__img__wood-frame__left{
+.p-article__charm__wood-frame__left{
     background:url(../images/wood-frame1.png) no-repeat;
     background-size:contain;
-    width:22rem;
-    height: 20rem;
+    width:calc(150/1440*100vw);
+    height: calc(120/1440*100vw);
     position: absolute;
-    top:13%;
-    left:0%;
+    top:calc(60/1440*100vw);
+    left:calc(90/1440*100vw);
     transform: rotate(-5deg);
     transition: .5s;
     @include mixin.mq(tb){
         display: none;
     }
 }
-.p-article--charm__img__wood-frame__left.inview-js{
-    margin-left:2rem;
+.p-article__charm__wood-frame__left.inview-js{
+    margin-left:calc(20/1440*100vw);
 }

@@ -1,8 +1,8 @@
 @use '../../Foundation/mixin';
 
-.p-article--feature__contents{
+.p-article__feature__contents{
     position: relative;
-    width:65%;
+    width:calc(900/1440*100vw);
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -10,6 +10,6 @@
     margin:0 auto;
     padding:0 2rem;
     @include mixin.mq(tb){
-        width:95%;
+        width:calc(980/1023*100vw);
     }
 }

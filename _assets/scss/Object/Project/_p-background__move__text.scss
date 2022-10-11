@@ -1,15 +1,15 @@
 @use '../../Foundation/mixin';
 
-.p-background--move__text{
-    font-size:calc(24/1440*100vw);
+.p-background__move__text{
+    font-size:calc(40/1440*100vw);
     color:#fff;
     @include mixin.mq(tb){
-        width: 63%;
+        width:calc(800/1440*100ve);
         margin:0 auto;
         font-size:calc(30/1023*100vw);
     }
     @include mixin.mq(sp){
-        width: 63%;
+        width: calc(220/375*100vw);
         margin:0 auto;
         font-size:calc(20/375*100vw);
     }

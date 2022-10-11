@@ -1,19 +1,19 @@
 @use '../../Foundation/mixin';
 
-.p-article--feature__jam__illustration{
+.p-article__feature__jam__illustration{
     background:url(../images/cat-jam-mono.png) no-repeat;
     background-size:contain;
-    width:22rem;
-    height:22rem;
+    width:calc(220/1440*100vw);
+    height:calc(220/1440*100vw);
     position:absolute;
-    top:73%;
-    left:1%;
+    top:calc(700/1440*100vw);
+    left:calc(10/1440*100vw);
     visibility: hidden;
     transition: 2.5s;
     @include mixin.mq(tb){
         display: none;
     }
 }
-.p-article--feature__jam__illustration.inview-js{
+.p-article__feature__jam__illustration.inview-js{
     visibility: visible;
 }

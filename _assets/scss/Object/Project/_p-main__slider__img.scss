@@ -1,8 +1,14 @@
-.p-main--slider__img{
-    width:40rem;
-    height: 20rem;
+@use '../../../scss/Foundation/mixin';
+
+.p-main__slider__img{
+    width:calc(420/1440*100vw);
+    height: calc(220/1440*100vw);
     object-fit: cover;
     transition-duration: 0.3s;
+    @include mixin.mq(sp){
+        width: 100vw;
+        height:calc(200/375*100vw);
+    }
     //ホバー時
     &.is-hover{
         opacity: 0.5;
