@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-article__commitment{
+    padding-bottom:calc(60/1440*100vw);
+    @include mixin.mq(tb){
+        position:relative;
+        overflow: hidden;
+    }
+    @include mixin.mq(sp){
+        padding-top:calc(50/375*100vw);
+    }
+}

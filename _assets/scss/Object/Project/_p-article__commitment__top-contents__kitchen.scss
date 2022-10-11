@@ -1,0 +1,16 @@
+@use '../../Foundation/mixin';
+
+.p-article__commitment__top-contents__kitchen{
+    object-fit: contain;
+    width: 100%;
+    @include mixin.mq(tb){
+        position:absolute;
+        z-index: -1;
+        width:calc(300/1023*100vw);
+        left:calc(400/1023*100vw);
+        top:calc(400/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        left:calc(180/375*100vw);
+    }
+}

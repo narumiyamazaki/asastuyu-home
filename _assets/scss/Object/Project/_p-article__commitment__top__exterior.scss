@@ -1,0 +1,23 @@
+@use '../../Foundation/mixin';
+
+.p-article__commitment__top__exterior{
+    width:calc(432/1440*100vw);
+    object-fit: contain;
+    transform: scale(1.2,1.2);
+    //margin-bottom: 8rem;
+    @include mixin.mq(tb){
+        position: relative;
+        z-index: -1;
+        right:calc(50/1023*100vw);
+        top:calc(50/1023*100vw);
+        //margin-bottom:0;
+        padding-top: calc(30/1023*100vw);
+        width:calc(280/1023*100vw);
+        object-fit: cover;
+        background-position-x: -10rem;
+    }
+    @include mixin.mq(sp){
+        width:calc(150/375*100vw);
+        right:calc(80/375*100vw);
+    }
+}

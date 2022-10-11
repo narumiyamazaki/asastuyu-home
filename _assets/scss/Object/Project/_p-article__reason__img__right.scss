@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-article__reason__img__right{
+    background:url(../images/slider-house8.webp) no-repeat;
+    background-size:cover;
+    width:calc(432/1440*100vw);
+    @include mixin.mq(tb){
+        width:100%;
+        height: calc(650/1023*100vw);
+        background-position-y: -30rem;
+    }
+    @include mixin.mq(sp){
+        height: calc(250/375*100vw);
+    }
+}

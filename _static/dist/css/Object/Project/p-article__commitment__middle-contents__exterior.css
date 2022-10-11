@@ -1,0 +1,22 @@
+.p-article__commitment__middle-contents__exterior {
+  width: 25vw;
+  object-fit: cover;
+  position: relative;
+  z-index: -10;
+}
+@media screen and (max-width: 1023px) {
+  .p-article__commitment__middle-contents__exterior {
+    position: absolute;
+    left: 0;
+    bottom: -16.6177908113vw;
+    width: 29.3255131965vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__commitment__middle-contents__exterior {
+    right: 42.6666666667vw;
+    bottom: -13.3333333333vw;
+    width: 37.3333333333vw;
+  }
+}
+/*# sourceMappingURL=p-article__commitment__middle-contents__exterior.css.map */

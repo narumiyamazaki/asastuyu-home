@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-article__commitment__top-contents__heading2{
+    font-family: 'メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif;
+    font-size:calc(24/1440*100vw);
+    color:rgb(116,52,52);
+    text-align: center;
+    font-weight: 600;
+    @include mixin.mq(tb){
+        font-size: calc(20/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        font-size:calc(14/375*100vw);
+    }
+}
