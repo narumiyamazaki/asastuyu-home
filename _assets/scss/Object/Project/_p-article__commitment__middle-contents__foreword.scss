@@ -5,8 +5,8 @@
     color:rgb(85,85,85);
     font-size:calc(max(calc(16/1440*100vw),16px));
     font-weight: 600;
-    margin-top:calc(50/1440*100vw);
+    margin-bottom:calc(50/1440*100vw);
     @include mixin.mq(tb){
-        
+        margin-bottom:calc(40/1023*100vw);
     }
 }

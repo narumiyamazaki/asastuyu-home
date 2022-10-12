@@ -1,0 +1,20 @@
+@use '../../Foundation/mixin';
+
+.p-article__commitment__middle-contents__children-photo{
+    width: calc(200/1440*100vw);
+    object-fit: contain;
+    transform: rotate(5deg);
+    position:absolute;
+    bottom:calc(100/1440*100vw);
+    right:0%;
+    @include mixin.mq(tb){
+        top:calc(1400/1023*100vw);
+        right:calc(350/1023*100vw);
+        width: calc(150/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(80/375*100vw);
+        right:calc(10/375*100vw);
+        top:calc(650/375*100vw);
+    }
+}

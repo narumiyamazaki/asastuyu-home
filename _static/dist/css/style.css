@@ -6480,15 +6480,18 @@ a {
   color: rgb(116, 52, 52);
   text-align: center;
   font-weight: 600;
+  margin-bottom: 1.6666666667vw;
 }
 @media screen and (max-width: 1023px) {
   .p-article__commitment__top-contents__heading2 {
     font-size: 1.9550342131vw;
+    margin-bottom: 2.3460410557vw;
   }
 }
 @media screen and (max-width: 767px) {
   .p-article__commitment__top-contents__heading2 {
-    font-size: 3.7333333333vw;
+    font-size: 4.2666666667vw;
+    margin-bottom: 5.3333333333vw;
   }
 }
 
@@ -6498,7 +6501,6 @@ a {
   font-size: 2.2222222222vw;
   text-align: center;
   font-weight: 600;
-  margin-top: 1.3888888889vw;
   letter-spacing: 0.1rem;
 }
 @media screen and (max-width: 1023px) {
@@ -6508,7 +6510,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .p-article__commitment__top-contents__heading3 {
-    font-size: 3.7333333333vw;
+    font-size: 4.2666666667vw;
   }
 }
 
@@ -6547,7 +6549,6 @@ a {
   padding: 4.1666666667vw 0;
   position: relative;
   right: 2.7777777778vw;
-  display: flex;
   text-align: center;
 }
 @media screen and (max-width: 1023px) {
@@ -6556,7 +6557,11 @@ a {
     margin: 0 auto;
     right: 0;
     top: 11.7302052786vw;
-    left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__commitment__middle-contents__inner {
+    width: 74.6666666667vw;
   }
 }
 
@@ -6565,97 +6570,98 @@ a {
   color: rgb(85, 85, 85);
   font-size: max(1.1111111111vw, 16px);
   font-weight: 600;
-  margin-top: 3.4722222222vw;
+  margin-bottom: 3.4722222222vw;
 }
+@media screen and (max-width: 1023px) {
+  .p-article__commitment__middle-contents__foreword {
+    margin-bottom: 3.9100684262vw;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .p-article__commitment__middle-contents__text-section {
     position: relative;
   }
 }
 
-.p-article__commitment__middle__heading2 {
+.p-article__commitment__middle-contents__heading2 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: #F7004E;
   font-size: 2.2222222222vw;
   font-weight: 600;
-  margin: 3.4722222222vw 0;
+  margin-bottom: 3.4722222222vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article__commitment__middle__heading2 {
-    position: absolute;
-    width: 58.651026393vw;
+  .p-article__commitment__middle-contents__heading2 {
+    font-size: 2.3460410557vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article__commitment__middle__heading2 {
-    bottom: 32vw;
+  .p-article__commitment__middle-contents__heading2 {
+    font-size: 6.4vw;
   }
 }
 
-.p-article--commitment__middle__contents__text {
+.p-article__commitment__middle-contents__text {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   color: rgb(85, 85, 85);
   font-size: 1.6666666667vw;
-  line-height: 1.8;
   font-weight: 600;
-  width: 60%;
   margin: 0 auto;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--commitment__middle__contents__text {
-    width: 52%;
+  .p-article__commitment__middle-contents__text {
+    width: 46.9208211144vw;
     font-size: 1.9550342131vw;
-    line-height: 1.8;
     letter-spacing: 0.2rem;
     font-weight: normal;
-    position: absolute;
-    bottom: 0%;
-    left: 26%;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--commitment__middle__contents__text {
-    font-size: 4.8vw;
+  .p-article__commitment__middle-contents__text {
+    width: 74.6666666667vw;
+    font-size: 4.2666666667vw;
   }
 }
 
-.p-article--commitment__middle__contents__photo {
-  width: 18%;
+.p-article__commitment__middle-contents__children-photo {
+  width: 13.8888888889vw;
   object-fit: contain;
   transform: rotate(5deg);
   position: absolute;
-  bottom: 30%;
+  bottom: 6.9444444444vw;
   right: 0%;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--commitment__middle__contents__photo {
-    top: 117.3020527859vw;
+  .p-article__commitment__middle-contents__children-photo {
+    top: 136.8523949169vw;
     right: 34.2130987292vw;
+    width: 14.6627565982vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--commitment__middle__contents__photo {
+  .p-article__commitment__middle-contents__children-photo {
+    width: 21.3333333333vw;
     right: 2.6666666667vw;
-    top: 133.3333333333vw;
+    top: 173.3333333333vw;
   }
 }
 
-.p-article--commitment__middle__contents__background {
+.p-article__commitment__middle-contents__cover-background {
   background: url(../images/background-pink.png) no-repeat;
-  width: 79%;
-  height: 95%;
+  width: 80vw;
+  height: 24.3055555556vw;
   opacity: 0.9;
   position: absolute;
   z-index: -1;
-  top: 10%;
+  top: 2.0833333333vw;
   right: 0%;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--commitment__middle__contents__background {
-    width: 60%;
-    height: 320%;
-    right: 18%;
-    top: -115%;
+  .p-article__commitment__middle-contents__cover-background {
+    width: 60.0195503421vw;
+    height: 175.9530791789vw;
+    right: 19.550342131vw;
   }
 }
 
