@@ -1,0 +1,7 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__commitment__middle-contents__text-section{
+    @include mixin.mq(tb){
+        position: relative;
+    }
+}

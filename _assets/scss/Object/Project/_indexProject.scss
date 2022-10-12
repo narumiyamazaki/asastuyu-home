@@ -312,9 +312,10 @@
 @use './p-article__commitment__middle-contents__wrapper.scss';
 @use './p-article__commitment__middle-contents__container';
 @use './p-article__commitment__middle-contents__exterior';
-@use './p-article--commitment__middle__contents';
-@use './p-article--commitment__middle__contents__foreword';
-@use './p-article--commitment__middle__heading2';
+@use './p-article__commitment__middle-contents__inner';
+@use './p-article__commitment__middle-contents__foreword';
+@use './p-article__commitment__middle-contents__text-section';
+@use './p-article__commitment__middle__heading2';
 @use './p-article--commitment__middle__contents__text';
 @use './p-article--commitment__middle__contents__photo';
 @use './p-article--commitment__middle__contents__background';

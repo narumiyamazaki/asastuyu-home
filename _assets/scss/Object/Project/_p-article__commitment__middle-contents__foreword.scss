@@ -1,12 +1,12 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__middle__contents__foreword{
+.p-article__commitment__middle-contents__foreword{
     font-family:'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
     color:rgb(85,85,85);
-    font-size:1.5rem;
+    font-size:calc(max(calc(16/1440*100vw),16px));
     font-weight: 600;
-    margin-top:4rem;
+    margin-top:calc(50/1440*100vw);
     @include mixin.mq(tb){
-        display: none;
+        
     }
 }

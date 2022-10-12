@@ -5906,7 +5906,7 @@ a {
 .p-feature__picture__wrapper {
   display: flex;
   position: relative;
-  right: 3.4722222222vw;
+  left: 1.7361111111vw;
   margin-bottom: 5.5555555556vw;
 }
 @media screen and (max-width: 1023px) {
@@ -5922,7 +5922,7 @@ a {
 }
 
 .p-feature__picture1 {
-  width: 32.9861111111vw;
+  width: 20vw;
   height: 100%;
   object-fit: contain;
   position: relative;
@@ -5932,16 +5932,16 @@ a {
 @media screen and (max-width: 1023px) {
   .p-feature__picture1 {
     transform: rotate(-2deg);
-    width: 32.9423264907vw;
+    width: 30.0097751711vw;
   }
 }
 
 .p-feature__picture2 {
-  width: 32.9861111111vw;
+  width: 20vw;
   height: 100%;
   object-fit: contain;
   position: relative;
-  right: 2%;
+  right: 1.3888888889vw;
   z-index: 1;
   transform: rotate(1deg);
   margin-top: 1.3888888889vw;
@@ -5949,12 +5949,12 @@ a {
 @media screen and (max-width: 1023px) {
   .p-feature__picture2 {
     margin: 0;
-    width: 32.9423264907vw;
+    width: 30.0097751711vw;
   }
 }
 
 .p-feature__picture3 {
-  width: 32.9861111111vw;
+  width: 20vw;
   height: 100%;
   object-fit: contain;
   position: relative;
@@ -5965,7 +5965,7 @@ a {
 @media screen and (max-width: 1023px) {
   .p-feature__picture3 {
     margin: 0;
-    width: 32.9423264907vw;
+    width: 30.0097751711vw;
   }
 }
 
@@ -6542,52 +6542,52 @@ a {
   }
 }
 
-.p-article--commitment__middle__contents {
-  width: 60%;
-  padding: 5rem 0;
+.p-article__commitment__middle-contents__inner {
+  width: 60vw;
+  padding: 4.1666666667vw 0;
   position: relative;
-  right: 4%;
+  right: 2.7777777778vw;
   display: flex;
   text-align: center;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--commitment__middle__contents {
-    width: 80%;
+  .p-article__commitment__middle-contents__inner {
+    width: 79.9608993157vw;
     margin: 0 auto;
     right: 0;
+    top: 11.7302052786vw;
+    left: 0;
   }
 }
 
-.p-article--commitment__middle__contents__foreword {
+.p-article__commitment__middle-contents__foreword {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   color: rgb(85, 85, 85);
-  font-size: 1.5rem;
+  font-size: max(1.1111111111vw, 16px);
   font-weight: 600;
-  margin-top: 4rem;
+  margin-top: 3.4722222222vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--commitment__middle__contents__foreword {
-    display: none;
+  .p-article__commitment__middle-contents__text-section {
+    position: relative;
   }
 }
 
-.p-article--commitment__middle__heading2 {
+.p-article__commitment__middle__heading2 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: #F7004E;
-  font-size: 2.2rem;
+  font-size: 2.2222222222vw;
   font-weight: 600;
-  margin: 4rem 0;
+  margin: 3.4722222222vw 0;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--commitment__middle__heading2 {
+  .p-article__commitment__middle__heading2 {
     position: absolute;
-    bottom: 121%;
     width: 58.651026393vw;
-    left: 12.7077223851vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .p-article--commitment__middle__heading2 {
+  .p-article__commitment__middle__heading2 {
     bottom: 32vw;
   }
 }

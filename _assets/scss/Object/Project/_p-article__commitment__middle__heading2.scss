@@ -1,16 +1,16 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__middle__heading2{
+.p-article__commitment__middle__heading2{
     font-family:'メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif;
     color:#F7004E;
-    font-size:2.2rem;
+    font-size:calc(32/1440*100vw);
     font-weight: 600;
-    margin:4rem 0;
+    margin:calc(50/1440*100vw) 0;
     @include mixin.mq(tb){
         position: absolute;
-        bottom:121%;
+        //bottom:121%;
         width: calc(600/1023*100vw);
-        left:calc(130/1023*100vw);
+        //left:calc(130/1023*100vw);
     }
     @include mixin.mq(sp){
         bottom:calc(120/375*100vw);

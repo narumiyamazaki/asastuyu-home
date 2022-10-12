@@ -3,7 +3,7 @@
 .p-feature__picture__wrapper{
     display: flex;
     position:relative;
-    right:calc(50/1440*100vw);
+    left:calc(25/1440*100vw);
     margin-bottom:calc(80/1440*100vw);
     @include mixin.mq(tb){
         order:0;

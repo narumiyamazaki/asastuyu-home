@@ -1,0 +1,17 @@
+@use '../../Foundation/mixin';
+
+.p-article__commitment__middle-contents__inner{
+    width:calc(864/1440*100vw);
+    padding:calc(60/1440*100vw) 0;
+    position:relative;
+    right:calc(40/1440*100vw);
+    display: flex;
+    text-align: center;
+    @include mixin.mq(tb){
+        width:calc(818/1023*100vw);
+        margin: 0 auto;
+        right:0;
+        top:calc(120/1023*100vw);
+        left:0;
+    }
+}
