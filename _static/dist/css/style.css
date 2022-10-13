@@ -605,7 +605,7 @@ a {
   z-index: 100;
   justify-content: space-between;
   background: #fff;
-  height: 8rem;
+  height: max(5.5555555556vw, 80px);
 }
 .l-header.is-open {
   background: #EEECE4;
@@ -897,6 +897,10 @@ a {
     position: relative;
     width: auto;
   }
+}
+
+.p-sub-menu__about {
+  display: block;
 }
 
 .p-nav__about:hover .p-sub-menu__about {

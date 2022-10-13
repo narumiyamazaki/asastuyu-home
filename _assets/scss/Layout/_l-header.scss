@@ -12,7 +12,7 @@
     z-index:100;
     justify-content: space-between;
     background: #fff;
-    height: 8rem;
+    height: max(calc(80/1440*100vw),80px);
     &.is-open{
         background: #EEECE4;
     }

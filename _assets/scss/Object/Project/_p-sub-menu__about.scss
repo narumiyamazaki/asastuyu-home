@@ -3,6 +3,7 @@
 
 .p-sub-menu__about {
     @extend %p-sub-menu__about;
+    display: block;
 }
 
 
