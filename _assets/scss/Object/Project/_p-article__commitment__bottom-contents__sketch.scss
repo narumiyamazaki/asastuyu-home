@@ -1,21 +1,21 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__bottom__left__img{
+.p-article__commitment__bottom-contents__sketch{
     object-fit: contain;
-    width: 38%;
+    width: calc(300/1440*100vw);
     position: relative;
-    right:5%;
+    right:calc(-60/1440*100vw);
     z-index:-10;
+    bottom: calc(250/1440*100vw);
     @include mixin.mq(tb){
         width:calc(400/1023*100vw);
         position:absolute;
         top:calc(30/1023*100vw);
-        right:0;
         left:0;
         object-fit: cover;
     }
     @include mixin.mq(sp){
-        top:28%;
+        width:calc(150/375*100vw);
         top:calc(200/375*100vw);
     }
 }

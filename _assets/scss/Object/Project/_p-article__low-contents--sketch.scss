@@ -1,11 +1,11 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__low__right{
+.p-article__low-contents--sketch{
     object-fit: contain;
     position: absolute;
-    width: 68%;
-    right: -26%;
-    top: -12%;
+    width: calc(700/1440*100vw);
+    right: calc(-200/1440*100vw);
+    top: calc(20/1440*100vw);
     //ピンク背景より下に
     z-index: -10;
     @include mixin.mq(tb){
@@ -15,8 +15,8 @@
         top:calc(200/1023*100vw);
     }
     @include mixin.mq(sp){
-        width:80%;
-        top:-4%;
-        right:-20%;
+        width:calc(150/375*100vw);
+        top:calc(-40/375*100vw);
+        right:calc(0/375*100vw);
     }
 }

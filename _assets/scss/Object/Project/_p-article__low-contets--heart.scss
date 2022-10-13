@@ -1,13 +1,13 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__low__middle__heart{
+.p-article__low-contets--heart{
     background:url(../images/heart.png) no-repeat;
     background-size:contain;
-    width:6rem;
-    height:6rem;
+    width:calc(70/1440*100vw);
+    height:calc(70/1440*100vw);
     position: absolute;
-    left: 49%;
-    top:11%;
+    left: calc(650/1440*100vw);
+    top:calc(100/1440*100vw);
     @include mixin.mq(tb){
         left:calc(160/1023*100vw);
         top:calc(1080/1023*100vw);
@@ -16,10 +16,10 @@
         height:calc(30/1023*100vw);
     }
     @include mixin.mq(sp){
-        left:19%;
-        top:67%;
+        width: calc(30/375*100vw);
+        height: calc(30/375*100vw);
+        left: calc(30/375*100vw);
+        top:calc(240/375*100vw);
         background-size:cover;
-        width:3rem;
-        height:3rem;
     }
 }

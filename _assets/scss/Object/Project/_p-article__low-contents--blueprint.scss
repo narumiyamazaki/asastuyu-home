@@ -1,0 +1,25 @@
+@use '../../Foundation/mixin';
+
+.p-article__low-contents--blueprint{
+    width:calc(300/1440*100vw);
+    height:calc(300/1440*100vw);
+    position: absolute;
+    top:calc(350/1440*100vw);
+    right:calc(300/1440*100vw);
+    transform:rotate(4deg);
+    background: url(../images/illustration-home.png);
+    background-size:cover;
+    @include mixin.mq(tb){
+        top:calc(900/1023*100vw);
+        width:calc(220/1023*100vw);
+        height:calc(220/1023*100vw);
+        top:calc(1050/1023*100vw);
+        right:calc(40/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        top:calc(350/375*100vw);
+        right:calc(200/375*100vw);
+        width:calc(140/375*100vw);
+        height: calc(140/375*100vw);
+    }
+}

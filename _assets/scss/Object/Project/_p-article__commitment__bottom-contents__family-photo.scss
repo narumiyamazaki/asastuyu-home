@@ -1,6 +1,6 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__bottom__right__img{
+.p-article__commitment__bottom-contents__family-photo{
     width: 28%;
     transform: rotate(-6deg);
     object-fit: contain;
@@ -14,7 +14,7 @@
         transform: rotate(-4deg);
     }
     @include mixin.mq(sp){
-        width: 35%;
-        top:calc(250/375*100vw);
+        width: calc(140/375*100vw);
+        top:calc(200/375*100vw);
     }
 }

@@ -1,21 +1,25 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__bottom__right__text{
+.p-article__bottom-contents__text{
     font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
     color:rgb(85,85,85);
     font-size:calc(24/1440*100vw);
     font-weight: 600;
-    line-height: 1.8;
-    margin-top:1rem;
+    margin-bottom:calc(80/1440*100vw);
+    //line-height: 1.8;
+    //margin-top:1rem;
     @include mixin.mq(tb){
-        width:41%;
+        width:calc(480/1023*100vw);
         font-size:calc(20/1023*100vw);
-        line-height: 1.8;
+        //line-height: 1.8;
         letter-spacing: .2rem;
         margin:0 auto;
         font-weight: normal;
+        margin-bottom:calc(120/1023*100vw);
     }
     @include mixin.mq(sp){
-        font-size:calc(18/375*100vw);
+        font-size:calc(16/375*100vw);
+        width:calc(280/375*100vw);
+        margin-bottom:calc(40/375*100vw);
     }
 }

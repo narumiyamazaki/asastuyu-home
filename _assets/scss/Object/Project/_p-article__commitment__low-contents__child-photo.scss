@@ -1,17 +1,18 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__low__left__img{
+.p-article__commitment__low-contents__child-photo{
     object-fit: contain;
     transform: rotate(-5deg);
-    width:45%;
+    width:calc(450/1440*100vw);
     @include mixin.mq(tb){
         width:calc(280/1023*100vw);
         position: absolute;
         top:calc(800/1023*100vw);
-        left:2%;
+        left:calc(30/1023*100vw);
     }
     @include mixin.mq(sp){
-        width:40%;
-        top:calc(80/375*100vw);        
+        width:calc(150/375*100vw);
+        top:calc(180/375*100vw);
+        left:calc(200/375*100vw);        
     }
 }

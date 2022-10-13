@@ -1,13 +1,13 @@
 @use '../../Foundation/mixin';
 
-.p-article--commitment__bottom__right__container{
-    width:34%;
+.p-article__bottom-contents__text__container{
+    width:calc(500/1440*100vw);
     position: relative;
-    margin-top:6rem;
+    top:calc(50/1440*100vw);
     @include mixin.mq(tb){
         width: 100%;
         //position: absolute;
-        top:58%;
+        top:calc(200/1023*100vw);
         left:0;
         margin:0;
     }
