@@ -10,9 +10,6 @@
     top:calc(30/1440*100vw);
     right:0%;
     @include mixin.mq(tb){
-        width:calc(614/1023*100vw);
-        height:calc(1800/1023*100vw);
-        right:calc(200/1023*100vw);
-        //top:calc(-100/1023*100vw);
+       display: none;
     }
 }

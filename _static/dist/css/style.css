@@ -6659,9 +6659,7 @@ a {
 }
 @media screen and (max-width: 1023px) {
   .p-article__commitment__middle-contents__cover-background {
-    width: 60.0195503421vw;
-    height: 175.9530791789vw;
-    right: 19.550342131vw;
+    display: none;
   }
 }
 
@@ -6870,7 +6868,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .p-article__commitment__bottom-cotents__container {
-    height: 320vw;
+    height: 213.3333333333vw;
   }
 }
 
@@ -7033,28 +7031,19 @@ a {
   }
 }
 
-.p-article--commitment__bottom__contents__background {
+.p-article__commitment__bottom__contents__background {
   background: url(../images/background-pink.png) no-repeat;
-  width: 55%;
-  height: 93%;
+  width: 59.0277777778vw;
+  height: 34.7222222222vw;
   opacity: 0.9;
   position: absolute;
   z-index: -1;
-  bottom: 30%;
+  bottom: 6.9444444444vw;
   left: 0%;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--commitment__bottom__contents__background {
-    width: 75%;
-    height: 15%;
-    bottom: 156.4027370479vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .p-article--commitment__bottom__contents__background {
-    width: 75%;
-    height: 15%;
-    bottom: 55%;
+  .p-article__commitment__bottom__contents__background {
+    display: none;
   }
 }
 
@@ -7186,7 +7175,7 @@ a {
   margin: 4rem 0;
 }
 
-.p-top--background__photo {
+.p-top__background-photo {
   background: url(../images/header-img1.jpg) no-repeat;
   background-size: cover;
   height: 20vh;
@@ -7210,14 +7199,14 @@ a {
   }
 }
 
-.p-article--about-us__profile {
+.p-article__company-profile__about-us {
   position: relative;
   background: url(../images/pick-up--background.png) no-repeat;
   background-size: cover;
   padding-top: 5rem;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--about-us__profile {
+  .p-article__company-profile__about-us {
     background: url(../images/background-pink.png);
     padding: 0;
   }

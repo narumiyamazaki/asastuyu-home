@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-article__company-profile__about-us{
+    position:relative;
+    background:url(../images/pick-up--background.png) no-repeat;
+    background-size: cover;
+    padding-top:5rem;
+    @include mixin.mq(tb){
+        background:url(../images/background-pink.png);
+        padding:0;
+    }
+}

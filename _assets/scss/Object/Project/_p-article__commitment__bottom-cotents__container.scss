@@ -6,6 +6,6 @@
         height:calc(1000/1023*100vw);
     }
     @include mixin.mq(sp){
-        height:calc(1200/375*100vw);
+        height:calc(800/375*100vw);
     }
 }

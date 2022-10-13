@@ -335,7 +335,7 @@
 @use './p-article__commitment__bottom-contents__family-photo';
 @use './p-article__bottom-contents__text';
 @use './p-article__bottom-contents__link';
-@use './p-article--commitment__bottom__contents__background';
+@use './p-article__commitment__bottom__contents__background';
 @use './p-article__bottom-contents__link__wrapper';
 @use './p-article__bottom-contents__heading2';
 @use './p-article__bottom-contents__blank-box';
@@ -351,9 +351,9 @@
 @use './p-section--interview__center__youtube';
 //会社概要
 //about-us
-@use './p-top--background__photo';
+@use './p-top__background-photo';
 @use './p-section--about-us';
-@use './p-article--about-us__profile';
+@use './p-article__company-profile__about-us';
 @use './p-section--about-us__treatment';
 @use './p-section--about-us__heading2';
 @use './p-section--about-us__translation';
