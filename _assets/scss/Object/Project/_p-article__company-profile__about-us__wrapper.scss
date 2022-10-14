@@ -1,0 +1,20 @@
+@use '../../Foundation/mixin';
+
+.p-article__company-profile__about-us__wrapper{
+    width: calc(1000/1440*100vw);
+    margin:0 auto;
+    background: url(../images/wood-frame.png) no-repeat;
+    background-size: 100%;
+    position:relative;
+    padding-bottom:calc(100/1440*100vw);
+    height:calc(1400/1440*100vw);
+    @include mixin.mq(tb){
+        height:calc(1000/1023*100vw);
+        background:none;
+        width:100%;
+        padding-bottom:calc(100/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        height:calc(900/375*100vw);
+    }
+}

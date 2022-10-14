@@ -899,10 +899,6 @@ a {
   }
 }
 
-.p-sub-menu__about {
-  display: block;
-}
-
 .p-nav__about:hover .p-sub-menu__about {
   display: block;
   background-color: #fff;
@@ -5285,6 +5281,7 @@ a {
 
 .p-body {
   position: relative;
+  padding-top: max(5.5555555556vw, 80px);
 }
 @media screen and (max-width: 1023px) {
   .p-body {
@@ -7185,21 +7182,26 @@ a {
   height: 20vh;
 }
 
-.p-section--about-us {
-  padding-top: 3rem;
-  width: 63%;
-  max-width: 65rem;
+.p-article__company-profile__about-us__wrapper {
+  width: 69.4444444444vw;
   margin: 0 auto;
   background: url(../images/wood-frame.png) no-repeat;
   background-size: 100%;
   position: relative;
-  padding-bottom: 15rem;
+  padding-bottom: 6.9444444444vw;
+  height: 97.2222222222vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-section--about-us {
+  .p-article__company-profile__about-us__wrapper {
+    height: 97.7517106549vw;
     background: none;
     width: 100%;
-    padding-bottom: 8rem;
+    padding-bottom: 9.7751710655vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__company-profile__about-us__wrapper {
+    height: 240vw;
   }
 }
 
@@ -7216,60 +7218,116 @@ a {
   }
 }
 
-.p-section--about-us__treatment {
+.p-section__company-profile__about-us__treatment {
   background: url(../images/about-us-treatment.png) no-repeat;
   background-size: contain;
-  width: 13rem;
-  height: 5rem;
-  padding: 2rem 0;
-  display: flex;
-  justify-content: center;
-  margin: 2rem auto 0rem;
+  width: 17.3611111111vw;
+  height: 4.8611111111vw;
+  margin: 0 auto 2.7777777778vw;
+  position: relative;
+  top: 5.5555555556vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-section__company-profile__about-us__treatment {
+    top: 5.8651026393vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__about-us__treatment {
+    top: 10.6666666667vw;
+    width: 42.6666666667vw;
+    height: 21.3333333333vw;
+  }
 }
 
-.p-section--about-us__heading2 {
+.p-section__company-profile__about-us__heading2 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: rgb(138, 101, 62);
-  font-size: 3.5rem;
+  font-size: 2.7777777778vw;
   text-align: center;
-  margin: 0.5rem 0;
+  margin: 8.3333333333vw 0 0.6944444444vw;
   line-height: 0.9;
 }
+@media screen and (max-width: 1023px) {
+  .p-section__company-profile__about-us__heading2 {
+    font-size: 3.9100684262vw;
+    margin: 7.8201368524vw 0 0.9775171065vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__about-us__heading2 {
+    font-size: 6.4vw;
+    margin: 5.3333333333vw 0 2.6666666667vw;
+  }
+}
 
-.p-section--about-us__translation {
+.p-section__company-profile__about-us__translation {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  font-size: 1.5rem;
+  font-size: max(1.1111111111vw, 16px);
   color: rgb(138, 101, 62);
   letter-spacing: 0.2rem;
   text-align: center;
   font-weight: 600;
+  margin-bottom: 1.6666666667vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-section__company-profile__about-us__translation {
+    font-size: max(1.5640273705vw, 16px);
+    margin-bottom: 1.9550342131vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__about-us__translation {
+    font-size: max(3.7333333333vw, 14px);
+    margin-bottom: 5.3333333333vw;
+  }
 }
 
-.p-section--about-us__heading3 {
+.p-section__company-profile__about-us__heading3 {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  font-size: 2.8rem;
+  font-size: 2.7777777778vw;
   color: #D9115A;
   align-items: center;
   text-align: center;
-  margin: 1rem 0 1rem;
-  line-height: 1.5;
+  margin-bottom: 1.6666666667vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-section__company-profile__about-us__heading3 {
+    font-size: 3.3333333333vw;
+    margin-bottom: 1.9550342131vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__about-us__heading3 {
+    font-size: 4.8vw;
+    margin-bottom: 5.3333333333vw;
+  }
 }
 
-.p-section--about-us__text__wrapper {
-  height: 95%;
+.p-about-us__company-profile__text__wrapper {
+  width: 55.5555555556vw;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1023px) {
+  .p-about-us__company-profile__text__wrapper {
+    width: 85.0439882698vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-about-us__company-profile__text__wrapper {
+    width: 85.3333333333vw;
+  }
 }
 
-.p-section--about-us__text {
-  width: 70%;
-  margin: 0 auto 1.5rem;
+.p-about-us__company-profile__text {
+  margin: 0 auto 1.3888888889vw;
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   color: rgb(85, 85, 85);
-  font-size: 1.2rem;
-  line-height: 1.7;
+  font-size: max(1.1111111111vw, 16px);
   text-align: left;
 }
 @media screen and (max-width: 1023px) {
-  .p-section--about-us__text {
+  .p-about-us__company-profile__text {
     font-size: 1.3rem;
   }
 }

@@ -1,0 +1,20 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-section__company-profile__about-us__treatment{
+    background:url(../images/about-us-treatment.png) no-repeat;
+    background-size:contain;
+    width:calc(250/1440*100vw);
+    height:calc(70/1440*100vw);
+    margin:0 auto calc(40/1440*100vw);
+    //padding-top:calc(100/1440*100vw);
+    position: relative;
+    top:calc(80/1440*100vw);
+    @include mixin.mq(tb){
+        top:calc(60/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        top:calc(40/375*100vw);
+        width:calc(160/375*100vw);
+        height:calc(80/375*100vw);
+    }
+}

@@ -352,14 +352,14 @@
 //会社概要
 //about-us
 @use './p-top__background-photo';
-@use './p-section--about-us';
+@use './p-article__company-profile__about-us__wrapper';
 @use './p-article__company-profile__about-us';
-@use './p-section--about-us__treatment';
-@use './p-section--about-us__heading2';
-@use './p-section--about-us__translation';
-@use './p-section--about-us__heading3';
-@use './p-section--about-us__text__wrapper';
-@use './p-section--about-us__text';
+@use './p-section__company-profile__about-us__treatment';
+@use './p-section__company-profile__about-us__heading2';
+@use './p-section__company-profile__about-us__translation';
+@use './p-section__company-profile__about-us__heading3';
+@use './p-about-us__company-profile__text__wrapper';
+@use './p-about-us__company-profile__text';
 @use './p-section--about-us__text__name';
 @use './p-article--about-us__chandelier';
 @use './p-article--about-us__mirror__wrapper';

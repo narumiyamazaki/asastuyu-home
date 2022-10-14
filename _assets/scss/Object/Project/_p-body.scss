@@ -2,6 +2,7 @@
 
 .p-body{
     position:relative;
+    padding-top: max(calc(80/1440*100vw),80px);
     @include mixin.mq(tb){
         background-color: #EEECE4;
     }
