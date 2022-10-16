@@ -1,0 +1,19 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-article__philosophy__heading2{
+    font-family:'メイリオ',meiryo,'ヒラギノ角ゴ pro w3','hiragino kaku gothic pro',sans-serif;
+    color:rgb(138,101,62);
+    font-size:calc(40/1440*100vw);
+    text-align: center;
+    margin-bottom:calc(10/1440*100vw);
+    //font-weight: 600;
+    //line-height: .9;
+    @include mixin.mq(tb){
+        font-size:calc(40/1023*100vw);
+        margin-bottom:calc(10/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        font-size: calc(24/375*100vw);
+        margin-bottom:calc(10/375*100vw);
+    }
+}

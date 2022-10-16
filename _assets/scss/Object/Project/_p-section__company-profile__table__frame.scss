@@ -1,0 +1,18 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-section__company-profile__table__frame{
+    border-bottom: .1px solid ;
+    color:rgb(138,101,62);
+    display: flex;
+    justify-content: space-between;
+    width: calc(700/1440*100vw);
+    padding:calc(20/1440*100vw) 0;
+    @include mixin.mq(tb){
+        width:calc(650/1023*100vw);
+        padding:calc(20/1023*100vw) 0;
+    }
+    @include mixin.mq(sp){
+        width:calc(343/375*100vw);
+        padding:calc(10/375*100vw);
+    }
+}

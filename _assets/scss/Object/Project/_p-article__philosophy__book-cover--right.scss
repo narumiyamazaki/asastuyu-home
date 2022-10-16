@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-article__philosophy__book-cover--right{
+    background: url(../images/book-cover-left.png) no-repeat;
+    background-size:cover;
+    height:min(calc(620/1440*100vw),1100px);
+    width: 100%;
+    transform:rotate(180deg);
+    position: absolute;
+    top:calc(2/1440*100vw);
+    right:calc(16/1440*100vw);
+    @include mixin.mq(tb){
+        background: none;
+    }
+}

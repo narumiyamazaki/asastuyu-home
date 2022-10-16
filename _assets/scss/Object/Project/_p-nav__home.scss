@@ -1,0 +1,8 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-nav__home{
+    display: none;
+    @include mixin.mq(tb){
+        display: block;
+    }
+}

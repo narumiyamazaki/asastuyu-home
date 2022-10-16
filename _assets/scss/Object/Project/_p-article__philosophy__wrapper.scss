@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-article__philosophy__wrapper{
+    display: flex;
+    width:calc(970/1440*100vw);
+    margin:0 auto;
+    @include mixin.mq(tb){
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

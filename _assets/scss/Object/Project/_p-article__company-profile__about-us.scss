@@ -4,7 +4,7 @@
     position:relative;
     background:url(../images/pick-up--background.png) no-repeat;
     background-size: cover;
-    padding-top:5rem;
+    padding:calc(60/1440*100vw) 0 calc(80/1440*100vw);
     @include mixin.mq(tb){
         background:url(../images/background-pink.png);
         padding:0;

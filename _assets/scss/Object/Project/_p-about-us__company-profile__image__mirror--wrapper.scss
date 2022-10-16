@@ -1,0 +1,38 @@
+@use '../../Foundation/mixin';
+
+.p-about-us__company-profile__image__mirror--wrapper{
+    width:0;
+    height: calc(200/1440*100vw);
+    overflow:hidden;
+    transition:1s linear;
+    //mirrorの場所と合わせるため
+    position: absolute;
+    left:calc(30/1440*100vw);
+    top:calc(290/1440*100vw);
+    @include mixin.mq(tb){
+        width:calc(120/1023*100vw);
+        height:calc(140/1023*100vw);
+        left:calc(200/1023*100vw);
+        top:calc(850/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(80/375*100vw);
+        height:calc(120/375*100vw);
+        top:calc(780/375*100vw);
+        left:calc(20/375*100vw);
+    }
+    @include mixin.mq(sp350){
+        top:calc(920/375*100vw);
+        width: calc(60/350*100vw);
+
+    }
+}
+.p-about-us__company-profile__image__mirror--wrapper.inview-js{
+    width: calc(200/1440*100vw);
+    @include mixin.mq(tb){
+        width:calc(120/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(100/375*100vw);
+    }
+}

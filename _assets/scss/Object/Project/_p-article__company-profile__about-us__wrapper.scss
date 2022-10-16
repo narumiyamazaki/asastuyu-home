@@ -1,20 +1,29 @@
 @use '../../Foundation/mixin';
 
 .p-article__company-profile__about-us__wrapper{
-    width: calc(1000/1440*100vw);
+    width: calc(850/1440*100vw);
+    height: calc(1100/1440*100vw);
     margin:0 auto;
     background: url(../images/wood-frame.png) no-repeat;
-    background-size: 100%;
+    background-size: contain;
     position:relative;
     padding-bottom:calc(100/1440*100vw);
-    height:calc(1400/1440*100vw);
+    //height:calc(1300/1440*100vw);
+    @include mixin.mq(pc){
+        width: calc(980/1440*100vw);
+        height:calc(1100/1199*100vw);
+    }
     @include mixin.mq(tb){
-        height:calc(1000/1023*100vw);
+        //height:calc(900/1023*100vw);
         background:none;
         width:100%;
         padding-bottom:calc(100/1023*100vw);
     }
     @include mixin.mq(sp){
-        height:calc(900/375*100vw);
+        //height:calc(800/375*100vw);
+        padding:0 calc(16/375*100vw) calc(80/375*100vw);
+    }
+    @include mixin.mq(sp350){
+        //height:calc(900/350*100vw);
     }
 }

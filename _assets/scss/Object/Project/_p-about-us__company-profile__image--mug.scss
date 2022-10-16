@@ -1,0 +1,15 @@
+@use '../../Foundation/mixin';
+
+.p-about-us__company-profile__image--mug{
+    background:url(../images/mug.png) no-repeat;
+    background-size:contain;
+    width: calc(140/1440*100vw);
+    height: calc(160/1440*100vw);
+    position: absolute;
+    right:calc(60/1440*100vw);
+    top:calc(700/1440*100vw);
+    transform: rotate(15deg);
+    @include mixin.mq(tb){
+        display: none;
+    }
+}

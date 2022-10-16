@@ -1,0 +1,11 @@
+@use '../../../scss/Foundation/mixin';
+
+.u-margin__right__20px{
+    margin-right:calc(20/1440*100vw); 
+    @include mixin.mq(tb){
+        margin-right:calc(20/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        margin-right:calc(20/375*100vw);
+    }
+}

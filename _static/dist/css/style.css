@@ -908,9 +908,7 @@ a {
     position: relative;
     width: auto;
   }
-}
-
-/*
+} /*
 .p-sub-menu__about.is-block{
 }
 */
@@ -993,6 +991,15 @@ a {
 .p-nav-btn > a.is-open > span::after {
   bottom: 24px;
   transform: rotate(-135deg);
+}
+
+.p-nav__home {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .p-nav__home {
+    display: block;
+  }
 }
 
 .p-header__link {
@@ -7183,17 +7190,22 @@ a {
 }
 
 .p-article__company-profile__about-us__wrapper {
-  width: 69.4444444444vw;
+  width: 59.0277777778vw;
+  height: 76.3888888889vw;
   margin: 0 auto;
   background: url(../images/wood-frame.png) no-repeat;
-  background-size: 100%;
+  background-size: contain;
   position: relative;
   padding-bottom: 6.9444444444vw;
-  height: 97.2222222222vw;
+}
+@media screen and (max-width: 1199px) {
+  .p-article__company-profile__about-us__wrapper {
+    width: 68.0555555556vw;
+    height: 91.7431192661vw;
+  }
 }
 @media screen and (max-width: 1023px) {
   .p-article__company-profile__about-us__wrapper {
-    height: 97.7517106549vw;
     background: none;
     width: 100%;
     padding-bottom: 9.7751710655vw;
@@ -7201,15 +7213,14 @@ a {
 }
 @media screen and (max-width: 767px) {
   .p-article__company-profile__about-us__wrapper {
-    height: 240vw;
+    padding: 0 4.2666666667vw 21.3333333333vw;
   }
 }
-
 .p-article__company-profile__about-us {
   position: relative;
   background: url(../images/pick-up--background.png) no-repeat;
   background-size: cover;
-  padding-top: 5rem;
+  padding: 4.1666666667vw 0 5.5555555556vw;
 }
 @media screen and (max-width: 1023px) {
   .p-article__company-profile__about-us {
@@ -7246,7 +7257,6 @@ a {
   font-size: 2.7777777778vw;
   text-align: center;
   margin: 8.3333333333vw 0 0.6944444444vw;
-  line-height: 0.9;
 }
 @media screen and (max-width: 1023px) {
   .p-section__company-profile__about-us__heading2 {
@@ -7285,11 +7295,11 @@ a {
 
 .p-section__company-profile__about-us__heading3 {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  font-size: 2.7777777778vw;
+  font-size: 2.2222222222vw;
   color: #D9115A;
   align-items: center;
   text-align: center;
-  margin-bottom: 1.6666666667vw;
+  margin-bottom: 2.7777777778vw;
 }
 @media screen and (max-width: 1023px) {
   .p-section__company-profile__about-us__heading3 {
@@ -7305,7 +7315,7 @@ a {
 }
 
 .p-about-us__company-profile__text__wrapper {
-  width: 55.5555555556vw;
+  width: 48.6111111111vw;
   margin: 0 auto;
 }
 @media screen and (max-width: 1023px) {
@@ -7323,67 +7333,86 @@ a {
   margin: 0 auto 1.3888888889vw;
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   color: rgb(85, 85, 85);
-  font-size: max(1.1111111111vw, 16px);
+  font-size: max(1.25vw, 16px);
   text-align: left;
 }
 @media screen and (max-width: 1023px) {
   .p-about-us__company-profile__text {
-    font-size: 1.3rem;
+    font-size: max(1.5640273705vw, 16px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-about-us__company-profile__text {
+    font-size: max(3.7333333333vw, 14px);
   }
 }
 
-.p-section--about-us__text__name {
-  width: 70%;
-  margin: 2rem auto 0;
+.p-about-us__company-profile__text--name {
+  margin: 2.0833333333vw auto 0;
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   color: rgb(85, 85, 85);
-  font-size: 1.4rem;
+  font-size: max(1.1111111111vw, 16px);
   display: flex;
   justify-content: right;
 }
 @media screen and (max-width: 1023px) {
-  .p-section--about-us__text__name {
-    font-size: 1.8rem;
-    margin-top: 8rem;
+  .p-about-us__company-profile__text--name {
+    font-size: max(1.1111111111vw, 16px);
+    margin-top: 7.8201368524vw;
     justify-content: center;
   }
 }
-
-.p-article--about-us__chandelier {
-  background: url(../images/chandelier.png) no-repeat;
-  background-size: contain;
-  width: 15rem;
-  height: 20rem;
-  position: absolute;
-  right: 1%;
-  top: 2%;
-}
-@media screen and (max-width: 1023px) {
-  .p-article--about-us__chandelier {
-    display: none;
+@media screen and (max-width: 767px) {
+  .p-about-us__company-profile__text--name {
+    font-size: max(3.7333333333vw, 14px);
+    margin-top: 10.6666666667vw;
   }
 }
 
-.p-article--about-us__mirror__wrapper {
+.p-about-us__company-profile__image__mirror--wrapper {
   width: 0;
-  height: 19rem;
+  height: 13.8888888889vw;
   overflow: hidden;
   transition: 1s linear;
   position: absolute;
-  left: 3%;
-  top: 28%;
+  left: 2.0833333333vw;
+  top: 20.1388888889vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--about-us__mirror__wrapper {
-    width: 14rem;
-    height: 16rem;
-    left: 22%;
-    top: 82%;
+  .p-about-us__company-profile__image__mirror--wrapper {
+    width: 11.7302052786vw;
+    height: 13.6852394917vw;
+    left: 19.550342131vw;
+    top: 83.0889540567vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-about-us__company-profile__image__mirror--wrapper {
+    width: 21.3333333333vw;
+    height: 32vw;
+    top: 208vw;
+    left: 5.3333333333vw;
+  }
+}
+@media screen and (max-width: 350px) {
+  .p-about-us__company-profile__image__mirror--wrapper {
+    top: 245.3333333333vw;
+    width: 17.1428571429vw;
   }
 }
 
-.p-article--about-us__mirror__wrapper.inview-js {
-  width: 17rem;
+.p-about-us__company-profile__image__mirror--wrapper.inview-js {
+  width: 13.8888888889vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-about-us__company-profile__image__mirror--wrapper.inview-js {
+    width: 11.7302052786vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-about-us__company-profile__image__mirror--wrapper.inview-js {
+    width: 26.6666666667vw;
+  }
 }
 
 /*
@@ -7400,89 +7429,124 @@ a {
     height: 19rem;
 }
 */
-.p-article--about-us__mirror {
+.p-about-us__company-profile__image--mirror {
   background: url(../images/mirror.png) no-repeat;
   background-size: contain;
-  width: 17rem;
-  height: 19rem;
+  width: 13.8888888889vw;
+  height: 15.2777777778vw;
   position: absolute;
   left: 0%;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--about-us__mirror {
-    width: 10rem;
-    height: 12rem;
+  .p-about-us__company-profile__image--mirror {
+    width: 11.7302052786vw;
+    height: 13.6852394917vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-about-us__company-profile__image--mirror {
+    width: 26.6666666667vw;
+    height: 32vw;
+    right: 26.6666666667vw;
+  }
+}
+@media screen and (max-width: 350px) {
+  .p-about-us__company-profile__image--mirror {
+    width: 17.1428571429vw;
   }
 }
 
-.p-article--about-us__mug {
+.p-about-us__company-profile__image--chandelier {
+  background: url(../images/chandelier.png) no-repeat;
+  background-size: contain;
+  width: 11.8055555556vw;
+  height: 15.2777777778vw;
+  position: absolute;
+  right: 0.6944444444vw;
+  top: 1.3888888889vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-about-us__company-profile__image--chandelier {
+    display: none;
+  }
+}
+
+.p-about-us__company-profile__image--mug {
   background: url(../images/mug.png) no-repeat;
   background-size: contain;
-  width: 12rem;
-  height: 14rem;
+  width: 9.7222222222vw;
+  height: 11.1111111111vw;
   position: absolute;
-  right: 5%;
-  top: 45%;
+  right: 4.1666666667vw;
+  top: 48.6111111111vw;
   transform: rotate(15deg);
 }
 @media screen and (max-width: 1023px) {
-  .p-article--about-us__mug {
+  .p-about-us__company-profile__image--mug {
     display: none;
   }
 }
 
-.p-article--about-us__sofa {
+.p-about-us__company-profile__image--sofa {
   background: url(../images/sofa.png) no-repeat;
   background-size: contain;
-  width: 17rem;
-  height: 15rem;
+  width: 13.1944444444vw;
+  height: 11.8055555556vw;
   position: absolute;
-  left: 1%;
-  bottom: 2%;
+  left: 1.3888888889vw;
+  bottom: 1.3888888889vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--about-us__sofa {
+  .p-about-us__company-profile__image--sofa {
     display: none;
   }
 }
 
-.p-article--about-us__jam {
+.p-about-us__company-profile__image--jam {
   background: url(../images/cat-jam.png) no-repeat;
   background-size: cover;
-  width: 15rem;
-  height: 15rem;
+  width: 12.5vw;
+  height: 12.5vw;
   position: absolute;
   z-index: 10;
-  right: 1%;
-  bottom: -5%;
-  right: 4%;
+  right: 1.3888888889vw;
+  bottom: -4.1666666667vw;
   transition: 0.7s;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--about-us__jam {
+  .p-about-us__company-profile__image--jam {
     display: none;
   }
 }
 
-.p-article--about-us__jam.inview-js {
-  margin-right: 2rem;
+.p-about-us__company-profile__image--jam.inview-js {
+  margin-right: 2.0833333333vw;
 }
 
-.p-article--philosophy {
+.p-article__philosophy {
   background-color: rgb(252, 220, 220);
   background-size: cover;
-  padding-bottom: 10rem;
-  padding-top: 3rem;
+  padding: 2.7777777778vw 0 7.6388888889vw;
   position: relative;
 }
+@media screen and (max-width: 1023px) {
+  .p-article__philosophy {
+    padding: 3.9100684262vw 0 10.752688172vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy {
+    padding: 10.6666666667vw 4.2666666667vw 21.3333333333vw;
+  }
+}
 
-.p-article--philosophy__wrapper {
+.p-article__philosophy__wrapper {
   display: flex;
-  width: 67%;
+  width: 67.3611111111vw;
   margin: 0 auto;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__wrapper {
+  .p-article__philosophy__wrapper {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -7490,201 +7554,300 @@ a {
   }
 }
 
-.p-article--philosophy__left {
-  width: 70%;
-}
-
-.p-article--philosophy__treatment {
+.p-article__philosophy__treatment {
   background: url(../images/about-us-treatment.png) no-repeat;
   background-size: contain;
-  width: 13rem;
-  height: 5rem;
-  padding: 2rem 0;
+  width: 17.3611111111vw;
+  height: 4.8611111111vw;
   display: flex;
   justify-content: center;
-  margin: 4rem auto 0rem;
+  margin: 0 auto 2.7777777778vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__treatment {
-    margin-top: 0;
+  .p-article__philosophy__treatment {
+    top: 5.8651026393vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__treatment {
+    top: 10.6666666667vw;
+    width: 42.6666666667vw;
+    height: 21.3333333333vw;
   }
 }
 
-.p-article--philosophy__heading2 {
+.p-article__philosophy__heading2 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: rgb(138, 101, 62);
-  font-size: 3.5rem;
+  font-size: 2.7777777778vw;
   text-align: center;
-  margin: 1.5rem 0 1rem;
-  line-height: 0.9;
+  margin-bottom: 0.6944444444vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-article__philosophy__heading2 {
+    font-size: 3.9100684262vw;
+    margin-bottom: 0.9775171065vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__heading2 {
+    font-size: 6.4vw;
+    margin-bottom: 2.6666666667vw;
+  }
 }
 
-.p-article--philosophy__translation {
+.p-article__philosophy__translation {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  font-size: 1.5rem;
+  font-size: max(1.1111111111vw, 16px);
   color: rgb(138, 101, 62);
   letter-spacing: 0.2rem;
   text-align: center;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-bottom: 1.6666666667vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__translation {
-    margin-bottom: 2rem;
+  .p-article__philosophy__translation {
+    font-size: max(1.5640273705vw, 16px);
+    margin-bottom: 1.9550342131vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__translation {
+    font-size: max(3.7333333333vw, 14px);
+    margin-bottom: 5.3333333333vw;
   }
 }
 
-.p-article--philosophy__text {
-  margin: 0 auto 2rem;
+.p-article__philosophy__text__wrapper {
+  width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  .p-article__philosophy__text__wrapper {
+    margin: 0 auto;
+    width: 85.0439882698vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__text__wrapper {
+    width: 85.3333333333vw;
+  }
+}
+
+.p-article__philosophy__text {
+  margin: 0 auto 1.3888888889vw;
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   color: rgb(138, 101, 62);
-  font-size: 1.2rem;
-  line-height: 1.8;
+  font-size: max(1.1111111111vw, 16px);
+  margin-bottom: 1.6666666667vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__text {
-    font-size: 1.3rem;
+  .p-article__philosophy__text {
+    font-size: max(1.5640273705vw, 16px);
+    margin-bottom: 2.3460410557vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__text {
+    font-size: max(3.7333333333vw, 14px);
+    margin-bottom: 6.4vw;
   }
 }
 
-.p-article--philosophy__book-cover__text__tb {
+.p-article__philosophy__book-cover-text--tb {
   display: none;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__book-cover__text__tb {
-    font-size: 2rem;
+  .p-article__philosophy__book-cover-text--tb {
+    font-size: 3.128054741vw;
     font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
     color: #F7004E;
     display: block;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.9325513196vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__book-cover-text--tb {
+    font-size: 4.8vw;
+    margin-bottom: 8vw;
   }
 }
 
-.p-article--philosophy__text__list__item {
-  font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  color: rgb(138, 101, 62);
-  font-size: 1.2rem;
-  line-height: 2;
+.p-article__philosophy__text__list {
+  margin-bottom: 2.0833333333vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-article__philosophy__text__list {
+    margin-bottom: 2.9325513196vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__text__list {
+    margin-bottom: 8vw;
+  }
 }
 
-.p-article--philosophy__book-cover__text {
-  font-size: 3.7rem;
+.p-article__philosophy__text__list-item {
+  font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
+  color: rgb(138, 101, 62);
+  font-size: max(1.1111111111vw, 16px);
+  line-height: 2;
+}
+@media screen and (max-width: 1023px) {
+  .p-article__philosophy__text__list-item {
+    font-size: max(1.5640273705vw, 16px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-article__philosophy__text__list-item {
+    font-size: max(3.7333333333vw, 14px);
+  }
+}
+
+.p-article__philosophy__book-cover__text {
+  font-size: 2.7777777778vw;
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
   color: #F7004E;
   writing-mode: vertical-rl;
-  padding: 6rem 2rem;
+  padding: 2.0833333333vw 1.3888888889vw;
   position: relative;
-  right: 6%;
+  right: 0.6944444444vw;
+  top: 0.6944444444vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__book-cover__text {
+  .p-article__philosophy__book-cover__text {
     display: none;
   }
 }
-@media screen and (max-width: 1199px) {
-  .p-article--philosophy__book-cover__text {
-    padding: 4rem 2rem;
-    right: 3%;
-  }
-}
 
-.p-article--philosophy__book-cover__left {
+.p-article__philosophy__book-cover--left {
   background: url(../images/book-cover-left.png) no-repeat;
   background-size: cover;
   position: relative;
-  top: 4rem;
-  height: 60rem;
-  margin-left: 4rem;
+  top: 2.7777777778vw;
+  height: min(43.0555555556vw, 1100px);
+  margin-left: 3.4722222222vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__book-cover__left {
+  .p-article__philosophy__book-cover--left {
     background: none;
     height: 0;
   }
 }
 
-.p-article--philosophy__book-cover__right {
+.p-article__philosophy__book-cover--right {
   background: url(../images/book-cover-left.png) no-repeat;
   background-size: cover;
-  height: 60rem;
+  height: min(43.0555555556vw, 1100px);
   width: 100%;
   transform: rotate(180deg);
   position: absolute;
-  top: 2.095px;
-  right: 4.2%;
+  top: 0.1388888889vw;
+  right: 1.1111111111vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__book-cover__right {
+  .p-article__philosophy__book-cover--right {
     background: none;
   }
 }
 
-.p-article--philosophy__cat {
+.p-article__philosophy__cat {
   background: url(../images/cat-philosophy.png) no-repeat;
   background-size: contain;
-  width: 11rem;
-  height: 11rem;
+  width: 9.7222222222vw;
+  height: 9.7222222222vw;
   position: absolute;
   bottom: 0;
-  right: 37%;
+  right: 31.25vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--philosophy__cat {
-    right: 20%;
+  .p-article__philosophy__cat {
+    width: 11.7302052786vw;
+    height: 11.7302052786vw;
+    right: 15.2777777778vw;
   }
 }
 
-.p-section--company-profile {
+.p-section__company-profile {
   background-color: rgb(250, 250, 250);
   background: url(../images/background-pink.png) no-repeat;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding: 3.4722222222vw 0 4.1666666667vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-section__company-profile {
+    padding: 4.8875855327vw 0 5.8651026393vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile {
+    padding: 10.6666666667vw 0 10.6666666667vw;
+  }
 }
 
-.p-section--company-profile__heading2 {
+.p-section__company-profile__heading2 {
   font-family: "メイリオ", meiryo, "ヒラギノ角ゴ pro w3", "hiragino kaku gothic pro", sans-serif;
   color: rgb(138, 101, 62);
-  font-size: 3.5rem;
+  font-size: 2.7777777778vw;
   text-align: center;
-  margin: 4rem 0 1rem;
-  line-height: 0.9;
+  margin-bottom: 0.6944444444vw;
+}
+@media screen and (max-width: 1023px) {
+  .p-section__company-profile__heading2 {
+    font-size: 3.9100684262vw;
+    margin-bottom: 0.9775171065vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__heading2 {
+    font-size: 6.4vw;
+    margin-bottom: 2.6666666667vw;
+  }
 }
 
-.p-article--company__translation {
+.p-section__company__translation {
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  font-size: 1.5rem;
   color: rgb(138, 101, 62);
+  font-size: max(1.1111111111vw, 16px);
   letter-spacing: 0.2rem;
   text-align: center;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-bottom: 2.7777777778vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-article--company__translation {
-    font-size: 2rem;
+  .p-section__company__translation {
+    font-size: max(1.5640273705vw, 16px);
+    margin-bottom: 1.9550342131vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company__translation {
+    font-size: max(3.7333333333vw, 14px);
+    margin-bottom: 5.3333333333vw;
   }
 }
 
-.p-section--company-profile__contents__wrapper {
+.p-section__company-profile__contents__wrapper {
   display: flex;
-  width: 80%;
+  width: 80vw;
   margin: 0 auto;
 }
 @media screen and (max-width: 1023px) {
-  .p-section--company-profile__contents__wrapper {
+  .p-section__company-profile__contents__wrapper {
     flex-direction: column;
+    width: 78.2013685239vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__contents__wrapper {
+    width: 91.4666666667vw;
   }
 }
 
-.p-section--company-profile__table {
-  width: 70%;
-  margin-right: 5rem;
-  margin-top: 3rem;
+.p-section__company-profile__table {
+  margin-right: 3.4722222222vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-section--company-profile__table {
-    width: 45%;
+  .p-section__company-profile__table {
     margin: 0 auto;
     table-layout: fixed;
   }
@@ -7700,9 +7863,25 @@ a {
   padding: 0.5rem 0;
 }
 
-.p-section--company-profile__table__frame {
+.p-section__company-profile__table__frame {
   border-bottom: 0.1px solid;
   color: rgb(138, 101, 62);
+  display: flex;
+  justify-content: space-between;
+  width: 48.6111111111vw;
+  padding: 1.3888888889vw 0;
+}
+@media screen and (max-width: 1023px) {
+  .p-section__company-profile__table__frame {
+    width: 63.5386119257vw;
+    padding: 1.9550342131vw 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__table__frame {
+    width: 91.4666666667vw;
+    padding: 2.6666666667vw;
+  }
 }
 
 .p-section--company-profile__table__frame__number {
@@ -7712,7 +7891,6 @@ a {
 @media screen and (max-width: 1023px) {
   .p-section--company-profile__table__frame__number {
     display: flex;
-    width: 280%;
   }
 }
 
@@ -7727,31 +7905,42 @@ a {
   }
 }
 
-.p-section--company-profile__table-data__number__item {
-  color: rgb(138, 101, 62);
+.p-section__company-profile__table-data--item {
+  font-size: max(1.1111111111vw, 16px);
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  font-size: 1.1rem;
-  margin-left: 0.5rem;
+  color: rgb(138, 101, 62);
+  width: 27.7777777778vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-section--company-profile__table-data__number__item {
-    display: none;
+  .p-section__company-profile__table-data--item {
+    font-size: max(1.5640273705vw, 16px);
+    width: 19.550342131vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__table-data--item {
+    font-size: max(3.2vw, 12px);
+    width: 29.3333333333vw;
   }
 }
 
-.p-section--company-profile__table-data__number__item2 {
+.p-section__company-profile__table-data--contents {
   color: rgb(138, 101, 62);
   font-family: "tsukushimarugothic", sans-serif, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ;
-  font-size: 1.1rem;
-  margin-left: 0.5rem;
-  vertical-align: middle;
-  line-height: 2;
-  padding: 0.5rem 0;
+  font-size: max(1.1111111111vw, 16px);
+  width: 62.5vw;
 }
 @media screen and (max-width: 1023px) {
-  .p-section--company-profile__table-data__number__item2 {
+  .p-section__company-profile__table-data--contents {
     display: flex;
     flex-direction: column;
+    width: 42.0332355816vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__table-data--contents {
+    width: 58.6666666667vw;
+    font-size: max(3.2vw, 12px);
   }
 }
 
@@ -7767,19 +7956,28 @@ a {
   }
 }
 
-.p-section--company-profile__img {
-  width: 30%;
+.p-section__company-profile__image {
+  width: 34.7222222222vw;
+  height: 48.6111111111vw;
   object-fit: contain;
-  border-radius: 3%;
+  border-radius: 30%;
   filter: drop-shadow(5px 5px 3px #fff);
 }
 @media screen and (max-width: 1023px) {
-  .p-section--company-profile__img {
-    width: 30rem;
-    height: 30rem;
+  .p-section__company-profile__image {
+    width: 39.100684262vw;
+    height: 39.100684262vw;
     order: -1;
     margin: 1rem auto;
     object-fit: cover;
+    margin-bottom: 3.9100684262vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-section__company-profile__image {
+    width: 80vw;
+    height: 80vw;
+    margin-bottom: 10.6666666667vw;
   }
 }
 
@@ -7971,12 +8169,32 @@ a {
   margin-right: 0.5rem;
 }
 
-.u-margin--right__2rem {
-  margin-right: 2rem;
+.u-margin__right__20px {
+  margin-right: 1.3888888889vw;
+}
+@media screen and (max-width: 1023px) {
+  .u-margin__right__20px {
+    margin-right: 1.9550342131vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .u-margin__right__20px {
+    margin-right: 5.3333333333vw;
+  }
 }
 
-.u-margin--right__15px {
-  margin-right: 15px;
+.u-margin__right__16px {
+  margin-right: max(1.1111111111vw, 16px);
+}
+@media screen and (max-width: 1023px) {
+  .u-margin__right__16px {
+    margin-right: max(1.5640273705vw, 16px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .u-margin__right__16px {
+    margin-right: max(3.7333333333vw, 14px);
+  }
 }
 
 .u-margin--table-data__number {
@@ -7984,10 +8202,6 @@ a {
   margin-top: 7.5%;
   height: 1rem;
   display: inline-block;
-}
-
-.u-margin--right__10px {
-  margin-right: 10px;
 }
 
 .u-margin--table-data__business-contents {
@@ -8039,5 +8253,10 @@ a {
 
 .u-margin-right__10px {
   margin-right: max(0.6944444444vw, 10px);
+}
+
+.u-margin__top__102px {
+  display: inline-block;
+  margin-top: max(7.0833333333vw, 102px);
 }
 /*# sourceMappingURL=style.css.map */

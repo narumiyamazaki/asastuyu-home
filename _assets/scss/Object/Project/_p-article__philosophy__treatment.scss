@@ -1,0 +1,20 @@
+@use '../../Foundation/mixin';
+
+.p-article__philosophy__treatment{
+    background:url(../images/about-us-treatment.png) no-repeat;
+    background-size:contain;
+    width:calc(250/1440*100vw);
+    height:calc(70/1440*100vw);
+    //padding:2rem 0;
+    display: flex;
+    justify-content: center;
+    margin:0 auto calc(40/1440*100vw);;
+    @include mixin.mq(tb){
+        top:calc(60/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        top:calc(40/375*100vw);
+        width:calc(160/375*100vw);
+        height:calc(80/375*100vw);
+    }
+}

@@ -1,0 +1,13 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-section__company-profile{
+    background-color: rgb(250, 250, 250);
+    background: url(../images/background-pink.png) no-repeat;
+    padding:calc(50/1440*100vw) 0 calc(60/1440*100vw);
+    @include mixin.mq(tb){
+        padding:calc(50/1023*100vw) 0 calc(60/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        padding:calc(40/375*100vw) 0 calc(40/375*100vw);
+    }
+}

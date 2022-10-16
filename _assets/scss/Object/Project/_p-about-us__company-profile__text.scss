@@ -5,11 +5,14 @@
     margin:0 auto calc(20/1440*100vw);
     font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
     color:rgb(85,85,85);
-    font-size:max(calc(16/1440*100vw),16px);
+    font-size:max(calc(18/1440*100vw),16px);
     //font-weight: 600;
     //line-height: 1.7;
     text-align: left;
     @include mixin.mq(tb){
-        font-size:1.3rem;
+        font-size:max(calc(16/1023*100vw),16px);
+    }
+    @include mixin.mq(sp){
+        font-size:max(calc(14/375*100vw),14px);
     }
 }

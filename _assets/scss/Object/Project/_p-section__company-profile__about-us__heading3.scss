@@ -2,12 +2,12 @@
 
 .p-section__company-profile__about-us__heading3{
     font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
-    font-size:calc(40/1440*100vw);
+    font-size:calc(32/1440*100vw);
     color:#D9115A;
     align-items: center;
     //font-weight: 600;
     text-align: center;
-    margin-bottom:calc(24/1440*100vw);
+    margin-bottom:calc(40/1440*100vw);
     //line-height: 1.5;
     @include mixin.mq(tb){
         font-size:calc(48/1440*100vw);

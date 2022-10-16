@@ -1,0 +1,20 @@
+@use '../../Foundation/mixin';
+
+.p-about-us__company-profile__image--jam{
+    background:url(../images/cat-jam.png) no-repeat;
+    background-size:cover;
+    width: calc(180/1440*100vw);
+    height: calc(180/1440*100vw);
+    position: absolute;
+    z-index:10;
+    right:calc(20/1440*100vw);
+    bottom: calc(-60/1440*100vw);
+    transition: .7s;
+    @include mixin.mq(tb){
+        display: none;
+    }
+}
+
+.p-about-us__company-profile__image--jam.inview-js{
+    margin-right:calc(30/1440*100vw);
+}

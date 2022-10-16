@@ -1,0 +1,12 @@
+@use '../../Foundation/mixin';
+
+.p-section__company-profile__table{
+    //width: 70%;
+    margin-right: calc(50/1440*100vw);
+    //margin-top:3rem;
+    @include mixin.mq(tb){
+        //width:45%;
+        margin:0 auto;
+        table-layout: fixed;
+    }
+}

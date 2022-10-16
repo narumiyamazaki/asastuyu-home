@@ -7,7 +7,7 @@
     text-align: center;
     margin: calc(120/1440*100vw) 0 calc(10/1440*100vw);
     //font-weight: 600;
-    line-height: .9;
+    //line-height: .9;
     @include mixin.mq(tb){
         font-size:calc(40/1023*100vw);
         margin:calc(80/1023*100vw) 0 calc(10/1023*100vw);

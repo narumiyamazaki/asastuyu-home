@@ -1,0 +1,22 @@
+@use '../../Foundation/mixin';
+
+.p-about-us__company-profile__text--name{
+    //width:calc(500/1440*100vw);
+    margin:calc(30/1440*100vw) auto 0;
+    font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    color:rgb(85,85,85);
+    font-size:max(calc(16/1440*100vw),16px);
+    //font-weight: 600;
+    display: flex;
+    justify-content: right;
+
+    @include mixin.mq(tb){
+        font-size:max(calc(16/1440*100vw),16px);
+        margin-top:calc(80/1023*100vw);
+        justify-content: center;
+    }
+    @include mixin.mq(sp){
+        font-size:max(calc(14/375*100vw),14px);
+        margin-top:calc(40/375*100vw);
+    }
+}

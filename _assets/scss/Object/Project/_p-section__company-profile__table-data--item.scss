@@ -1,0 +1,16 @@
+@use '../../../scss/Foundation/mixin';
+
+.p-section__company-profile__table-data--item{
+    font-size:max(calc(16/1440*100vw),16px);
+    font-family: 'tsukushimarugothic', sans-serif,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ;
+    color:rgb(138,101,62);
+    width:calc(400/1440*100vw);
+    @include mixin.mq(tb){
+        font-size:max(calc(16/1023*100vw),16px);
+        width:calc(200/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        font-size:max(calc(12/375*100vw),12px);
+        width:calc(110/375*100vw);
+    }
+}

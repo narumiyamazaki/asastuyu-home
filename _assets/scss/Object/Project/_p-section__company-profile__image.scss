@@ -1,0 +1,22 @@
+@use '../../Foundation/mixin';
+
+.p-section__company-profile__image{
+    width:calc(500/1440*100vw);
+    height: calc(700/1440*100vw);
+    object-fit: contain;
+    border-radius: 30%;
+    filter: drop-shadow(5px 5px 3px #fff);
+    @include mixin.mq(tb){
+        width:calc(400/1023*100vw);
+        height:calc(400/1023*100vw);
+        order:-1;
+        margin:1rem auto;
+        object-fit: cover;
+        margin-bottom:calc(40/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(300/375*100vw);
+        height:calc(300/375*100vw);
+        margin-bottom:calc(40/375*100vw);
+    }
+}

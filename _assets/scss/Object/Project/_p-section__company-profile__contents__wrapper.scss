@@ -1,0 +1,14 @@
+@use '../../Foundation/mixin';
+
+.p-section__company-profile__contents__wrapper{
+    display:flex;
+    width:calc(1152/1440*100vw);
+    margin:0 auto;
+    @include mixin.mq(tb){
+        flex-direction: column;
+        width: calc(800/1023*100vw);
+    }
+    @include mixin.mq(sp){
+        width:calc(343/375*100vw);
+    }
+}

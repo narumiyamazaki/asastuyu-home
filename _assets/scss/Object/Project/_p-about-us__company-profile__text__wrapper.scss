@@ -1,7 +1,7 @@
 @use '../../../scss/Foundation/mixin';
 
 .p-about-us__company-profile__text__wrapper{
-    width:calc(800/1440*100vw);
+    width:calc(700/1440*100vw);
     margin: 0 auto;
     @include mixin.mq(tb){
         width:calc(870/1023*100vw);
